@@ -10,6 +10,7 @@
 	quests: [
 		{
 			can_repeat: true
+			dependencies: ["77DBC36917B53A31"]
 			id: "603959A84AA367F7"
 			optional: true
 			rewards: [{
@@ -29,6 +30,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["77DBC36917B53A31"]
 			id: "7D0B4B6681755E1B"
 			optional: true
 			rewards: [{
@@ -48,6 +50,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["77DBC36917B53A31"]
 			id: "0C9C8A94D85FF31E"
 			optional: true
 			rewards: [{
@@ -66,6 +69,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["77DBC36917B53A31"]
 			id: "4B356EACD6F049F3"
 			optional: true
 			rewards: [{
@@ -82,6 +86,108 @@
 			}]
 			x: 0.0d
 			y: 3.0d
+		}
+		{
+			description: [
+				"此类别下的材料均可直接从环境中获得。因此，其售价较低。"
+				""
+				"提示：如果您需要批量提交物品，请考虑使用任务显示器（Task Screen，来自FTB Quest模组。）"
+				""
+				"提示：提交流体同样需要且必须使用任务显示器。使用管道泵入流体。"
+			]
+			id: "77DBC36917B53A31"
+			rewards: [{
+				id: "73E158605E989D2F"
+				item: "ftbquests:screen_1"
+				type: "item"
+			}]
+			tasks: [{
+				id: "719BE6BB56222839"
+				title: "常见材料"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["77DBC36917B53A31"]
+			id: "13902E76D4565727"
+			optional: true
+			rewards: [{
+				id: "76BB8BD85BA7232E"
+				item: "ic2:coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "32C00E54CC83ED97"
+				item: "minecraft:wheat"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["77DBC36917B53A31"]
+			id: "0B07F0C1B6B462AE"
+			optional: true
+			rewards: [{
+				id: "293A78F2D5CC3E81"
+				item: "ic2:coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "6C352123195070E3"
+				item: "minecraft:carrot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["77DBC36917B53A31"]
+			id: "6D4C1D319DB3CA9D"
+			optional: true
+			rewards: [{
+				id: "70E554344A4144C8"
+				item: "ic2:coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "13FB781DC7469B99"
+				item: "minecraft:rotten_flesh"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["77DBC36917B53A31"]
+			id: "1C221CEDE3C51834"
+			optional: true
+			rewards: [{
+				id: "54887853BA494837"
+				item: "ic2:coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "0B21CE60F1DC4D13"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
 		}
 	]
 	title: "收购"

@@ -7,66 +7,136 @@
 	id: "34CC680C876738D5"
 	order_index: 1
 	quest_links: [ ]
-	quests: [{
-		can_repeat: true
-		id: "7B9E4A14E4F8374C"
-		optional: true
-		rewards: [
-			{
-				id: "53165D387057ECB8"
-				item: {
-					Count: 1b
-					id: "minecraft:iron_helmet"
-					tag: {
-						Damage: 0
-					}
+	quests: [
+		{
+			can_repeat: true
+			icon: {
+				Count: 1b
+				id: "minecraft:iron_chestplate"
+				tag: {
+					Damage: 0
 				}
-				type: "item"
 			}
-			{
-				id: "42AE55AC6339C3E9"
-				item: {
-					Count: 1b
-					id: "minecraft:iron_chestplate"
-					tag: {
-						Damage: 0
+			id: "7B9E4A14E4F8374C"
+			optional: true
+			rewards: [
+				{
+					id: "53165D387057ECB8"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_helmet"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}
-			{
-				id: "6AF6C868BD88A58C"
-				item: {
-					Count: 1b
-					id: "minecraft:iron_leggings"
-					tag: {
-						Damage: 0
+				{
+					id: "42AE55AC6339C3E9"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_chestplate"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}
-			{
-				id: "1EBEAC74A28778DE"
-				item: {
-					Count: 1b
-					id: "minecraft:iron_boots"
-					tag: {
-						Damage: 0
+				{
+					id: "6AF6C868BD88A58C"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_leggings"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
+				{
+					id: "1EBEAC74A28778DE"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "4F90CAF19EE04D61"
+				item: "ic2:coin"
 				type: "item"
-			}
-		]
-		tasks: [{
-			consume_items: true
-			count: 4L
-			id: "4F90CAF19EE04D61"
-			item: "ic2:coin"
-			type: "item"
-		}]
-		title: "铁装备"
-		x: 0.0d
-		y: 0.0d
-	}]
+			}]
+			title: "铁装备"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: { Count: 16b, id: "minecraft:bread" }
+			id: "014DE16A01FB0E85"
+			optional: true
+			rewards: [{
+				count: 16
+				id: "7FC356AF8C93CC81"
+				item: "minecraft:bread"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "05FD985FCF112FA9"
+				item: "ic2:coin"
+				type: "item"
+			}]
+			title: "面包"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			icon: "forbidden_arcanus:xpetrified_orb"
+			id: "4053DB794A690E27"
+			optional: true
+			rewards: [{
+				id: "720E3F986C634A5E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				consume_items: true
+				id: "5CF40E8037CADC76"
+				item: "ic2:coin_8x"
+				type: "item"
+			}]
+			title: "经验等级+1"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:ender_pearl"
+			id: "273B047B4A2734E9"
+			optional: true
+			rewards: [{
+				id: "3454BF51E745BF54"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "62E1751F1ADD18EA"
+				item: "ic2:coin"
+				type: "item"
+			}]
+			title: "末影珍珠"
+			x: 1.0d
+			y: 0.0d
+		}
+	]
 	title: "出售"
 }
