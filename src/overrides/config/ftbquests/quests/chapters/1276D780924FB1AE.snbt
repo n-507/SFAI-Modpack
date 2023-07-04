@@ -188,6 +188,269 @@
 			x: -4.0d
 			y: 3.0d
 		}
+		{
+			dependencies: ["4191B7B9C1ADEE3F"]
+			id: "4CA95DDA8E1D2D20"
+			tasks: [{
+				id: "1A0F5E3AD544AEA2"
+				item: "sophisticatedbackpacks:iron_backpack"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4CA95DDA8E1D2D20"]
+			id: "2A192970A67D7690"
+			tasks: [{
+				id: "2768AC5708DC92E7"
+				item: "sophisticatedbackpacks:gold_backpack"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2A192970A67D7690"]
+			id: "3328EBDEF212CEA1"
+			tasks: [{
+				id: "790ED437737651ED"
+				item: "sophisticatedbackpacks:diamond_backpack"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3328EBDEF212CEA1"]
+			id: "0E58EC5AABB92025"
+			tasks: [{
+				id: "6DFA44BB559D40D5"
+				item: "sophisticatedbackpacks:netherite_backpack"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0DF917BF82C6FB09"]
+			id: "6B0D8953E6E153F9"
+			tasks: [{
+				id: "33CFA6223085CBD8"
+				item: "sophisticatedstorage:basic_to_iron_tier_upgrade"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6B0D8953E6E153F9"]
+			id: "55B71611FA7A579A"
+			tasks: [{
+				id: "63ED91E8D5810D07"
+				item: "sophisticatedstorage:iron_to_gold_tier_upgrade"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["55B71611FA7A579A"]
+			id: "7627D81AF5EB1E4C"
+			tasks: [{
+				id: "1C1DC760FE1776C0"
+				item: "sophisticatedstorage:gold_to_diamond_tier_upgrade"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7627D81AF5EB1E4C"]
+			id: "5710CE4BA4091C20"
+			tasks: [{
+				id: "43A0FBD2035D78C7"
+				item: "sophisticatedstorage:diamond_to_netherite_tier_upgrade"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5C3DB3BDEB702877"]
+			description: ["磁盘用于数字化存储物品。无法单独使用，需要使用驱动器或ME箱子读取。"]
+			id: "761AE8E818A71E79"
+			rewards: [{
+				count: 4
+				id: "447668D28E3073D8"
+				item: "ae2:cell_component_1k"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "33851C6567024F75"
+					item: "ae2:cell_component_1k"
+					type: "item"
+				}
+				{
+					id: "5F2CD10D53E55736"
+					item: "ae2:item_cell_housing"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["16A813870D9C53E7"]
+			description: ["用于制作AE的零件。只能在陨石中心找到。破坏陨石中心的神秘方块以获得。"]
+			id: "1E81231C00A80853"
+			tasks: [
+				{
+					id: "38A364C13A33D9A4"
+					item: "ae2:calculation_processor_press"
+					type: "item"
+				}
+				{
+					id: "0B20C5E6B6AF0EFB"
+					item: "ae2:engineering_processor_press"
+					type: "item"
+				}
+				{
+					id: "699607C887601BEF"
+					item: "ae2:logic_processor_press"
+					type: "item"
+				}
+				{
+					id: "022FAA109DA01D51"
+					item: "ae2:silicon_press"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1E81231C00A80853"]
+			description: ["制作AE物品的基本零件。"]
+			id: "5C3DB3BDEB702877"
+			rewards: [{
+				count: 64
+				id: "2034408E55E460F2"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7F818260A7254F36"
+					item: "ae2:logic_processor"
+					type: "item"
+				}
+				{
+					id: "100544DFC1FE1BAA"
+					item: "ae2:calculation_processor"
+					type: "item"
+				}
+				{
+					id: "01F5FBFCE253D77A"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5C3DB3BDEB702877"]
+			description: ["用于读取最多10个插入的驱动器。自身不包含物品存取功能，需要使用终端进行物品存取。"]
+			id: "7650B47263075C61"
+			rewards: [{
+				count: 32
+				id: "0D6A6ECE0ABE4368"
+				item: "ae2:fluix_glass_cable"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B75455CEEC7ADE3"
+				item: "ae2:drive"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5C3DB3BDEB702877"]
+			description: ["用于读取单个元件并存入物品。需要使用RF供能。"]
+			id: "20DF5ADFF55B75A6"
+			rewards: [{
+				id: "69B037968B526740"
+				item: {
+					Count: 1b
+					id: "ae2:color_applicator"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "08C443FACAA3A98F"
+				item: "ae2:chest"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["761AE8E818A71E79"]
+			description: [
+				"您可以在接口中标记要导出的物品。AE网络会尝试尽可能用标记的物品填充接口。"
+				""
+				"可以用于建造基于供给的被动自动化，或持续提供配方所需的燃料等物品。"
+			]
+			id: "0104B20D5249DFB2"
+			tasks: [{
+				id: "7345A6300AD6CE9B"
+				item: "ae2:interface"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["761AE8E818A71E79"]
+			description: [
+				"在其中插入模板以便进行自动合成。"
+				"当请求其中包含的合成配方时，供应器会尝试将原料输出到相邻的物品栏。不会输出到其他供应器。"
+				"合成结果需要通过某些方式返回供应器中。"
+				""
+				"注意：供应器有约1-2tick的处理延迟。假如您使用热力膨胀等模组机器的自动抽取功能，则有时产物可能被再次抽入机器中（而不是返回AE网络）。"
+			]
+			id: "32B43F3C0FC7B4DE"
+			rewards: [{
+				count: 8
+				id: "5888A671A723C580"
+				item: "ae2:blank_pattern"
+				type: "item"
+			}]
+			tasks: [{
+				id: "18062EAB10F32915"
+				item: "ae2:pattern_provider"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0DF917BF82C6FB09"]
+			description: ["可以直接从此方块访问所有相邻的精妙存储方块的物品栏。"]
+			id: "6E391FA870BA56DA"
+			tasks: [{
+				id: "114019752839409E"
+				item: "sophisticatedstorage:controller"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
 	]
 	title: "物流、存储、自动化"
 }

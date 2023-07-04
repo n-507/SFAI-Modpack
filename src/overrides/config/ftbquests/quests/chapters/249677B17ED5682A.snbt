@@ -52,6 +52,12 @@
 				"副作用：您的设备中可能残留有咸鱼味。"
 			]
 			id: "7DB10224AB54589A"
+			rewards: [{
+				count: 16
+				id: "16E1A31D5FF1036A"
+				item: "pipez:fluid_pipe"
+				type: "item"
+			}]
 			tasks: [{
 				id: "78B960B96A004B78"
 				item: "cookingforblockheads:sink"
@@ -67,6 +73,11 @@
 				"提示：生成的光源可能会影响部分多方块结构的正常运作，例如压力室或核反应堆。在使用时请务必注意远离此类敏感设备。"
 			]
 			id: "4D1A13A7BE20A0B2"
+			rewards: [{
+				id: "2FA1ED53D46D511C"
+				item: "torchmaster:feral_flare_lantern"
+				type: "item"
+			}]
 			tasks: [{
 				id: "78A3C1E47EC344FE"
 				item: "torchmaster:feral_flare_lantern"
@@ -82,6 +93,12 @@
 				"注意：仍会生成中立生物。假如您装备了七咒之戒，那么就太不幸了。"
 			]
 			id: "54E1F6E68D0B9ED4"
+			rewards: [{
+				count: 64
+				id: "158ADF325772A1A4"
+				item: "minecraft:torch"
+				type: "item"
+			}]
 			tasks: [{
 				id: "26BB862A101EA795"
 				item: "torchmaster:megatorch"
@@ -93,12 +110,56 @@
 		{
 			description: ["有效缓解流血。建议外出时携带。"]
 			id: "070B7E4734B9AFEC"
+			rewards: [{
+				count: 16
+				id: "7D0D20B050775CD4"
+				item: "majruszsdifficulty:golden_bandage"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4A55798283AE917E"
 				item: "majruszsdifficulty:bandage"
 				type: "item"
 			}]
 			x: 0.0d
+			y: 2.0d
+		}
+		{
+			description: ["用于在墙上画出标记，从而避免在矿洞中迷路。"]
+			id: "302388BEB6F0C348"
+			tasks: [{
+				id: "5F640D7B7DA1BA56"
+				item: {
+					Count: 1b
+					id: "chalk:white_chalk"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"自动种植一些作物。将产物输出至其下方的容器。"
+				""
+				"为什么不用机械动力的收割机呢？"
+			]
+			id: "7E17A02353BEE996"
+			rewards: [{
+				count: 8
+				id: "756FFBD7611275A6"
+				item: "storagedrawers:oak_full_drawers_4"
+				type: "item"
+			}]
+			tasks: [{
+				id: "58E89141805AAF5C"
+				item: "botanypots:terracotta_hopper_botany_pot"
+				type: "item"
+			}]
+			x: -2.0d
 			y: 2.0d
 		}
 	]

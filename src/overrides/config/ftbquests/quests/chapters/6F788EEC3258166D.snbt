@@ -9,6 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["687434516B802886"]
 			description: [
 				"假如您意外身亡，您可能会发现自己无法通过 back 返回死亡地点。"
 				""
@@ -39,6 +40,80 @@
 				"提示：如果您没有做好游玩硬核难度的心理准备，请不要装备初始给出的七咒之戒！"
 			]
 			id: "687434516B802886"
+			rewards: [
+				{
+					id: "39D0E01712D5DFD3"
+					item: {
+						Count: 1b
+						id: "minecraft:chainmail_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "14C4C1FD6CDE0BE4"
+					item: {
+						Count: 1b
+						id: "minecraft:chainmail_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "34B0C0E476FB9EFC"
+					item: {
+						Count: 1b
+						id: "minecraft:chainmail_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3CC2109649D0C2E4"
+					item: {
+						Count: 1b
+						id: "minecraft:chainmail_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3E8A626AA8440494"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "170432EA4CF87173"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "3B42629C360AEE0B"
+					item: "gobber2:gobber2_gooey_bread_nether"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "23D507603C90E57F"
 				title: "信息：新手礼包"
@@ -48,6 +123,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["687434516B802886"]
 			description: [
 				"此整合包由下列人员制作："
 				""
@@ -60,6 +136,7 @@
 				"服务器运营：Maple_Mo，Water_Moon"
 				""
 				"此外，感谢下列玩家协助测试整合包的预发行版本，并提出了宝贵意见（排名不分先后）："
+				"（暂无）"
 			]
 			id: "1C81B8657AB80BEA"
 			tasks: [{
@@ -71,16 +148,7 @@
 			y: 2.0d
 		}
 		{
-			id: "1CFDC363D066991C"
-			tasks: [{
-				id: "4C8EB064D64DE4FE"
-				title: "信息：整合包介绍"
-				type: "checkmark"
-			}]
-			x: -2.0d
-			y: 0.0d
-		}
-		{
+			dependencies: ["687434516B802886"]
 			description: [
 				"下列方块在圈地中仍可交互，以保证其功能正常，或用于实现特定用途。"
 				"（其他玩家仅能交互，无法将其破坏）"
@@ -97,8 +165,8 @@
 				title: "信息：圈地交互"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: -2.0d
+			x: 2.0d
+			y: 2.0d
 		}
 	]
 	title: "介绍"

@@ -268,6 +268,22 @@
 			x: 5.0d
 			y: 1.0d
 		}
+		{
+			dependencies: ["547BD6FB3D6B955E"]
+			description: [
+				"用于制作最终的创造物品。"
+				""
+				"您需要非常多的时间和材料来制作这个。"
+			]
+			id: "0F69695D2A298A1B"
+			tasks: [{
+				id: "343CAA00AB200723"
+				item: "kubejs:creative_token"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
 	]
 	title: "4.2通用机械"
 }
