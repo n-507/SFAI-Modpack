@@ -1,0 +1,16 @@
+{
+    "type": "create:deploying",
+    "ingredients": [
+      {
+        "item": "kubejs:redstone_servo_frame"
+      },
+      {
+        "item": "kubejs:redstone_crystal"
+      }
+    ],
+    "results": [
+      {
+        "item": "thermal:redstone_servo"
+      }
+    ]
+}

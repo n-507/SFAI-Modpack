@@ -1,0 +1,17 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+      {
+        "item": "minecraft:calcite"
+      },
+      {
+        "amount": 1000,
+        "fluid": "kubejs:molten_gobbler"
+      }
+    ],
+    "results": [
+      {
+        "item": "gobber2:gobber2_glob"
+      }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "type": "create:deploying",
+    "ingredients": [
+      {
+        "item": "ic2:copper_cable_item"
+      },
+      {
+        "item": "kubejs:rubber_sheet"
+      }
+    ],
+    "results": [
+      {
+        "item": "ic2:copper_insulated_cable_item"
+      }
+    ]
+}

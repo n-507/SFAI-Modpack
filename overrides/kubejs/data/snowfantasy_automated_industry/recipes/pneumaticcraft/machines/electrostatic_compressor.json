@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "kubejs:adv_pneumatic_machine_frame"
+    },
+    {
+      "item": "pneumaticcraft:turbine_rotor"
+    },
+    {
+      "item": "minecraft:lightning_rod"
+    }
+  ],
+  "result": {
+    "item": "pneumaticcraft:electrostatic_compressor"
+  }
+}

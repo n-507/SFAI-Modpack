@@ -1,0 +1,68 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+        "item": "kubejs:tube_base"
+    },
+    "transitionalItem": {
+        "item": "kubejs:capaciator_incomplete"
+    },
+    "sequence": [
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "kubejs:capaciator_incomplete"
+                },
+                {
+                    "tag": "forge:wires/copper"
+                }
+            ],
+            "results": [
+                {
+                    "item": "kubejs:capaciator_incomplete"
+                }
+            ]
+        },
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "kubejs:capaciator_incomplete"
+                },
+                {
+                    "tag": "forge:plates/zinc"
+                }
+            ],
+            "results": [
+                {
+                    "item": "kubejs:capaciator_incomplete"
+                }
+            ]
+        },
+        {
+            "type": "create:filling",
+            "ingredients": [
+                {
+                    "item": "kubejs:capaciator_incomplete"
+                },
+                {
+                  "fluid": "immersiveengineering:redstone_acid",
+                  "nbt": {},
+                  "amount": 100
+                }
+            ],
+            "results": [
+                {
+                    "item": "kubejs:capaciator_incomplete"
+                }
+            ]
+        }
+    ],
+    "results": [
+        {
+            "count": 2,
+            "item": "createaddition:capacitor"
+        }
+    ],
+    "loops": 2
+}

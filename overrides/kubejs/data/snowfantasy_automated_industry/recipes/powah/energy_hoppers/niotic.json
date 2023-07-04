@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "powah:energy_hopper_blazing"
+    },
+    {
+      "item": "powah:capacitor_niotic"
+    },
+    {
+		  "item": "kubejs:energized_steel_tube"
+    },
+    {
+      "item": "minecraft:hopper"
+    }
+  ],
+  "result": {
+    "item": "powah:energy_hopper_niotic"
+  }
+}

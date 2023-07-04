@@ -1,0 +1,16 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "superheated",
+  "ingredients": [
+    {
+      "item": "kubejs:silicon_dust"
+    }
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "amount": 250,
+      "fluid": "kubejs:molten_silicon"
+    }
+  ]
+}

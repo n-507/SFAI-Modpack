@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "GRG",
+    "ISI"
+  ],
+  "key": {
+    "G": {
+      "tag": "forge:glass_panes/colorless"
+    },
+    "I": {
+      "item": "kubejs:emerald_tube"
+    },
+    "S": {
+      "tag": "forge:ingots/iron"
+    },
+    "R": {
+      "tag": "forge:dusts/redstone"
+    }
+  },
+  "result": {
+    "item": "easy_villagers:trader"
+  }
+}

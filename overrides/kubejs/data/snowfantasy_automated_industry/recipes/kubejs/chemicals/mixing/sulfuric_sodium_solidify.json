@@ -1,0 +1,16 @@
+{
+    "type": "create:mixing",
+    "heatRequirement": "heated",
+    "ingredients": [
+      {
+        "amount": 500,
+        "fluid": "kubejs:sulfuric_sodium"
+      }
+    ],
+    "processingTime": 100,
+    "results": [
+      {
+        "item": "kubejs:sodium_sulfurite_dust"
+      }
+    ]
+  }

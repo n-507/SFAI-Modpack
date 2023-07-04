@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:chest"
+    },
+    {
+      "item": "kubejs:fluix_tube"
+    },
+    {
+      "item": "ae2:terminal"
+    }
+  ],
+  "result": {
+      "item": "ae2:chest"
+  }
+}

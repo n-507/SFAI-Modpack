@@ -1,0 +1,18 @@
+{
+    "type": "create:filling",
+    "ingredients": [
+      {
+        "tag": "minecraft:planks"
+      },
+      {
+        "amount": 125,
+        "fluid": "thermal:creosote",
+        "nbt": {}
+      }
+    ],
+    "results": [
+      {
+        "item": "immersiveengineering:treated_wood_horizontal"
+      }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "type": "immersiveengineering:sawmill",
+    "energy": 1600,
+    "input": {
+        "item": "kubejs:doped_silicon_crystal"
+    },
+    "result": {
+        "count": 2,
+        "item": "ae2:silicon"
+    },
+    "secondaries": [
+        {
+            "output": {
+                "item": "kubejs:silicon_dust"
+            },
+            "stripping": false
+        }
+    ]
+}

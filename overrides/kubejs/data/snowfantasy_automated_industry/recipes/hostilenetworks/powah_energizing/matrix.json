@@ -1,0 +1,19 @@
+{
+  "type": "powah:energizing",
+  "ingredients": [
+    {
+      "tag": "forge:dusts/redstone"
+    },
+    {
+      "tag": "forge:ingots/gold"
+    },
+    {
+      "tag": "forge:ingots/iron"
+    }
+  ],
+  "energy": 51200,
+  "result": {
+    "item": "hostilenetworks:empty_prediction",
+    "count": 16
+  }
+}

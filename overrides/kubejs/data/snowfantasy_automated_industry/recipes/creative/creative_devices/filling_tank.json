@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "create_sa:large_filling_tank"
+  },
+  "addition": {
+    "item": "kubejs:creative_token"
+  },
+  "result": {
+    "item": "create_sa:creative_filling_tank"
+  }
+}

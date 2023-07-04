@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "mekanism:steel_casing"
+      },
+      {
+        "tag": "forge:gears/tin"
+      },
+      {
+        "tag": "forge:circuits/elite"
+      },
+      {
+        "item": "create:whisk"
+      }
+    ],
+    "result": {
+      "item": "mekanism:combiner"
+    }
+  }

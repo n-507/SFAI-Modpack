@@ -1,0 +1,78 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "thermal:redstone_servo"
+  },
+  "transitionalItem": {
+    "item": "kubejs:incomplete_mek_installer"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_mek_installer"
+        },
+        {
+          "tag": "forge:plates/ostrum"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_mek_installer"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_mek_installer"
+        },
+        {
+          "tag": "forge:alloys/elite"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_mek_installer"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_mek_installer"
+        },
+        {
+          "tag": "forge:circuits/elite"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_mek_installer"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_mek_installer"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_mek_installer"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "mekanism:elite_tier_installer"
+    }
+  ],
+  "loops": 4
+}

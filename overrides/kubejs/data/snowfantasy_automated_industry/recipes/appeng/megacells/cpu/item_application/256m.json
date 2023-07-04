@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "megacells:mega_crafting_unit"
+    },
+    {
+      "item": "megacells:cell_component_256m"
+    }
+  ],
+  "results": [
+    {
+      "item": "megacells:256m_crafting_storage"
+    }
+  ]
+}

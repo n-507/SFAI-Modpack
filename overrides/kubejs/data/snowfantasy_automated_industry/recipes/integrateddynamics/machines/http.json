@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "integrateddynamics:proxy"
+      },
+      {
+        "item": "computercraft:wireless_modem_advanced"
+      }
+    ],
+    "result": {
+      "item": "integratedrest:http"
+    }
+  }

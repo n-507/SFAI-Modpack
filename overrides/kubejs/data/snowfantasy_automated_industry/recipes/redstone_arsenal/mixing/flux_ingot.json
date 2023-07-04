@@ -1,0 +1,19 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "superheated",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/gold"
+    },
+    {
+      "amount": 1000,
+      "fluid": "thermal:redstone"
+    }
+  ],
+  "processingTime": 200,
+  "results": [
+    {
+      "item": "redstone_arsenal:flux_ingot"
+    }
+  ]
+}

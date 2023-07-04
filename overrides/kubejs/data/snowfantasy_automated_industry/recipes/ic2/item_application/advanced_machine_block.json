@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "ic2:machine_block"
+    },
+    {
+      "item": "ic2:advanced_circuit"
+    }
+  ],
+  "results": [
+    {
+      "item": "ic2:advanced_machine_block"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+    "type": "create:cutting",
+    "ingredients": [
+      {
+        "tag": "forge:rods/gold"
+      }
+    ],
+    "processingTime": 300,
+    "results": [
+      {
+        "item": "kubejs:unfilled_rf_coil"
+      }
+    ]
+  }

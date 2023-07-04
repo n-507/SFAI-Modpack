@@ -1,0 +1,20 @@
+{
+    "type": "create:mixing",
+    "heatRequirement": "superheated",
+    "ingredients": [
+        {
+            "item": "gobber2:gobber2_globette"
+        },
+        {
+            "amount": 100,
+            "fluid": "mekanism:chlorine"
+        }
+    ],
+    "processingTime": 200,
+    "results": [
+      {
+        "amount": 100,
+        "fluid": "kubejs:raw_chlorite_gobbler"
+      }
+    ]
+}

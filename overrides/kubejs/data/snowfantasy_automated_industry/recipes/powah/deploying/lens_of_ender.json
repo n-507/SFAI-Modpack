@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "pneumaticcraft:solar_cell"
+    },
+    {
+      "item": "gobber2:gobber2_glass_end"
+    }
+  ],
+  "results": [
+    {
+      "item": "powah:lens_of_ender"
+    }
+  ]
+}

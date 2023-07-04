@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "thermal:machine_frame"
+    },
+    {
+      "item": "create_mechanical_extruder:mechanical_extruder"
+    },
+    {
+      "item": "thermal:redstone_servo"
+    }
+  ],
+  "result": {
+      "item": "thermal:device_rock_gen"
+  }
+}

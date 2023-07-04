@@ -1,0 +1,24 @@
+{
+	"input": [
+		{
+			"item": "kubejs:redstone_crystal",
+			"size": 2,
+			"type": "ic2:item"
+		},
+		{
+			"item": "minecraft:quartz",
+			"size": 1,
+			"type": "ic2:item"
+		}
+	],
+	"output": {
+		"xp": 0.0,
+		"outputs": [
+			{
+				"item": "ic2:pulsating_quartz",
+				"count": 1
+			}
+		],
+		"type": "ic2:simple"
+	}
+}

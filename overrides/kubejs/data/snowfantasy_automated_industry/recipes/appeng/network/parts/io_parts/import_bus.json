@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ae2:cable_interface"
+    },
+    {
+      "item": "kubejs:fluix_tube"
+    },
+    {
+      "item": "ae2:annihilation_core"
+    },
+    {
+      "item": "create:chute"
+    }
+  ],
+  "result": {
+      "item": "ae2:import_bus"
+  }
+}

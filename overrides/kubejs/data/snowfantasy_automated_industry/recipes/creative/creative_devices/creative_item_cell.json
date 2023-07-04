@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "ae2:item_cell_housing"
+  },
+  "addition": {
+    "item": "create:creative_crate"
+  },
+  "result": {
+    "item": "ae2:creative_item_cell"
+  }
+}

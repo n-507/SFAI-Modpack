@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "powah:energizing_rod_basic"
+    },
+    {
+      "item": "powah:capacitor_hardened"
+    },
+    {
+		  "item": "kubejs:energized_steel_tube"
+    },
+    {
+      "item": "minecraft:quartz_block"
+    }
+  ],
+  "result": {
+    "item": "powah:energizing_rod_hardened"
+  }
+}

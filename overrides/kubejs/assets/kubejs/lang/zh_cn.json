@@ -1,0 +1,10 @@
+{
+  "tetra.material.reinforced_echo": "强化回响碎片",
+  "tetra.material.reinforced_echo.prefix": "强化幽匿",
+  
+  "tetra.material.echo": "回响碎片",
+  "tetra.material.echo.prefix": "幽匿",
+
+  "tetra.material.sculked_thread": "回响之线",
+  "tetra.material.sculked_thread.prefix": "幽匿"
+}

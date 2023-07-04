@@ -1,0 +1,107 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "kubejs:lcd"
+  },
+  "transitionalItem": {
+    "item": "kubejs:user_interface_incomplete"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:user_interface_incomplete"
+        },
+        {
+          "item": "kubejs:redstone_circuit_board"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:user_interface_incomplete"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:user_interface_incomplete"
+        },
+        {
+          "item": "pneumaticcraft:printed_circuit_board"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:user_interface_incomplete"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:user_interface_incomplete"
+        },
+        {
+          "tag": "forge:wires/copper"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:user_interface_incomplete"
+        }
+      ]
+    },
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "kubejs:user_interface_incomplete"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:user_interface_incomplete"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:user_interface_incomplete"
+        },
+        {
+          "item": "minecraft:stone_button"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:user_interface_incomplete"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "kubejs:user_interface_incomplete"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:user_interface_incomplete"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:user_interface"
+    }
+  ],
+  "loops": 1
+}

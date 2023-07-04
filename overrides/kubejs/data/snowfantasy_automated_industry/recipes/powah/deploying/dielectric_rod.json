@@ -1,0 +1,17 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "tag": "forge:rods/iron"
+    },
+    {
+      "item": "powah:dielectric_paste"
+    }
+  ],
+  "results": [
+    {
+      "count": 4,
+      "item": "powah:dielectric_rod"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "thermal:machine_frame"
+  },
+  "transitionalItem": {
+    "item": "kubejs:mek_frame_incomplete"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:mek_frame_incomplete"
+        },
+        {
+          "tag": "forge:plates/steel"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:mek_frame_incomplete"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:mek_frame_incomplete"
+        },
+        {
+          "item": "ic2:complex_circuit"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:mek_frame_incomplete"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:mek_frame_incomplete"
+        },
+        {
+          "tag": "forge:ingots/osmium"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:mek_frame_incomplete"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:mek_frame_incomplete"
+        },
+        {
+          "item": "kubejs:gobber_tube"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:mek_frame_incomplete"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:mek_frame_incomplete"
+        },
+        {
+          "item": "kubejs:ender_circuit_board"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:mek_frame_incomplete"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "kubejs:mek_frame_incomplete"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:mek_frame_incomplete"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "mekanism:steel_casing"
+    }
+  ],
+  "loops": 1
+}

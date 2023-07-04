@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "kubejs:engineering_frame"
+    },
+    {
+      "item": "immersiveengineering:coil_lv"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "immersiveengineering:furnace_heater"
+  }
+}

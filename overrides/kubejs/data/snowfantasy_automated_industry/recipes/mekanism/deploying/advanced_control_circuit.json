@@ -1,0 +1,16 @@
+{
+    "type": "create:deploying",
+    "ingredients": [
+      {
+        "tag": "forge:circuits/basic"
+      },
+      {
+        "tag": "mekanism:alloys/infused"
+      }
+    ],
+    "results": [
+      {
+        "item": "mekanism:advanced_control_circuit"
+      }
+    ]
+}

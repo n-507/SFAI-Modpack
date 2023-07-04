@@ -1,0 +1,17 @@
+{
+    "type": "create:deploying",
+    "ingredients": [
+      {
+        "item": "pneumaticcraft:pressure_tube"
+      },
+      {
+        "tag": "forge:rods/iron"
+      }
+    ],
+    "results": [
+      {
+        "count": 2,
+        "item": "kubejs:simple_pneumatic_cylinder"
+      }
+    ]
+}

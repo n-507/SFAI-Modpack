@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "GBG",
+    "IWI"
+  ],
+  "key": {
+    "G": {
+      "tag": "forge:glass_panes/colorless"
+    },
+    "I": {
+      "item": "kubejs:emerald_tube"
+    },
+    "B": {
+      "tag": "minecraft:beds"
+    },
+    "W": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "item": "easy_villagers:breeder"
+  }
+}

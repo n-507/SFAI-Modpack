@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "chunkloaders:basic_chunk_loader"
+      },
+      {
+        "item": "kubejs:lapis_circuit_board"
+      },
+      {
+        "item": "kubejs:lapis_circuit_board"
+      },
+      {
+        "tag": "forge:gears/gold"
+      }
+    ],
+    "result": {
+        "item": "chunkloaders:advanced_chunk_loader"
+    }
+}

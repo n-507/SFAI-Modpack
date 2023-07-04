@@ -1,0 +1,46 @@
+{
+  "type": "createsifter:sifting",
+  "ingredients": [
+    {
+      "item": "kubejs:nonmetal_batch"
+    },
+    {
+      "item": "createsifter:brass_mesh"
+    }
+  ],
+  "processingTime": 300,
+  "results": [
+    {
+      "chance": 0.9,
+      "item": "minecraft:coal"
+    },
+    {
+      "chance": 0.8,
+      "item": "minecraft:coal"
+    },
+    {
+      "chance": 0.5,
+      "item": "thermal:sulfur"
+    },
+    {
+      "chance": 0.3,
+      "item": "minecraft:glowstone_dust"
+    },
+    {
+      "chance": 0.2,
+      "item": "thermal:cinnabar"
+    },
+    {
+      "chance": 0.2,
+      "item": "thermal:niter"
+    },
+    {
+      "chance": 0.9,
+      "item": "thermal:apatite"
+    },
+    {
+      "chance": 0.05,
+      "item": "forbidden_arcanus:xpetrified_orb"
+    }
+  ]
+}

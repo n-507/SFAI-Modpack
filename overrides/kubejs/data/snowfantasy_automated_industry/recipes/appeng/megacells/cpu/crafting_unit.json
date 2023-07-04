@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "ae2:crafting_unit"
+      },
+      {
+        "item": "ae2:crafting_unit"
+      },
+      {
+        "item": "ae2:crafting_unit"
+      },
+      {
+        "item": "ae2:crafting_unit"
+      },
+      {
+        "item": "kubejs:fluix_tube"
+      }
+    ],
+    "result": {
+      "item": "megacells:mega_crafting_unit"
+    }
+}

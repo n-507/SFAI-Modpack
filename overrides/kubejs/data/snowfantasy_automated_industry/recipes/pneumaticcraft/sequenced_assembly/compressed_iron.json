@@ -1,0 +1,67 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:ingots/iron"
+  },
+  "loops": 3,
+  "results": [
+    {
+      "chance": 90.0,
+      "item": "pneumaticcraft:ingot_iron_compressed"
+    },
+    {
+      "chance": 10.0,
+      "count": 9,
+      "item": "minecraft:iron_nugget"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "kubejs:compressed_iron_ingot_incomplete"
+        },
+        {
+          "fluid": "kubejs:molten_gunpowder",
+          "nbt": {},
+          "amount": 50
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:compressed_iron_ingot_incomplete"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "kubejs:compressed_iron_ingot_incomplete"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:compressed_iron_ingot_incomplete"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "kubejs:compressed_iron_ingot_incomplete"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:compressed_iron_ingot_incomplete"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "kubejs:compressed_iron_ingot_incomplete"
+  }
+}

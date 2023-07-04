@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "kubejs:engineering_frame"
+      },
+      {
+        "item": "immersiveengineering:wirecoil_copper"
+      }
+    ],
+    "result": {
+        "item": "immersiveengineering:dynamo"
+    }
+}

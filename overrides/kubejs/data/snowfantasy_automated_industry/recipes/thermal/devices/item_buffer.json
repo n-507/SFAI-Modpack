@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "C":{
+      "item": "create:chute"
+    },
+    "R":{
+      "item": "minecraft:comparator"
+    }
+  },
+  "pattern": [
+    "C",
+    "R",
+    "C"
+  ],
+  "result": {
+    "item": "thermal:item_buffer"
+  }
+}

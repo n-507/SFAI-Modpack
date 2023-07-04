@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "tag": "forge:stone"
+    },
+    "G": {
+      "item": "kubejs:user_interface"
+    }
+  },
+  "pattern": [
+    "###",
+    "#G#",
+    "###"
+  ],
+  "result": {
+    "item": "computercraft:monitor_normal"
+  }
+}

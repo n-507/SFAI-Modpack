@@ -1,0 +1,16 @@
+{
+    "type": "create:deploying",
+    "ingredients": [
+      {
+        "item": "pneumaticcraft:advanced_pressure_tube"
+      },
+      {
+        "tag": "forge:rods/iron"
+      }
+    ],
+    "results": [
+      {
+        "item": "pneumaticcraft:pneumatic_cylinder"
+      }
+    ]
+}

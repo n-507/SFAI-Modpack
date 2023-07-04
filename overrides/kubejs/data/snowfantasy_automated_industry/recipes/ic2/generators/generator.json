@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "ic2:machine_block"
+    },
+    {
+      "item": "ic2:iron_furnace"
+    }
+  ],
+  "results": [
+    {
+      "item": "ic2:generator"
+    }
+  ]
+}

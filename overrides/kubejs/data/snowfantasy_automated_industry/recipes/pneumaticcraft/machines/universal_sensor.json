@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "kubejs:adv_pneumatic_machine_frame"
+    },
+    {
+      "item": "kubejs:amethyst_tube"
+    },
+    {
+      "item": "minecraft:repeater"
+    }
+  ],
+  "result": {
+    "item": "pneumaticcraft:universal_sensor"
+  }
+}

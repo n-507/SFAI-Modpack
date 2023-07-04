@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "integrateddynamics:squeezer"
+      },
+      {
+        "item": "kubejs:lapis_circuit_board"
+      }
+    ],
+    "result": {
+      "item": "integrateddynamics:mechanical_squeezer"
+    }
+  }

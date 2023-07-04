@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "powah:magmator_niotic"
+    },
+    {
+      "item": "powah:capacitor_spirited"
+    },
+    {
+		  "item": "kubejs:energized_steel_tube"
+    },
+    {
+      "item": "pneumaticcraft:heat_frame"
+    }
+  ],
+  "result": {
+    "item": "powah:magmator_spirited"
+  }
+}

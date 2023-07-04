@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "chunkloaders:advanced_chunk_loader"
+      },
+      {
+        "item": "kubejs:blaze_circuit_board"
+      },
+      {
+        "item": "kubejs:blaze_circuit_board"
+      },
+      {
+        "tag": "forge:gears/diamond"
+      }
+    ],
+    "result": {
+        "item": "chunkloaders:ultimate_chunk_loader"
+    }
+}

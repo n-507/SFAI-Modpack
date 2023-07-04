@@ -1,0 +1,19 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "minecraft:coals"
+    }
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "count": 1,
+      "item": "ic2:dust_coal"
+    },
+    {
+      "chance": 0.5,
+      "item": "ic2:dust_coal"
+    }
+  ]
+}

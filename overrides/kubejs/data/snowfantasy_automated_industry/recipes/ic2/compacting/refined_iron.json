@@ -1,0 +1,14 @@
+{
+  "type": "create:compacting",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/iron"
+    }
+  ],
+  "results": [
+    {
+      "item": "ic2:ingot_refined_iron"
+    }
+  ]
+}

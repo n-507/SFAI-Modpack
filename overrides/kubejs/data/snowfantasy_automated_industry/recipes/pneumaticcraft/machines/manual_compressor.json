@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "B": {
+      "item": "pneumaticcraft:stone_base"
+    },
+    "G": {
+      "tag": "forge:gears/compressed_iron"
+    },
+    "I": {
+      "item": "create:hand_crank"
+    },
+    "T": {
+      "item": "pneumaticcraft:pressure_tube"
+    }
+  },
+  "pattern": [
+    " I ",
+    " T ",
+    "GBG"
+  ],
+  "result": {
+    "item": "pneumaticcraft:manual_compressor"
+  }
+}

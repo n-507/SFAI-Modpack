@@ -1,0 +1,18 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "S": {
+      "tag": "forge:ingots/compressed_iron"
+    }
+  },
+  "pattern": [
+    "SSSSS",
+    "S    ",
+    "SSSSS"
+  ],
+  "result": {
+    "count": 4,
+    "item": "pneumaticcraft:cannon_barrel"
+  }
+}

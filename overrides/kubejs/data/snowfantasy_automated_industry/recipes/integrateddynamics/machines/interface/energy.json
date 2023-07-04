@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "integrateddynamics:part_redstone_reader"
+      },
+      {
+        "item": "kubejs:firm_tube"
+      }
+    ],
+    "result": {
+      "item": "integratedtunnels:part_interface_energy"
+    }
+  }

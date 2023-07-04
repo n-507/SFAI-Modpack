@@ -1,0 +1,16 @@
+{
+    "type": "create:mixing",
+    "heatRequirement": "superheated",
+    "ingredients": [
+        {
+            "tag": "forge:gems/amethyst"
+        }
+    ],
+    "processingTime": 200,
+    "results": [
+      {
+        "amount": 250,
+        "fluid": "kubejs:liquid_amethyst"
+      }
+    ]
+  }

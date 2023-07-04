@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "pneumaticcraft:air_compressor"
+  },
+  "addition": {
+    "item": "kubejs:creative_token"
+  },
+  "result": {
+    "item": "pneumaticcraft:creative_compressor"
+  }
+}

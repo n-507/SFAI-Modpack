@@ -1,0 +1,16 @@
+{
+    "type": "create:deploying",
+    "ingredients": [
+      {
+        "item": "ic2:plate_advanced_alloy"
+      },
+      {
+        "item": "ae2:logic_processor"
+      }
+    ],
+    "results": [
+      {
+        "item": "ae2:basic_card"
+      }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "tag": "forge:rods/wooden"
+    },
+    {
+      "amount": 50,
+      "fluid": "thermal:redstone",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "count": 2,
+      "item": "minecraft:redstone_torch"
+    }
+  ]
+}

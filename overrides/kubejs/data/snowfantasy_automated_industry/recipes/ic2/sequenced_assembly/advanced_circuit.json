@@ -1,0 +1,112 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "ic2:circuit"
+  },
+  "transitionalItem": {
+    "item": "kubejs:adv_ic2_circuit_incomplete"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:adv_ic2_circuit_incomplete"
+        },
+        {
+          "item": "ic2:carbon_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:adv_ic2_circuit_incomplete"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:adv_ic2_circuit_incomplete"
+        },
+        {
+          "item": "ic2:plate_advanced_alloy"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:adv_ic2_circuit_incomplete"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:adv_ic2_circuit_incomplete"
+        },
+        {
+          "item": "kubejs:lapis_tube"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:adv_ic2_circuit_incomplete"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:adv_ic2_circuit_incomplete"
+        },
+        {
+          "item": "kubejs:redstone_crystal"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:adv_ic2_circuit_incomplete"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "kubejs:adv_ic2_circuit_incomplete"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:adv_ic2_circuit_incomplete"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "kubejs:adv_ic2_circuit_incomplete"
+        },
+        {
+          "fluid": "thermal:redstone",
+          "nbt": {},
+          "amount": 100
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:adv_ic2_circuit_incomplete"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "ic2:advanced_circuit"
+    }
+  ],
+  "loops": 2
+}

@@ -1,0 +1,16 @@
+{
+    "type": "create:deploying",
+    "ingredients": [
+      {
+        "tag": "forge:circuits/advanced"
+      },
+      {
+        "tag": "mekanism:alloys/reinforced"
+      }
+    ],
+    "results": [
+      {
+        "item": "mekanism:elite_control_circuit"
+      }
+    ]
+}

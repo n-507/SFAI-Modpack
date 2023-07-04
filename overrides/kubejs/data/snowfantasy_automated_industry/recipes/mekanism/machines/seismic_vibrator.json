@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "mekanism:steel_casing"
+      },
+      {
+        "tag": "forge:gears/lead"
+      },
+      {
+        "tag": "forge:circuits/basic"
+      },
+      {
+        "item": "minecraft:repeater"
+      },
+      {
+        "item": "minecraft:piston"
+      }
+    ],
+    "result": {
+      "item": "mekanism:seismic_vibrator"
+    }
+  }

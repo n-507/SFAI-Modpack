@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "megacells:cell_component_16m"
+    },
+    {
+      "item": "megacells:cell_component_16m"
+    },
+    {
+      "item": "megacells:cell_component_16m"
+    },
+    {
+      "tag": "forge:ingots/netherite"
+    }
+  ],
+  "result": {
+    "item": "megacells:cell_component_64m"
+  }
+}

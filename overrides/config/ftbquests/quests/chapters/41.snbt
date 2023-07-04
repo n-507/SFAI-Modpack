@@ -1,0 +1,161 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "41"
+	group: "04BC9051E9FAF27B"
+	icon: {
+		Count: 1b
+		id: "ad_astra:tier_1_rocket"
+		tag: {
+			BotariumData: { }
+		}
+	}
+	id: "7E7E11F9680E0D89"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"4CA22B2397C4F187"
+				"01F42B94F23440BB"
+			]
+			description: [
+				"最高级的火箭。可以前往霜原星。"
+				""
+				"注意：在降落时，您可能会由于计算精度等问题而降落在细雪中，并导致您的火箭损毁。为避免此种情况导致您被困异星（并且更重要的是，不得不重新发射火箭），请随身携带指路石或其他传送设备。"
+			]
+			id: "4BB46BFC05E061DC"
+			tasks: [{
+				id: "0A215A6CB6E66C17"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_4_rocket"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"762110D418C63A74"
+				"6D04E89CFD1A2DC7"
+			]
+			id: "4CA22B2397C4F187"
+			tasks: [{
+				id: "26B47C4427467E49"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_3_rocket"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"5033977A2FE3E5F0"
+				"1CF6376FC6820A17"
+			]
+			id: "762110D418C63A74"
+			tasks: [{
+				id: "6FC01745238BB797"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_2_rocket"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "5033977A2FE3E5F0"
+			tasks: [{
+				id: "0BD76651D76492A8"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_1_rocket"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5033977A2FE3E5F0"]
+			id: "1CF6376FC6820A17"
+			tasks: [{
+				dimension: "ad_astra:moon"
+				icon: "ad_astra:moon_globe"
+				id: "2726BEF06E5D044F"
+				type: "dimension"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["762110D418C63A74"]
+			id: "6D04E89CFD1A2DC7"
+			tasks: [{
+				dimension: "ad_astra:mars"
+				icon: "ad_astra:mars_globe"
+				id: "6C71CC8B1B426289"
+				type: "dimension"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4CA22B2397C4F187"]
+			id: "4826347865881F84"
+			tasks: [{
+				dimension: "ad_astra:mercury"
+				icon: "ad_astra:mercury_globe"
+				id: "100F09D9AF5BEFD0"
+				type: "dimension"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4CA22B2397C4F187"]
+			id: "01F42B94F23440BB"
+			tasks: [{
+				dimension: "ad_astra:venus"
+				icon: "ad_astra:venus_globe"
+				id: "0488E5873B7937CB"
+				type: "dimension"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4BB46BFC05E061DC"]
+			id: "56E21987E2A2A6C3"
+			tasks: [{
+				dimension: "ad_astra:glacio"
+				icon: "ad_astra:glacio_globe"
+				id: "0B6B207EF988C341"
+				type: "dimension"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+	]
+	title: "4.1星系"
+}

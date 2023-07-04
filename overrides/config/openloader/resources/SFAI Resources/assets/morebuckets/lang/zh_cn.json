@@ -1,0 +1,26 @@
+{
+  "itemGroup.morebuckets": "更多的桶",
+
+  "item.morebuckets.aluminum_bucket": "铝桶",
+  "item.morebuckets.copper_bucket": "铜桶",
+  "item.morebuckets.tin_bucket": "锡桶",
+  "item.morebuckets.rubber_bucket": "橡胶桶",
+  "item.morebuckets.silver_bucket": "银大桶",
+  "item.morebuckets.quartz_bucket": "石英大桶",
+  "item.morebuckets.obsidian_bucket": "黑曜石大桶",
+  "item.morebuckets.bronze_bucket": "青铜大桶",
+  "item.morebuckets.golden_bucket": "金大桶",
+  "item.morebuckets.steel_bucket": "钢大桶",
+  "item.morebuckets.emerald_bucket": "绿宝石大桶",
+  "item.morebuckets.diamond_bucket": "钻石大桶",
+
+  "item.morebuckets.inferium_bucket": "Inferium Bucket",
+  "item.morebuckets.prudentium_bucket": "Prudentium Bucket",
+  "item.morebuckets.tertium_bucket": "Tertium Bucket",
+  "item.morebuckets.imperium_bucket": "Imperium Bucket",
+  "item.morebuckets.supremium_bucket": "Supremium Bucket",
+  "item.morebuckets.insanium_bucket": "Insanium Bucket",
+
+  "tooltip.morebuckets.empty": "空的",
+  "tooltip.morebuckets.buckets": "%s B / %s B  (%s)"
+}

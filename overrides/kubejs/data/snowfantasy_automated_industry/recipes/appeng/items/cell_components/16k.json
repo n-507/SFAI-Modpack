@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "ae2:cell_component_4k"
+      },
+      {
+        "item": "ae2:cell_component_4k"
+      },
+      {
+        "item": "ae2:cell_component_4k"
+      },
+      {
+        "item": "kubejs:fluix_tube"
+      }
+    ],
+    "result": {
+        "item": "ae2:cell_component_16k"
+    }
+}

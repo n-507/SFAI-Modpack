@@ -1,0 +1,16 @@
+{
+    "type": "create:deploying",
+    "ingredients": [
+      {
+        "item": "pneumaticcraft:logistics_core"
+      },
+      {
+        "tag": "forge:plates/iron"
+      }
+    ],
+    "results": [
+      {
+        "item": "pipez:basic_upgrade"
+      }
+    ]
+}

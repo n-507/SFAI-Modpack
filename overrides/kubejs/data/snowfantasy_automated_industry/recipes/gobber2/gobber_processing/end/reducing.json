@@ -1,0 +1,25 @@
+{
+    "type": "create:mixing",
+    "heatRequirement": "superheated",
+    "ingredients": [
+        {
+            "amount": 100,
+            "fluid": "kubejs:pure_chlorite_end_gobbler"
+        },
+        {
+            "amount": 100,
+            "fluid": "mekanism:sodium"
+        }
+    ],
+    "processingTime": 200,
+    "results": [
+      {
+        "amount": 100,
+        "fluid": "kubejs:molten_end_gobbler"
+      },
+      {
+        "chance": 0.2,
+        "item": "mekanism:salt"
+      }
+    ]
+}

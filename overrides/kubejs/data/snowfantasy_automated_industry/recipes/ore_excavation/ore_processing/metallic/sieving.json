@@ -1,0 +1,42 @@
+{
+  "type": "createsifter:sifting",
+  "ingredients": [
+    {
+      "item": "kubejs:metallic_batch"
+    },
+    {
+      "item": "createsifter:brass_mesh"
+    }
+  ],
+  "processingTime": 300,
+  "results": [
+    {
+      "chance": 0.5,
+      "item": "minecraft:raw_copper"
+    },
+    {
+      "chance": 0.3,
+      "item": "create:raw_zinc"
+    },
+    {
+      "chance": 0.2,
+      "item": "mekanism:raw_osmium"
+    },
+    {
+      "chance": 0.2,
+      "item": "mekanism:raw_tin"
+    },
+    {
+      "chance": 0.4,
+      "item": "mekanism:raw_lead"
+    },
+    {
+      "chance": 0.3,
+      "item": "thermal:raw_nickel"
+    },
+    {
+      "chance": 0.3,
+      "item": "immersiveengineering:raw_aluminum"
+    }
+  ]
+}

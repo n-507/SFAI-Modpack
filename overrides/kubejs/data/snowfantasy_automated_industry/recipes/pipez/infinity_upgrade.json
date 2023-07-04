@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "pipez:ultimate_upgrade"
+  },
+  "addition": {
+    "item": "upgradednetherite_ultimate:ultimate_upgraded_netherite_ingot"
+  },
+  "result": {
+    "item": "pipez:infinity_upgrade"
+  }
+}

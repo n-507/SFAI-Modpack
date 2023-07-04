@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "kubejs:pneumatic_machine_frame"
+    },
+    {
+      "item": "pneumaticcraft:turbine_rotor"
+    },
+    {
+      "type": "forge:nbt",
+      "count": 1,
+      "item": "pneumaticcraft:small_tank"
+    }
+  ],
+  "result": {
+    "item": "pneumaticcraft:liquid_compressor"
+  }
+}

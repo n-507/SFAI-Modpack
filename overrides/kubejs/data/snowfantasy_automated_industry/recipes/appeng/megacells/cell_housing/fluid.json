@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "ae2:fluid_cell_housing"
+      },
+      {
+        "item": "ae2:sky_dust"
+      },
+      {
+        "tag": "forge:ingots/copper"
+      }
+    ],
+    "result": {
+      "item": "megacells:mega_fluid_cell_housing"
+    }
+}

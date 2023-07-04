@@ -1,0 +1,16 @@
+{
+    "type": "create:deploying",
+    "ingredients": [
+      {
+        "item": "pipez:basic_upgrade"
+      },
+      {
+        "tag": "forge:plates/gold"
+      }
+    ],
+    "results": [
+      {
+        "item": "pipez:improved_upgrade"
+      }
+    ]
+}

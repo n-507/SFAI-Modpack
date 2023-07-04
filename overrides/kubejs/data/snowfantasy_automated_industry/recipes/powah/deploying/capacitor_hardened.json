@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "powah:capacitor_basic_large"
+    },
+    {
+      "item": "powah:steel_energized"
+    }
+  ],
+  "results": [
+    {
+      "item": "powah:capacitor_hardened"
+    }
+  ]
+}

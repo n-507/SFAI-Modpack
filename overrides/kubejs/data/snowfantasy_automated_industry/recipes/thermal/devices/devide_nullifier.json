@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "create:chute"
+    },
+    {
+      "item": "minecraft:lava_bucket"
+    }
+  ],
+  "result": {
+      "item": "thermal:device_nullifier"
+  }
+}

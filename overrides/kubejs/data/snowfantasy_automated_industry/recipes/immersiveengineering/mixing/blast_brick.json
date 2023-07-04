@@ -1,0 +1,39 @@
+{
+    "type": "create:mixing",
+    "heatRequirement": "heated",
+    "ingredients": [
+      {
+        "tag": "forge:ingots/nether_brick"
+      },
+      {
+        "tag": "forge:ingots/nether_brick"
+      },
+      {
+        "tag": "forge:ingots/nether_brick"
+      },
+      {
+        "tag": "forge:ingots/nether_brick"
+      },
+      {
+        "item": "minecraft:magma_block"
+      },
+      {
+        "tag": "forge:ingots/brick"
+      },
+      {
+        "tag": "forge:ingots/brick"
+      },
+      {
+        "tag": "forge:ingots/brick"
+      },
+      {
+        "tag": "forge:ingots/brick"
+      }
+    ],
+    "results": [
+      {
+        "count": 3,
+        "item": "immersiveengineering:blastbrick"
+      }
+    ]
+  }

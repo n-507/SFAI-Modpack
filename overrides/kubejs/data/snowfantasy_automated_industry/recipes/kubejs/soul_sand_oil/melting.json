@@ -1,0 +1,16 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "superheated",
+  "ingredients": [
+      {
+        "item": "minecraft:soul_sand"
+      }
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "amount": 1000,
+      "fluid": "kubejs:molten_soul_sand"
+    }
+  ]
+}

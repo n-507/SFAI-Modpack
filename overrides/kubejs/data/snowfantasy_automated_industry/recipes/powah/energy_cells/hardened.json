@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "powah:energy_cell_basic"
+    },
+    {
+      "item": "powah:capacitor_hardened"
+    },
+    {
+		  "item": "kubejs:energized_steel_tube"
+    },
+    {
+      "item": "createaddition:capacitor"
+    }
+  ],
+  "result": {
+    "item": "powah:energy_cell_hardened"
+  }
+}

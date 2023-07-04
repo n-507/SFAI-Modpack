@@ -1,0 +1,24 @@
+{
+	"type": "apotheosis:enchanting",
+	"conditions": [{
+		"type": "apotheosis:module",
+		"module": "enchantment"
+	}],
+	"input": {
+		"item": "kubejs:uncharged_blank_data_model"
+	},
+	"requirements": {
+		"eterna": 15,
+		"quanta": 0,
+		"arcana": 30
+	},
+	"max_requirements": {
+		"eterna": -1,
+		"quanta": 0,
+		"arcana": -1
+	},
+	"display_level": 3,
+	"result": {
+    "item": "hostilenetworks:blank_data_model"
+	}
+}

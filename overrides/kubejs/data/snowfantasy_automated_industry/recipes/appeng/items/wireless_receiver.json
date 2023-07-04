@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "ae2:fluix_pearl"
+      },
+      {
+        "item": "minecraft:nether_star"
+      },
+      {
+        "item": "ae2:quartz_fiber"
+      }
+    ],
+    "result": {
+        "item": "ae2:wireless_receiver"
+    }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "thermal:machine_frame"
+    },
+    {
+      "item": "kubejs:carbon_tube"
+    },
+    {
+      "item": "kubejs:lapis_circuit_board"
+    }
+  ],
+  "result": {
+    "item": "hostilenetworks:sim_chamber"
+  }
+}

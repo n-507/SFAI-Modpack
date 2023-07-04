@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "quark:sandstone_bricks"
+    },
+    {
+      "tag": "forge:plates/brass"
+    }
+  ],
+  "results": [
+    {
+      "item": "immersiveengineering:alloybrick"
+    }
+  ]
+}

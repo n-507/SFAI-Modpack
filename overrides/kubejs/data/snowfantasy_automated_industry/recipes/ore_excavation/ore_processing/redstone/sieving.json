@@ -1,0 +1,42 @@
+{
+  "type": "createsifter:sifting",
+  "ingredients": [
+    {
+      "item": "kubejs:redstone_batch"
+    },
+    {
+      "item": "createsifter:brass_mesh"
+    }
+  ],
+  "processingTime": 300,
+  "results": [
+    {
+      "chance": 0.9,
+      "item": "minecraft:redstone"
+    },
+    {
+      "chance": 0.8,
+      "item": "minecraft:redstone"
+    },
+    {
+      "chance": 0.7,
+      "item": "minecraft:redstone"
+    },
+    {
+      "chance": 0.6,
+      "item": "minecraft:redstone"
+    },
+    {
+      "chance": 0.5,
+      "item": "minecraft:redstone"
+    },
+    {
+      "chance": 0.5,
+      "item": "ae2:certus_quartz_crystal"
+    },
+    {
+      "chance": 0.3,
+      "item": "powah:uraninite_raw"
+    }
+  ]
+}

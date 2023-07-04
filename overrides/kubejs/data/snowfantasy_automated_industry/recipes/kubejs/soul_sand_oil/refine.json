@@ -1,0 +1,21 @@
+{
+  "type": "pneumaticcraft:refinery",
+  "input": {
+    "type": "pneumaticcraft:fluid",
+    "amount": 10,
+    "tag": "forge:cracked_soul_oil"
+  },
+  "results": [
+    {
+      "amount": 10,
+      "fluid": "kubejs:molten_slug"
+    },
+    {
+      "amount": 10,
+      "fluid": "pneumaticcraft:oil"
+    }
+  ],
+  "temperature": {
+    "min_temp": 439
+  }
+}

@@ -1,0 +1,16 @@
+{
+	"input": {
+		"item": "minecraft:ancient_debris",
+		"size": 1,
+		"type": "ic2:item"
+	},
+	"output": {
+		"output": {
+			"item": "ic2:scrap_metal",
+			"count": 1
+		},
+		"minOut": 2,
+		"maxOut": 10,
+		"type": "ic2:range"
+	}
+}

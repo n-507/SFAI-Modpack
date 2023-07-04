@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "a": {
+      "tag": "forge:gems/amethyst"
+    },
+    "e": {
+      "item": "create:electron_tube"
+    },
+    "s": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "pattern": [
+    "ea ",
+    "as ",
+    "  s"
+  ],
+  "result": {
+    "item": "createoreexcavation:vein_finder"
+  }
+}

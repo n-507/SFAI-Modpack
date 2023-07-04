@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "ic2:advanced_machine_block"
+      },
+      {
+        "item": "pneumaticcraft:solar_cell"
+      },
+      {
+        "item": "ad_astra:desh_plate"
+      },
+      {
+        "item": "ad_astra:desh_plate"
+      }
+    ],
+    "result": {
+        "item": "ad_astra:solar_panel"
+    }
+}

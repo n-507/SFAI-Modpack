@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "kubejs:adv_pneumatic_machine_frame"
+    },
+    {
+      "item": "pneumaticcraft:liquid_compressor"
+    }
+  ],
+  "result": {
+    "item": "pneumaticcraft:advanced_liquid_compressor"
+  }
+}

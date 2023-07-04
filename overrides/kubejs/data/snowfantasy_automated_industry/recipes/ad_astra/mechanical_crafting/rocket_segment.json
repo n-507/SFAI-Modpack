@@ -1,0 +1,24 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "R": {
+      "tag": "forge:storage_blocks/steel"
+    },
+    "W":{
+      "item": "ic2:reinforced_glass"
+    }
+  },
+  "pattern": [
+    "RRRRR",
+    "R   R",
+    "R   R",
+    "W   R",
+    "R   R",
+    "R   R",
+    "RRRRR"
+  ],
+  "result": {
+    "item": "kubejs:rocket_segment"
+  }
+}

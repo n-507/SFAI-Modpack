@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "GLG",
+    "ISI"
+  ],
+  "key": {
+    "G": {
+      "tag": "forge:glass_panes/colorless"
+    },
+    "I": {
+      "item": "kubejs:emerald_tube"
+    },
+    "S": {
+      "item": "minecraft:hopper"
+    },
+    "L": {
+      "item": "minecraft:lava_bucket"
+    }
+  },
+  "result": {
+    "item": "easy_villagers:iron_farm"
+  }
+}

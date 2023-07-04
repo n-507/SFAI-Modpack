@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "createaddition:electric_motor"
+  },
+  "addition": {
+    "item": "kubejs:creative_token"
+  },
+  "result": {
+    "item": "create:creative_motor"
+  }
+}

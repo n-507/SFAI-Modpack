@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "tag": "quark:framed_glass_panes"
+    },
+    {
+      "amount": 100,
+      "fluid": "kubejs:liquid_crystal",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:lcd"
+    }
+  ]
+}

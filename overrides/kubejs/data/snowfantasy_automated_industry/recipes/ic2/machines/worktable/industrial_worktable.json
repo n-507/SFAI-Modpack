@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "minecraft:crafting_table"
+      },
+      {
+        "item": "minecraft:hopper"
+      },
+      {
+        "tag": "forge:chests"
+      },
+      {
+        "tag": "forge:bookshelves"
+      }
+    ],
+    "result": {
+        "item": "ic2:industrial_worktable"
+    }
+}

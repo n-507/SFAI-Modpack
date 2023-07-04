@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "thermal:machine_frame"
+    },
+    {
+      "item": "kubejs:firm_tube"
+    },
+    {
+      "item": "ae2:calculation_processor"
+    },
+    {
+      "item": "ae2:logic_processor"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "ae2:crafting_unit"
+  }
+}

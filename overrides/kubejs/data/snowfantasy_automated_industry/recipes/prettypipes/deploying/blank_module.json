@@ -1,0 +1,16 @@
+{
+    "type": "create:deploying",
+    "ingredients": [
+      {
+        "item": "kubejs:reinforced_stone_plate"
+      },
+      {
+        "item": "prettypipes:pipe"
+      }
+    ],
+    "results": [
+      {
+        "item": "prettypipes:blank_module"
+      }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "ic2:machine_block"
+      },
+      {
+        "item": "ic2:circuit"
+      },
+      {
+        "item": "ic2:wood_gassifier"
+      }
+    ],
+    "result": {
+        "item": "ic2:electric_wood_gassifier"
+    }
+}

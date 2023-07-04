@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "powah:player_transmitter_starter"
+    },
+    {
+      "item": "powah:capacitor_basic_large"
+    },
+    {
+		  "item": "kubejs:energized_steel_tube"
+    },
+    {
+      "item": "minecraft:nether_star"
+    }
+  ],
+  "result": {
+    "item": "powah:player_transmitter_basic"
+  }
+}

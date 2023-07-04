@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mekanism:steel_casing"
+    },
+    {
+      "tag": "forge:gears/steel"
+    },
+    {
+      "item": "mekanism:enrichment_chamber"
+    },
+    {
+      "item": "mekanism:basic_chemical_tank"
+    },
+    {
+      "item": "mekanism:dynamic_tank"
+    }
+  ],
+  "result": {
+    "item": "mekanism:pressurized_reaction_chamber"
+  }
+}

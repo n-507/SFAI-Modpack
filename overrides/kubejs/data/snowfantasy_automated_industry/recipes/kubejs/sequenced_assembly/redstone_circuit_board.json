@@ -1,0 +1,96 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:plates/iron"
+  },
+  "transitionalItem": {
+    "item": "kubejs:redstone_circuit_board_incomplete"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:redstone_circuit_board_incomplete"
+        },
+        {
+          "tag": "forge:dusts/redstone"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:redstone_circuit_board_incomplete"
+        }
+      ]
+    },
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "kubejs:redstone_circuit_board_incomplete"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:redstone_circuit_board_incomplete"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:redstone_circuit_board_incomplete"
+        },
+        {
+          "tag": "forge:nuggets/gold"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:redstone_circuit_board_incomplete"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "kubejs:redstone_circuit_board_incomplete"
+        },
+        {
+          "fluid": "thermal:redstone",
+          "nbt": {},
+          "amount": 50
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:redstone_circuit_board_incomplete"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:redstone_circuit_board_incomplete"
+        },
+        {
+          "item": "create:electron_tube"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:redstone_circuit_board_incomplete"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:redstone_circuit_board"
+    }
+  ],
+  "loops": 2
+}

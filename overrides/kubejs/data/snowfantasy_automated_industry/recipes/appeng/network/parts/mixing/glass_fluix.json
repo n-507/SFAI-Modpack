@@ -1,0 +1,18 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "ae2:quartz_fiber"
+    },
+    {
+      "tag": "ae2:all_fluix"
+    }
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "count": 4,
+      "item": "ae2:fluix_glass_cable"
+    }
+  ]
+}

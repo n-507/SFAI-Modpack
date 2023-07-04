@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "thermal:energy_cell_frame"
+    },
+    {
+      "item": "kubejs:fluix_tube"
+    }
+  ],
+  "result": {
+      "item": "ae2:energy_acceptor"
+  }
+}

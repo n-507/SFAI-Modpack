@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "immersiveengineering:heavy_engineering"
+      },
+      {
+        "item": "kubejs:lapis_circuit_board"
+      }
+    ],
+    "result": {
+      "item": "advancedperipherals:peripheral_casing"
+    }
+  }

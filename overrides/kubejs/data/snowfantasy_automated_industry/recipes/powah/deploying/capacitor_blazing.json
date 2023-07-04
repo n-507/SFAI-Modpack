@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "powah:capacitor_hardened"
+    },
+    {
+      "item": "powah:crystal_blazing"
+    }
+  ],
+  "results": [
+    {
+      "item": "powah:capacitor_blazing"
+    }
+  ]
+}

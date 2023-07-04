@@ -1,0 +1,15 @@
+{
+    "type": "create:cutting",
+    "ingredients": [
+      {
+        "item": "kubejs:rubber_ingot"
+      }
+    ],
+    "processingTime": 200,
+    "results": [
+      {
+        "count": 2,
+        "item": "kubejs:rubber_sheet"
+      }
+    ]
+  }

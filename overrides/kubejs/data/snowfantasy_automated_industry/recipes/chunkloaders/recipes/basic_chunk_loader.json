@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "kubejs:chunk_loader_core"
+      },
+      {
+        "item": "kubejs:redstone_circuit_board"
+      },
+      {
+        "item": "kubejs:redstone_circuit_board"
+      }
+    ],
+    "result": {
+        "item": "chunkloaders:basic_chunk_loader"
+    }
+}

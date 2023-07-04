@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "pneumaticcraft:compressed_iron_block"
+  },
+  "addition": {
+    "item": "kubejs:creative_token"
+  },
+  "result": {
+    "item": "pneumaticcraft:creative_compressed_iron_block"
+  }
+}

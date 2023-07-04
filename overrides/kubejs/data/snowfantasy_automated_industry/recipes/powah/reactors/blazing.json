@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "powah:reactor_hardened"
+    },
+    {
+      "item": "powah:capacitor_blazing"
+    },
+    {
+		  "item": "kubejs:energized_steel_tube"
+    },
+    {
+      "item": "ic2:reactor_chamber"
+    }
+  ],
+  "result": {
+    "item": "powah:reactor_blazing"
+  }
+}

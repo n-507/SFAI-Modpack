@@ -1,0 +1,16 @@
+{
+    "type": "create:deploying",
+    "ingredients": [
+      {
+        "item": "ic2:circuit"
+      },
+      {
+        "item": "ic2:plate_advanced_alloy"
+      }
+    ],
+    "results": [
+      {
+        "item": "ic2:upgrade_base"
+      }
+    ]
+}

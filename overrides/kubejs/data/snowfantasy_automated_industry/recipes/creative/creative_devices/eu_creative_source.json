@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "ic2:pesu"
+  },
+  "addition": {
+    "item": "kubejs:creative_token"
+  },
+  "result": {
+    "item": "ic2:creative_source"
+  }
+}

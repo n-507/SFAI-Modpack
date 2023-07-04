@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "C": {
+      "tag": "forge:wires/copper"
+    },
+    "I": {
+      "tag": "forge:plates/tin"
+    }
+  },
+  "pattern": [
+    "ICI",
+    "ICI",
+    "III"
+  ],
+  "result": {
+    "item": "kubejs:battery_frame"
+  }
+}

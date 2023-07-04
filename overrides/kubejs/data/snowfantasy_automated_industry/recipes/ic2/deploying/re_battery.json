@@ -1,0 +1,16 @@
+{
+    "type": "create:deploying",
+    "ingredients": [
+      {
+        "item": "kubejs:filled_battery_frame"
+      },
+      {
+        "tag": "forge:plates/tin"
+      }
+    ],
+    "results": [
+      {
+        "item": "ic2:re_battery"
+      }
+    ]
+}

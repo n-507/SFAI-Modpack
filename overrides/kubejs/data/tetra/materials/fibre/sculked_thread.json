@@ -1,0 +1,37 @@
+{
+    "key": "sculked_thread",
+    "category": "fibre",
+    "primary": 4,
+    "secondary": 0.8,
+    "tertiary": 7,
+    "durability": 160,
+    "integrityCost": 1,
+    "integrityGain": 3,
+    "magicCapacity": 120,
+    "toolLevel": 0,
+    "toolEfficiency": 0,
+    "tints": {
+        "glyph": "1A8F97",
+        "texture": "1A8F97"
+    },
+    "textures": [
+        "crude",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "sculked:sculked_thread"
+        ],
+        "count": 2
+    },
+    "effects": {
+        "enderReverb": [
+            3,
+            0.3
+        ],
+        "release_latch": 1
+    },
+    "requiredTools": {
+        "cut": "minecraft:wood"
+    }
+}

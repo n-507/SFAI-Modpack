@@ -1,0 +1,16 @@
+{
+    "type": "create:deploying",
+    "ingredients": [
+      {
+        "item": "pipez:improved_upgrade"
+      },
+      {
+        "tag": "forge:gems/diamond"
+      }
+    ],
+    "results": [
+      {
+        "item": "pipez:advanced_upgrade"
+      }
+    ]
+}

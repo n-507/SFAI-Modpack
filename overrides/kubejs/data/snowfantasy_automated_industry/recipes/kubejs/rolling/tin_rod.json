@@ -1,0 +1,10 @@
+{
+	"type":"createaddition:rolling",
+	"input": {
+      	"tag": "forge:ingots/tin"
+	},
+	"result": {
+		"item": "kubejs:rod_tin",
+		"count": 2
+	}
+}

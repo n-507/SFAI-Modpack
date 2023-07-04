@@ -1,0 +1,112 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "ic2:advanced_circuit"
+  },
+  "transitionalItem": {
+    "item": "kubejs:comp_ic2_circuit_incomplete"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:comp_ic2_circuit_incomplete"
+        },
+        {
+          "item": "ic2:pulsating_quartz"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:comp_ic2_circuit_incomplete"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:comp_ic2_circuit_incomplete"
+        },
+        {
+          "item": "ic2:magnet"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:comp_ic2_circuit_incomplete"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:comp_ic2_circuit_incomplete"
+        },
+        {
+          "item": "ic2:gold_double_insulated_cable_item"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:comp_ic2_circuit_incomplete"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:comp_ic2_circuit_incomplete"
+        },
+        {
+          "item": "kubejs:redstone_circuit_board"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:comp_ic2_circuit_incomplete"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "kubejs:comp_ic2_circuit_incomplete"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:comp_ic2_circuit_incomplete"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "kubejs:comp_ic2_circuit_incomplete"
+        },
+        {
+          "fluid": "thermal:redstone",
+          "nbt": {},
+          "amount": 100
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:comp_ic2_circuit_incomplete"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "ic2:complex_circuit"
+    }
+  ],
+  "loops": 2
+}

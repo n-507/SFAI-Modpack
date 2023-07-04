@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mekanism:steel_casing"
+    },
+    {
+      "tag": "forge:gears/lead"
+    },
+    {
+      "tag": "forge:circuits/ultimate"
+    },
+    {
+      "tag": "forge:circuits/ultimate"
+    },
+    {
+      "item": "mekanism:basic_chemical_tank"
+    }
+  ],
+  "result": {
+    "item": "mekanism:isotopic_centrifuge"
+  }
+}

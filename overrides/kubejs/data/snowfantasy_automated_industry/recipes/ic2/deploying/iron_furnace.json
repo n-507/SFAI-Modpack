@@ -1,0 +1,16 @@
+{
+    "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:furnace"
+        },
+        {
+          "tag": "forge:plates/iron"
+        }
+      ],
+      "results": [
+        {
+          "item": "ic2:iron_furnace"
+        }
+      ]
+    }

@@ -1,0 +1,16 @@
+{
+    "type": "create:deploying",
+    "ingredients": [
+      {
+        "tag": "forge:circuits/elite"
+      },
+      {
+        "tag": "mekanism:alloys/atomic"
+      }
+    ],
+    "results": [
+      {
+        "item": "mekanism:ultimate_control_circuit"
+      }
+    ]
+}

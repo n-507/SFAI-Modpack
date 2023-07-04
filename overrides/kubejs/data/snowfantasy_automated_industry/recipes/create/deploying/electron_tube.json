@@ -1,0 +1,16 @@
+{
+    "type": "create:deploying",
+    "ingredients": [
+      {
+        "item": "create:polished_rose_quartz"
+      },
+      {
+        "tag": "forge:plates/iron"
+      }
+    ],
+    "results": [
+      {
+        "item": "create:electron_tube"
+      }
+    ]
+}

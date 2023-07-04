@@ -1,0 +1,19 @@
+{
+    "type": "pneumaticcraft:fluid_mixer",
+    "input1": {
+        "type": "pneumaticcraft:fluid",
+        "amount": 10,
+        "fluid": "kubejs:raw_chlorite_nether_gobbler"
+    },
+    "input2": {
+        "type": "pneumaticcraft:fluid",
+        "amount": 5,
+        "fluid": "mekanism:sulfuric_acid"
+    },
+    "fluid_output": {
+        "amount": 10,
+        "fluid": "kubejs:pure_chlorite_nether_gobbler"
+    },
+    "pressure": 1.5,
+    "time": 20
+}

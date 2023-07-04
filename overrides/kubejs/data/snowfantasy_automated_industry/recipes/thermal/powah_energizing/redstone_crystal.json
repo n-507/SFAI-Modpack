@@ -1,0 +1,12 @@
+{
+  "type": "powah:energizing",
+  "ingredients": [
+    {"tag": "forge:dusts/redstone"},
+    {"tag": "forge:dusts/redstone"},
+    {"tag": "forge:dusts/redstone"}
+  ],
+  "energy": 10000,
+  "result": {
+	"item": "kubejs:redstone_crystal"
+  }
+}

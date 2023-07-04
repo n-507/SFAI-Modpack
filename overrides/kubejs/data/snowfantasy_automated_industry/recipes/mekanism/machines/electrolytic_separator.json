@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mekanism:steel_casing"
+    },
+    {
+      "tag": "forge:gears/copper"
+    },
+    {
+      "tag": "forge:circuits/basic"
+    },
+    {
+      "item": "mekanism:electrolytic_core"
+    },
+    {
+      "item": "ic2:gold_cable_item"
+    },
+    {
+      "item": "ic2:gold_cable_item"
+    }
+  ],
+  "result": {
+    "item": "mekanism:electrolytic_separator"
+  }
+}

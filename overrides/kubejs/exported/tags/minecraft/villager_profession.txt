@@ -1,0 +1,15 @@
+To refresh this file, delete it and run /reload command again! Last updated: Jul 3, 2023, 8:38:44 AM
+
+#vampirism:is_vampire
+- vampirism:vampire_expert (from Vampirism-1.19.2-1.9.4.jar)
+
+#werewolves:is_werewolf
+- werewolves:werewolf_expert (from Werewolves-1.19.2-1.1.0.0.jar)
+
+#vampirism:is_hunter
+- vampirism:hunter_expert (from Vampirism-1.19.2-1.9.4.jar)
+
+#vampirism:has_faction
+- vampirism:hunter_expert (from Vampirism-1.19.2-1.9.4.jar)
+- vampirism:vampire_expert (from Vampirism-1.19.2-1.9.4.jar)
+- #werewolves:is_werewolf (from Werewolves-1.19.2-1.1.0.0.jar)

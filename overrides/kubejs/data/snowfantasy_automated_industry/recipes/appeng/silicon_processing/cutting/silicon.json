@@ -1,0 +1,15 @@
+{
+    "type": "create:cutting",
+    "ingredients": [
+      {
+        "item": "kubejs:doped_silicon_crystal"
+      }
+    ],
+    "processingTime": 600,
+    "results": [
+      {
+        "count": 2,
+        "item": "ae2:silicon"
+      }
+    ]
+  }

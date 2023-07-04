@@ -1,0 +1,16 @@
+{
+    "type": "create:deploying",
+    "ingredients": [
+      {
+        "item": "ic2:bronze_cable_item"
+      },
+      {
+        "item": "kubejs:rubber_sheet"
+      }
+    ],
+    "results": [
+      {
+        "item": "ic2:bronze_insulated_cable_item"
+      }
+    ]
+}

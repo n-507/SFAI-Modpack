@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "mekanism:steel_casing"
+      },
+      {
+        "tag": "forge:gears/tin"
+      },
+      {
+        "tag": "forge:circuits/basic"
+      },
+      {
+        "item": "kubejs:redstone_crystal"
+      }
+    ],
+    "result": {
+      "item": "mekanism:enrichment_chamber"
+    }
+  }

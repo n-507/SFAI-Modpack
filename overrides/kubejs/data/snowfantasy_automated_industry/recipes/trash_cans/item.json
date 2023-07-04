@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "create:depot"
+    },
+    {
+      "item": "minecraft:lava_bucket"
+    }
+  ],
+  "result": {
+      "item": "trashcans:item_trash_can"
+  }
+}

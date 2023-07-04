@@ -1,0 +1,17 @@
+{
+    "type": "immersiveengineering:mixer",
+    "energy": 200,
+    "fluid": {
+        "amount": 100,
+        "tag": "forge:biodiesel"
+    },
+    "inputs": [
+        {
+            "tag": "minecraft:coals"
+        }
+    ],
+    "result": {
+        "amount": 50,
+        "fluid": "kubejs:ethylene"
+    }
+}

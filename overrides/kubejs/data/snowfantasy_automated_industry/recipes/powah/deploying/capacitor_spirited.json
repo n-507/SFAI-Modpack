@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "powah:capacitor_niotic"
+    },
+    {
+      "item": "powah:crystal_spirited"
+    }
+  ],
+  "results": [
+    {
+      "item": "powah:capacitor_spirited"
+    }
+  ]
+}

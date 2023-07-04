@@ -1,0 +1,21 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "S": {
+      "tag": "forge:dusts/quartz"
+    },
+    "G": {
+      "tag": "forge:glass/silica"
+    }
+  },
+  "pattern": [
+    "GGGGG",
+    "SSSSS",
+    "GGGGG"
+  ],
+  "result": {
+    "count":3, 
+    "item": "ae2:quartz_fiber"
+  }
+}

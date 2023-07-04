@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "ic2:upgrade_base"
+      },
+      {
+        "item": "create:smart_chute"
+      }
+    ],
+    "result": {
+        "item": "ic2:item_limiter"
+    }
+}

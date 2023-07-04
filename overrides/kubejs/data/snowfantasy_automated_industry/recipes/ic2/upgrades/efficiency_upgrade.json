@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "ic2:upgrade_base"
+      },
+      {
+        "item": "ic2:glassfiber_cable_item"
+      },
+      {
+        "item": "ic2:complex_circuit"
+      }
+    ],
+    "result": {
+        "item": "ic2:upgrade_efficiency"
+    }
+}

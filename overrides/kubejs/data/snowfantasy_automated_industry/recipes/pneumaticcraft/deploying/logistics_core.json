@@ -1,0 +1,17 @@
+{
+    "type": "create:deploying",
+    "ingredients": [
+      {
+        "item": "kubejs:reinforced_stone_plate"
+      },
+      {
+        "item": "kubejs:firm_tube"
+      }
+    ],
+    "results": [
+      {
+        "count": 2,
+        "item": "pneumaticcraft:logistics_core"
+      }
+    ]
+}

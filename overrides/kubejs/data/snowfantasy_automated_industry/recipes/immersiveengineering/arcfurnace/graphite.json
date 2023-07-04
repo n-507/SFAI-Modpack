@@ -1,0 +1,21 @@
+{
+    "type": "immersiveengineering:arc_furnace",
+    "additives": [
+        {
+            "tag": "forge:sand"
+        }
+    ],
+    "energy": 12800,
+    "input": {
+        "tag": "forge:dusts/coal"
+    },
+    "results": [
+        {
+            "base_ingredient": {
+                "item": "kubejs:graphite_ingot"
+            },
+            "count": 1
+        }
+    ],
+    "time": 200
+}

@@ -1,0 +1,106 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "249677B17ED5682A"
+	group: "0CBBEFBC9CC2164B"
+	icon: "cookingforblockheads:sink"
+	id: "249677B17ED5682A"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"FTB区块加载已被禁用。您需要使用区块加载器。右键打开其界面并选择要加载的区块。"
+				""
+				"为避免维护不当的自动化导致严重卡顿，您所拥有的区块加载器将在您连续离线3天后停止工作，并在您再次上线时恢复。"
+			]
+			id: "1F2C46D5A780E872"
+			tasks: [{
+				id: "798667FDE7068FFA"
+				item: "chunkloaders:basic_chunk_loader"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F2C46D5A780E872"]
+			id: "40C0646A3B210C29"
+			tasks: [{
+				id: "5D4F8EBB26103287"
+				item: "chunkloaders:advanced_chunk_loader"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["40C0646A3B210C29"]
+			id: "726CEC34283C820C"
+			tasks: [{
+				id: "157E9FDDFA0323ED"
+				item: "chunkloaders:ultimate_chunk_loader"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"（并不是）工业用水。提供无限量的水，无抽取速率上限。"
+				""
+				"副作用：您的设备中可能残留有咸鱼味。"
+			]
+			id: "7DB10224AB54589A"
+			tasks: [{
+				id: "78B960B96A004B78"
+				item: "cookingforblockheads:sink"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"避免手动安置光源的麻烦。"
+				""
+				"提示：生成的光源可能会影响部分多方块结构的正常运作，例如压力室或核反应堆。在使用时请务必注意远离此类敏感设备。"
+			]
+			id: "4D1A13A7BE20A0B2"
+			tasks: [{
+				id: "78A3C1E47EC344FE"
+				item: "torchmaster:feral_flare_lantern"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"可避免半径32格内生成敌对生物。"
+				""
+				"注意：仍会生成中立生物。假如您装备了七咒之戒，那么就太不幸了。"
+			]
+			id: "54E1F6E68D0B9ED4"
+			tasks: [{
+				id: "26BB862A101EA795"
+				item: "torchmaster:megatorch"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			description: ["有效缓解流血。建议外出时携带。"]
+			id: "070B7E4734B9AFEC"
+			tasks: [{
+				id: "4A55798283AE917E"
+				item: "majruszsdifficulty:bandage"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+	]
+	title: "实用物品"
+}

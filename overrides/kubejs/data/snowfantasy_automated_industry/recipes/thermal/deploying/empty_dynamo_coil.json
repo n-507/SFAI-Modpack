@@ -1,0 +1,16 @@
+{
+    "type": "create:deploying",
+    "ingredients": [
+      {
+        "item": "kubejs:energized_steel_tube"
+      },
+      {
+        "item": "thermal:rf_coil"
+      }
+    ],
+    "results": [
+      {
+        "item": "kubejs:dynamo_coil_empty"
+      }
+    ]
+}

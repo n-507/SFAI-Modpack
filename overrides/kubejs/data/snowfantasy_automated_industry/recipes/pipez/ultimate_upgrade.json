@@ -1,0 +1,16 @@
+{
+    "type": "create:deploying",
+    "ingredients": [
+      {
+        "item": "pipez:advanced_upgrade"
+      },
+      {
+        "tag": "forge:plates/netherite"
+      }
+    ],
+    "results": [
+      {
+        "item": "pipez:ultimate_upgrade"
+      }
+    ]
+}

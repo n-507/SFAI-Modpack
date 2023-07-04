@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "ic2:advanced_machine_block"
+      },
+      {
+        "item": "ad_astra:engine_fan"
+      },
+      {
+        "item": "ad_astra:engine_fan"
+      },
+      {
+        "item": "ad_astra:oxygen_tank"
+      },
+      {
+        "item": "ad_astra:desh_plate"
+      },
+      {
+        "item": "ad_astra:desh_plate"
+      }
+    ],
+    "result": {
+        "item": "ad_astra:oxygen_distributor"
+    }
+}

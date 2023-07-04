@@ -1,0 +1,135 @@
+To refresh this file, delete it and run /reload command again! Last updated: Jul 3, 2023, 8:38:44 AM
+
+#tetra:exclusions/armor_chest
+
+#tetra:exclusions/armor_legs
+
+#tetra:exclusions/armor_head
+
+#tetra:additions/blunt_weapon
+
+#forbidden_arcanus:modifier/eternal_incompatible
+- minecraft:unbreaking (from forbidden_arcanus-1.19.2-2.1.3.jar)
+- minecraft:mending (from forbidden_arcanus-1.19.2-2.1.3.jar)
+
+#forbidden_arcanus:modifier/magnetized_incompatible
+
+#the_bumblezone:dimension_teleportation/enchant_special_dedicated_compat
+- dragonenchants:end_step? (from the_bumblezone_forge-6.7.25+1.19.2.jar)
+
+#the_bumblezone:crystalline_flower/forced_allowed_enchantments
+
+#create_enchantment_industry:hyper_enchantable_blacklist
+
+#tetra:exclusions/vanishable
+
+#tetra:additions/throwable
+- minecraft:loyalty (from tetra-1.19.2-5.3.0.jar)
+- minecraft:channeling (from tetra-1.19.2-5.3.0.jar)
+
+#forbidden_arcanus:indestructible_blacklisted
+- minecraft:unbreaking (from forbidden_arcanus-1.19.2-2.1.3.jar)
+- minecraft:mending (from forbidden_arcanus-1.19.2-2.1.3.jar)
+
+#tetra:exclusions/armor
+
+#tetra:additions/block_breaker
+
+#create_enchantment_industry:hyper_enchantable
+
+#tetra:additions/fishing_rod
+
+#tetra:exclusions/fishing_rod
+
+#tetra:exclusions/pointy_weapon
+- minecraft:loyalty (from tetra-1.19.2-5.3.0.jar)
+- minecraft:channeling (from tetra-1.19.2-5.3.0.jar)
+
+#tetra:exclusions/bow
+
+#the_bumblezone:dimension_teleportation/any_item_right_clicked_beehive_with_enchant_crouching
+- travelanchors:teleportation? (from the_bumblezone_forge-6.7.25+1.19.2.jar)
+
+#tetra:additions/pointy_weapon
+
+#tetra:exclusions/breakable
+
+#tetra:additions/crossbow
+
+#tetra:additions/armor_head
+
+#tetra:exclusions/blunt_weapon
+- minecraft:sharpness (from tetra-1.19.2-5.3.0.jar)
+
+#tetra:additions/bow
+
+#the_bumblezone:dimension_teleportation/any_item_right_clicked_beehive_with_enchant
+
+#tetra:additions/vanishable
+
+#forbidden_arcanus:modifier/demolishing_incompatible
+
+#forbidden_arcanus:modifier/fiery_incompatible
+- minecraft:silk_touch (from forbidden_arcanus-1.19.2-2.1.3.jar)
+
+#tetra:additions/armor_chest
+
+#the_bumblezone:crystalline_flower/disallowed_enchantments
+- minecraft:soul_speed (from the_bumblezone_forge-6.7.25+1.19.2.jar)
+- minecraft:swift_sneak (from the_bumblezone_forge-6.7.25+1.19.2.jar)
+- veinmining:vein_mining? (from the_bumblezone_forge-6.7.25+1.19.2.jar)
+- ars_elemental:mirror_shield? (from the_bumblezone_forge-6.7.25+1.19.2.jar)
+- ars_nouveau:reactive? (from the_bumblezone_forge-6.7.25+1.19.2.jar)
+- supplementaries:stasis? (from the_bumblezone_forge-6.7.25+1.19.2.jar)
+- apotheosis:infusion? (from the_bumblezone_forge-6.7.25+1.19.2.jar)
+- apotheosis:chainsaw? (from the_bumblezone_forge-6.7.25+1.19.2.jar)
+- apotheosis:crescendo? (from the_bumblezone_forge-6.7.25+1.19.2.jar)
+- apotheosis:scavenger? (from the_bumblezone_forge-6.7.25+1.19.2.jar)
+- apotheosis:life_mending? (from the_bumblezone_forge-6.7.25+1.19.2.jar)
+- apotheosis:berserkers_fury? (from the_bumblezone_forge-6.7.25+1.19.2.jar)
+- apotheosis:knowledge? (from the_bumblezone_forge-6.7.25+1.19.2.jar)
+- apotheosis:earths_boon? (from the_bumblezone_forge-6.7.25+1.19.2.jar)
+- apotheosis:endless_quiver? (from the_bumblezone_forge-6.7.25+1.19.2.jar)
+- zenith:infusion? (from the_bumblezone_forge-6.7.25+1.19.2.jar)
+- zenith:chainsaw? (from the_bumblezone_forge-6.7.25+1.19.2.jar)
+- zenith:crescendo? (from the_bumblezone_forge-6.7.25+1.19.2.jar)
+- zenith:scavenger? (from the_bumblezone_forge-6.7.25+1.19.2.jar)
+- zenith:life_mending? (from the_bumblezone_forge-6.7.25+1.19.2.jar)
+- zenith:berserkers_fury? (from the_bumblezone_forge-6.7.25+1.19.2.jar)
+- zenith:knowledge? (from the_bumblezone_forge-6.7.25+1.19.2.jar)
+- zenith:earths_boon? (from the_bumblezone_forge-6.7.25+1.19.2.jar)
+- zenith:endless_quiver? (from the_bumblezone_forge-6.7.25+1.19.2.jar)
+- mcdw:void_strike? (from the_bumblezone_forge-6.7.25+1.19.2.jar)
+- mcdw:void_shot? (from the_bumblezone_forge-6.7.25+1.19.2.jar)
+- mcdw:radiance? (from the_bumblezone_forge-6.7.25+1.19.2.jar)
+- mcdw:radiance_shot? (from the_bumblezone_forge-6.7.25+1.19.2.jar)
+- mcdw:guarding_strike? (from the_bumblezone_forge-6.7.25+1.19.2.jar)
+- mcdw:burst_bowstring? (from the_bumblezone_forge-6.7.25+1.19.2.jar)
+- mcdw:dynamo? (from the_bumblezone_forge-6.7.25+1.19.2.jar)
+- mcdw:shadow_barb? (from the_bumblezone_forge-6.7.25+1.19.2.jar)
+- mcdw:shadow_shot? (from the_bumblezone_forge-6.7.25+1.19.2.jar)
+- mcdw:shared_pain? (from the_bumblezone_forge-6.7.25+1.19.2.jar)
+
+#tetra:additions/armor
+
+#tetra:exclusions/edged_weapon
+
+#tetra:additions/breakable
+
+#tetra:exclusions/wearable
+
+#tetra:additions/armor_feet
+
+#tetra:exclusions/block_breaker
+
+#tetra:additions/wearable
+
+#tetra:additions/armor_legs
+
+#tetra:additions/edged_weapon
+
+#tetra:exclusions/throwable
+
+#tetra:exclusions/crossbow
+
+#tetra:exclusions/armor_feet

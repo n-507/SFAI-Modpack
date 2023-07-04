@@ -1,0 +1,11 @@
+{
+  "type": "pneumaticcraft:assembly_laser",
+  "input": {
+    "item": "kubejs:unweld_redstone_servo_frame"
+  },
+  "program": "laser",
+  "result": {
+    "count": 1,
+    "item": "kubejs:redstone_servo_frame"
+  }
+}

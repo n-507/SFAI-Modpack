@@ -1,0 +1,16 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "S": {
+      "tag": "forge:ingots/compressed_iron"
+    }
+  },
+  "pattern": [
+    "SSSSS"
+  ],
+  "result": {
+    "count": 8,
+    "item": "pneumaticcraft:pressure_tube"
+  }
+}

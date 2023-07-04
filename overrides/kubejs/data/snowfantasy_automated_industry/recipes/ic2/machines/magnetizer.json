@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ic2:machine_block"
+    },
+    {
+      "item": "ic2:advanced_circuit"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "ic2:iron_fence"
+    }
+  ],
+  "result": {
+      "item": "ic2:magnetizer"
+  }
+}

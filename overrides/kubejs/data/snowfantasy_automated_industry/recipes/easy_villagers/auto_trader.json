@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "easy_villagers:trader"
+    },
+    {
+      "item": "kubejs:lapis_circuit_board"
+    },
+    {
+      "item": "minecraft:hopper"
+    }
+  ],
+  "result": {
+      "item": "easy_villagers:auto_trader"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+	"pbp",
+	"ici",
+	" r "
+  ],
+  "key": {
+	"b": {
+		"item": "minecraft:nether_star"
+	},
+	"p": {
+	  "item": "powah:player_aerial_pearl"
+	},
+	"i": {
+	  "item": "powah:capacitor_basic_tiny"
+	},
+	"c": {
+	  "item": "powah:dielectric_casing"
+	},
+	"r": {
+	  "item": "powah:dielectric_rod"
+	}
+  },
+  "result": {
+	"item": "powah:player_transmitter_starter"
+  }
+}

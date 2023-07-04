@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "mekanism:steel_casing"
+      },
+      {
+        "tag": "forge:gears/constantan"
+      },
+      {
+        "tag": "forge:circuits/elite"
+      },
+      {
+        "tag": "forge:circuits/elite"
+      },
+      {
+        "item": "mekanism:purification_chamber"
+      }
+    ],
+    "result": {
+      "item": "mekanism:chemical_injection_chamber"
+    }
+  }

@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "CDC",
+        "ABA",
+        "CDC"
+    ],
+    
+    "key":
+    {
+        "A":
+        {
+            "item": "minecraft:dragon_egg"
+        },
+        "B":
+        {
+            "item": "minecraft:nether_star"
+        },
+        "C":
+        {
+            "item": "gobber2:gobber2_ingot_end"
+        },
+        "D":
+        {
+            "item": "ic2:iridium_box"
+        }
+    },
+    
+    "result":
+    {
+        "item": "gobber2:dragon_star",
+        "count": 1
+    }
+}

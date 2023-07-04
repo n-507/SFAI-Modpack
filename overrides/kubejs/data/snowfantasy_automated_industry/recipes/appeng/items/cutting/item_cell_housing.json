@@ -1,0 +1,14 @@
+{
+    "type": "create:cutting",
+    "ingredients": [
+      {
+        "tag": "forge:sheetmetals/iron"
+      }
+    ],
+    "processingTime": 200,
+    "results": [
+      {
+        "item": "ae2:item_cell_housing"
+      }
+    ]
+  }

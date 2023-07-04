@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "GFG",
+    "ICI"
+  ],
+  "key": {
+    "G": {
+      "tag": "forge:glass_panes/colorless"
+    },
+    "I": {
+      "item": "kubejs:emerald_tube"
+    },
+    "F": {
+      "item": "minecraft:zombie_spawn_egg"
+    },
+    "C": {
+      "item": "minecraft:mossy_cobblestone"
+    }
+  },
+  "result": {
+    "item": "easy_villagers:converter"
+  }
+}

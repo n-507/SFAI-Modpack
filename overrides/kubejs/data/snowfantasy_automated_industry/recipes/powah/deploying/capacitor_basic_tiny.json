@@ -1,0 +1,17 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "createaddition:capacitor"
+    },
+    {
+      "item": "powah:dielectric_paste"
+    }
+  ],
+  "results": [
+    {
+      "count": 8,
+      "item": "powah:capacitor_basic_tiny"
+    }
+  ]
+}

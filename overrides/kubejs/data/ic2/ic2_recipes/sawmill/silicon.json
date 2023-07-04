@@ -1,0 +1,17 @@
+{
+	"input": {
+		"item": "kubejs:doped_silicon_crystal",
+		"size": 1,
+		"type": "ic2:item"
+	},
+	"output": {
+		"xp": 0.0,
+		"outputs": [
+			{
+				"item": "ae2:silicon",
+				"count": 4
+			}
+		],
+		"type": "ic2:simple"
+	}
+}

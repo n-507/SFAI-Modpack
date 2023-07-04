@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "R": {
+      "item": "pneumaticcraft:turbine_rotor"
+    },
+    "S": {
+      "item": "kubejs:amethyst_tube"
+    }
+  },
+  "pattern": [
+    " R ",
+    "RSR",
+    " R "
+  ],
+  "result": {
+    "item": "pneumaticcraft:guard_drone"
+  }
+}

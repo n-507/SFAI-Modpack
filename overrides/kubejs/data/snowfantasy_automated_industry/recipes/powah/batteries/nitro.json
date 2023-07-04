@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "powah:battery_spirited"
+    },
+    {
+      "item": "powah:capacitor_nitro"
+    },
+    {
+		  "item": "kubejs:energized_steel_tube"
+    },
+    {
+      "item": "minecraft:redstone_block"
+    }
+  ],
+  "result": {
+    "item": "powah:battery_nitro"
+  }
+}

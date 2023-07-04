@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ic2:machine_block"
+    },
+    {
+      "item": "ic2:advanced_circuit"
+    },
+    {
+      "item": "ic2:plate_iridium"
+    },
+    {
+      "item": "ic2:mass_fabricator"
+    }
+  ],
+  "result": {
+      "item": "ic2:uu_expansion"
+  }
+}

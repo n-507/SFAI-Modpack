@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mekanism:steel_casing"
+    },
+    {
+      "tag": "forge:gears/constantan"
+    },
+    {
+      "tag": "forge:circuits/advanced"
+    },
+    {
+      "tag": "forge:ingots/osmium"
+    },
+    {
+      "item": "mekanism:enrichment_chamber"
+    }
+  ],
+  "result": {
+    "item": "mekanism:purification_chamber"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "tag": "forge:stone"
+    },
+    "A": {
+      "item": "minecraft:golden_apple"
+    },
+    "G": {
+      "item": "kubejs:user_interface"
+    }
+  },
+  "pattern": [
+    "###",
+    "#A#",
+    "#G#"
+  ],
+  "result": {
+    "item": "computercraft:pocket_computer_normal"
+  }
+}

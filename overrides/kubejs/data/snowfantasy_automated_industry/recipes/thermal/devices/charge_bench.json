@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "thermal:energy_cell_frame"
+      },
+      {
+        "item": "immersiveengineering:coil_hv"
+      },
+      {
+        "item": "immersiveengineering:coil_hv"
+      },
+      {
+        "item": "immersiveengineering:coil_hv"
+      },
+      {
+        "item": "immersiveengineering:coil_hv"
+      },
+      {
+        "item": "create:depot"
+      }
+    ],
+    "result": {
+        "item": "thermal:charge_bench"
+    }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "powah:capacitor_spirited"
+    },
+    {
+      "item": "powah:crystal_nitro"
+    }
+  ],
+  "results": [
+    {
+      "item": "powah:capacitor_nitro"
+    }
+  ]
+}

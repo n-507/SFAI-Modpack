@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "ic2:stabilized_machine_block"
+      },
+      {
+        "item": "create:mechanical_arm"
+      },
+      {
+        "item": "create:mechanical_arm"
+      },
+      {
+        "item": "create:mechanical_arm"
+      },
+      {
+        "tag": "forge:storage_blocks/steel"
+      },
+      {
+        "tag": "forge:storage_blocks/steel"
+      }
+    ],
+    "result": {
+        "item": "ad_astra:nasa_workbench"
+    }
+}

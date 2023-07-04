@@ -1,0 +1,36 @@
+{
+    "key": "echo",
+    "category": "gem",
+    "primary": 4.5,
+    "secondary": 2.5,
+    "tertiary": 4.5,
+    "durability": 514,
+    "integrityCost": 2,
+    "integrityGain": 7,
+    "magicCapacity": 120,
+    "toolLevel": "minecraft:diamond",
+    "toolEfficiency": 9,
+    "tints": {
+        "glyph": "111B21",
+        "texture": "0A4F5F"
+    },
+    "textures": [
+        "shiny",
+        "crude"
+    ],
+    "material": {
+        "items": [
+            "minecraft:echo_shard"
+        ]
+    },
+    "effects": {
+        "enderReverb": [
+            3,
+            0.3
+        ],
+        "earthbind": 10
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:stone"
+    }
+}

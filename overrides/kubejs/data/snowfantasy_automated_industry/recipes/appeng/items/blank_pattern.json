@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "minecraft:paper"
+      },
+      {
+        "item": "create:electron_tube"
+      },
+      {
+        "item": "ae2:quartz_glass"
+      }
+    ],
+    "result": {
+        "item": "ae2:blank_pattern"
+    }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "kubejs:adv_pneumatic_machine_frame"
+    },
+    {
+      "item": "minecraft:ghast_tear"
+    },
+    {
+      "tag": "forge:heads"
+    }
+  ],
+  "result": {
+    "item": "pneumaticcraft:spawner_agitator"
+  }
+}

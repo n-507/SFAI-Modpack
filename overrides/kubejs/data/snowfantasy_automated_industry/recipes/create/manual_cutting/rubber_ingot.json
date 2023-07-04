@@ -1,0 +1,16 @@
+{
+    "type": "farmersdelight:cutting",
+    "ingredients": [
+      {
+        "item": "thermal:cured_rubber"
+      }
+    ],
+    "result": [
+      {
+        "item": "kubejs:rubber_ingot"
+      }
+    ],
+    "tool": {
+        "tag": "forge:tools/knives"
+    }
+}

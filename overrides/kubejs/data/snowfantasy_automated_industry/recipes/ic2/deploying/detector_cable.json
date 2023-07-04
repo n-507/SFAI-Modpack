@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+    "ingredients": [
+      {
+        "item": "ic2:iron_triple_insulated_cable_item"
+      },
+      {
+        "item": "ic2:circuit"
+      }
+    ],
+    "results": [
+      {
+        "item": "ic2:detector_cable_item"
+      }
+    ]
+  }

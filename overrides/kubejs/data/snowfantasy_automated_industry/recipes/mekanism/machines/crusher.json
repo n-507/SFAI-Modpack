@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "mekanism:steel_casing"
+      },
+      {
+        "tag": "forge:gears/copper"
+      },
+      {
+        "tag": "forge:circuits/basic"
+      },
+      {
+        "item": "create:crushing_wheel"
+      },
+      {
+        "item": "create:crushing_wheel"
+      }
+    ],
+    "result": {
+      "item": "mekanism:crusher"
+    }
+  }

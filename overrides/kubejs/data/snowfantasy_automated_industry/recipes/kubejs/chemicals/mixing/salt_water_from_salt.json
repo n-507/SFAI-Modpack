@@ -1,0 +1,20 @@
+{
+    "type": "create:mixing",
+    "heatRequirement": "superheated",
+    "ingredients": [
+        {
+            "amount": 250,
+            "fluid": "minecraft:water"
+        },
+        {
+            "tag": "forge:dusts/salt"
+        }
+    ],
+    "processingTime": 200,
+    "results": [
+        {
+            "amount": 250,
+            "fluid": "mekanism:brine"
+        }
+    ]
+}

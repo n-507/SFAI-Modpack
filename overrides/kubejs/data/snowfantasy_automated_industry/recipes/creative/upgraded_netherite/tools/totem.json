@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "upgradednetherite_items:ultimate_upgraded_netherite_totem"
+  },
+  "addition": {
+    "item": "upgradednetherite_creative:creative_upgraded_netherite_ingot"
+  },
+  "result": {
+    "item": "upgradednetherite_items:creative_upgraded_netherite_totem"
+  }
+}

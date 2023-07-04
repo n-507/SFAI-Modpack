@@ -1,0 +1,17 @@
+{
+  "type": "thermal:sawmill",
+  "ingredient": {
+    "item": "kubejs:doped_silicon_crystal"
+  },
+  "result": [
+    {
+      "item": "ae2:silicon",
+      "count": 3
+    },
+    {
+      "item": "kubejs:silicon_dust",
+      "chance": 0.8
+    }
+  ],
+  "energy": 1600
+}

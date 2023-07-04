@@ -1,0 +1,39 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "thermal:rubber"
+    },
+    {
+      "item": "thermal:rubber"
+    },
+    {
+      "item": "thermal:rubber"
+    },
+    {
+      "item": "thermal:rubber"
+    },
+    {
+      "item": "thermal:rubber"
+    },
+    {
+      "item": "thermal:rubber"
+    },
+    {
+      "item": "thermal:rubber"
+    },
+    {
+      "item": "thermal:rubber"
+    },
+    {
+      "tag": "forge:dusts/sulfur"
+    }
+  ],
+  "results": [
+    {
+      "count": 8,
+      "item": "thermal:cured_rubber"
+    }
+  ]
+}

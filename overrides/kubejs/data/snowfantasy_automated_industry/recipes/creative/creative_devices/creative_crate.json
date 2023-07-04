@@ -1,0 +1,24 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "C":{
+      "item": "kubejs:creative_token"
+    },
+    "H":{
+      "tag": "forge:chests/wooden"
+    }
+  },
+  "pattern": [
+    "CCCCCCC",
+    "CCCCCCC",
+    "CCCCCCC",
+    "CCCHCCC",
+    "CCCCCCC",
+    "CCCCCCC",
+    "CCCCCCC"
+  ],
+  "result": {
+    "item": "create:creative_crate"
+  }
+}

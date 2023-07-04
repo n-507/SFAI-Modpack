@@ -1,0 +1,193 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1276D780924FB1AE"
+	group: "0CBBEFBC9CC2164B"
+	icon: "create:fluid_pipe"
+	id: "1276D780924FB1AE"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"可以存储物品。右键打开界面以放入物品。"
+				""
+				"会自动吸入同种物品。达到存储上限后，多余的物品将被自动销毁。"
+				""
+				"潜行以暂时阻止其自动吸入物品。潜行左键一个容器将物品倒出，潜行右键从容器中取得同种物品。"
+			]
+			id: "79F2B74E7A84C0C8"
+			tasks: [{
+				id: "7B57F7FDE2E737FA"
+				item: "pocketstorage:psu_1"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"将原版容器升级为精妙存储容器。会保留内部物品。"
+				""
+				"精妙存储的容器可以安装升级，以便提供其他功能。"
+			]
+			id: "0DF917BF82C6FB09"
+			tasks: [{
+				id: "14DE0629F6D9DAB5"
+				item: "sophisticatedstorage:basic_tier_upgrade"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["79F2B74E7A84C0C8"]
+			description: ["升级可以提供更多容量。会保留物品（但请尽量在原版工作台中升级，部分模组的工作台可能存在错误导致其存储的物品丢失。）"]
+			id: "189F2C6D89723577"
+			tasks: [{
+				id: "437332A741FDED0A"
+				item: "pocketstorage:psu_2"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["189F2C6D89723577"]
+			id: "32A7EF57982A7BCF"
+			tasks: [{
+				id: "3E39435F75CEFDF4"
+				item: "pocketstorage:psu_3"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["32A7EF57982A7BCF"]
+			id: "07BFCFF8994A437B"
+			tasks: [{
+				id: "7D66BBA9AE045DA5"
+				item: "pocketstorage:psu_4"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			description: [
+				"存储物品。可以手持右键打开，或装备至饰品栏并通过快捷键打开。"
+				""
+				"可以升级以提升容量。"
+			]
+			id: "4191B7B9C1ADEE3F"
+			tasks: [{
+				id: "0FC9A8039FCCDEE9"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			description: ["制作AE存储设备的核心材料。"]
+			id: "16A813870D9C53E7"
+			tasks: [{
+				id: "4E2FAF4155D5F8C0"
+				item: "ae2:silicon"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"直接访问相连的容器。"
+				""
+				"简单的用法包括将其安装在物品保险库（Create），抽屉控制器（Storage Drawer）或存储控制器（Sophisticated Storage）上。"
+			]
+			id: "6AD3779A10B8E986"
+			tasks: [{
+				id: "6823B569E9F4CC63"
+				item: "toms_storage:ts.storage_terminal"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6AD3779A10B8E986"]
+			description: ["添加合成栏的物品终端。可从JEI中点击'+'按钮填充配方物品。"]
+			id: "5D8ED4E6253C81C9"
+			tasks: [{
+				id: "4EECFCC988646700"
+				item: "toms_storage:ts.crafting_terminal"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6AD3779A10B8E986"]
+			description: ["用于将更多容器连接到同一个存储网络。"]
+			id: "3AC4CD0D53D0E865"
+			tasks: [{
+				id: "46844A6880FAB8E1"
+				item: "toms_storage:ts.inventory_connector"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3AC4CD0D53D0E865"]
+			description: ["存储线缆用于长距离连接存储网络。需要在末端使用存储线缆连接器与容器连接。"]
+			id: "4220548472FBE865"
+			tasks: [
+				{
+					id: "06E233605EE403A8"
+					item: "toms_storage:ts.inventory_cable"
+					type: "item"
+				}
+				{
+					id: "251803C980CA543F"
+					item: "toms_storage:ts.inventory_cable_connector"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5D8ED4E6253C81C9"]
+			description: ["在有限距离内访问绑定的终端，需要看向终端的方向。"]
+			id: "643E8029A1960145"
+			tasks: [{
+				id: "7FA5FFCE478790C4"
+				item: "toms_storage:ts.wireless_terminal"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["643E8029A1960145"]
+			description: [
+				"在远距离访问终端。"
+				""
+				"需在绑定的终端附近放置一个信标作为信号发送器。一级信标支持本维度内的无线访问。满级信标支持跨维度访问。"
+				""
+				"绑定的终端所在的区块需要被加载。"
+			]
+			id: "36792399BD995584"
+			tasks: [{
+				id: "72BF4B00C06A4EDD"
+				item: "toms_storage:ts.adv_wireless_terminal"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+	]
+	title: "物流、存储、自动化"
+}

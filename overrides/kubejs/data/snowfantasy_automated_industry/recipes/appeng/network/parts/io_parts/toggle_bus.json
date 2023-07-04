@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "ae2:fluix_glass_cable"
+      },
+      {
+        "item": "minecraft:lever"
+      }
+    ],
+    "result": {
+        "item": "ae2:toggle_bus"
+    }
+}

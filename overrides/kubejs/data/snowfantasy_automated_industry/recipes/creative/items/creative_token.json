@@ -1,0 +1,16 @@
+{
+    "type": "mekanism:nucleosynthesizing",
+    "duration": 10000,
+    "gasInput": {
+        "amount": 1000,
+        "gas": "mekanism:antimatter"
+    },
+    "itemInput": {
+        "ingredient": {
+            "item": "kubejs:inactive_creative_token"
+        }
+    },
+    "output": {
+        "item": "kubejs:creative_token"
+    }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:crafting_table"
+    },
+    {
+      "item": "kubejs:fluix_tube"
+    },
+    {
+      "item": "ae2:calculation_processor"
+    }
+  ],
+  "result": {
+      "item": "ae2:cell_workbench"
+  }
+}

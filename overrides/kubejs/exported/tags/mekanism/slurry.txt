@@ -1,0 +1,107 @@
+To refresh this file, delete it and run /reload command again! Last updated: Jul 3, 2023, 8:38:44 AM
+
+#mekanism:dirty/zinc
+- jaopca:mekanism_dirty.zinc? (from inmemory:jaopca)
+
+#mekanism:dirty
+- mekanism:dirty_iron (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:dirty_gold (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:dirty_osmium (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:dirty_copper (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:dirty_tin (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:dirty_lead (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:dirty_uranium (from Mekanism-1.19.2-10.3.8.477.jar)
+- jaopca:mekanism_dirty.aluminum? (from inmemory:jaopca)
+- jaopca:mekanism_dirty.calorite? (from inmemory:jaopca)
+- jaopca:mekanism_dirty.cloggrum? (from inmemory:jaopca)
+- jaopca:mekanism_dirty.desh? (from inmemory:jaopca)
+- jaopca:mekanism_dirty.froststeel? (from inmemory:jaopca)
+- jaopca:mekanism_dirty.nickel? (from inmemory:jaopca)
+- jaopca:mekanism_dirty.ostrum? (from inmemory:jaopca)
+- jaopca:mekanism_dirty.regalium? (from inmemory:jaopca)
+- jaopca:mekanism_dirty.silver? (from inmemory:jaopca)
+- jaopca:mekanism_dirty.utherium? (from inmemory:jaopca)
+- jaopca:mekanism_dirty.zinc? (from inmemory:jaopca)
+
+#mekanism:dirty/desh
+- jaopca:mekanism_dirty.desh? (from inmemory:jaopca)
+
+#mekanism:dirty/nickel
+- jaopca:mekanism_dirty.nickel? (from inmemory:jaopca)
+
+#mekanism:clean
+- mekanism:clean_iron (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:clean_gold (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:clean_osmium (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:clean_copper (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:clean_tin (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:clean_lead (from Mekanism-1.19.2-10.3.8.477.jar)
+- mekanism:clean_uranium (from Mekanism-1.19.2-10.3.8.477.jar)
+- jaopca:mekanism_clean.aluminum? (from inmemory:jaopca)
+- jaopca:mekanism_clean.calorite? (from inmemory:jaopca)
+- jaopca:mekanism_clean.cloggrum? (from inmemory:jaopca)
+- jaopca:mekanism_clean.desh? (from inmemory:jaopca)
+- jaopca:mekanism_clean.froststeel? (from inmemory:jaopca)
+- jaopca:mekanism_clean.nickel? (from inmemory:jaopca)
+- jaopca:mekanism_clean.ostrum? (from inmemory:jaopca)
+- jaopca:mekanism_clean.regalium? (from inmemory:jaopca)
+- jaopca:mekanism_clean.silver? (from inmemory:jaopca)
+- jaopca:mekanism_clean.utherium? (from inmemory:jaopca)
+- jaopca:mekanism_clean.zinc? (from inmemory:jaopca)
+
+#mekanism:dirty/cloggrum
+- jaopca:mekanism_dirty.cloggrum? (from inmemory:jaopca)
+
+#mekanism:dirty/silver
+- jaopca:mekanism_dirty.silver? (from inmemory:jaopca)
+
+#mekanism:clean/nickel
+- jaopca:mekanism_clean.nickel? (from inmemory:jaopca)
+
+#mekanism:clean/aluminum
+- jaopca:mekanism_clean.aluminum? (from inmemory:jaopca)
+
+#mekanism:clean/regalium
+- jaopca:mekanism_clean.regalium? (from inmemory:jaopca)
+
+#mekanism:dirty/calorite
+- jaopca:mekanism_dirty.calorite? (from inmemory:jaopca)
+
+#mekanism:clean/zinc
+- jaopca:mekanism_clean.zinc? (from inmemory:jaopca)
+
+#mekanism:dirty/utherium
+- jaopca:mekanism_dirty.utherium? (from inmemory:jaopca)
+
+#mekanism:clean/utherium
+- jaopca:mekanism_clean.utherium? (from inmemory:jaopca)
+
+#mekanism:dirty/froststeel
+- jaopca:mekanism_dirty.froststeel? (from inmemory:jaopca)
+
+#mekanism:dirty/aluminum
+- jaopca:mekanism_dirty.aluminum? (from inmemory:jaopca)
+
+#mekanism:clean/desh
+- jaopca:mekanism_clean.desh? (from inmemory:jaopca)
+
+#mekanism:clean/ostrum
+- jaopca:mekanism_clean.ostrum? (from inmemory:jaopca)
+
+#mekanism:clean/cloggrum
+- jaopca:mekanism_clean.cloggrum? (from inmemory:jaopca)
+
+#mekanism:dirty/regalium
+- jaopca:mekanism_dirty.regalium? (from inmemory:jaopca)
+
+#mekanism:clean/calorite
+- jaopca:mekanism_clean.calorite? (from inmemory:jaopca)
+
+#mekanism:dirty/ostrum
+- jaopca:mekanism_dirty.ostrum? (from inmemory:jaopca)
+
+#mekanism:clean/silver
+- jaopca:mekanism_clean.silver? (from inmemory:jaopca)
+
+#mekanism:clean/froststeel
+- jaopca:mekanism_clean.froststeel? (from inmemory:jaopca)

@@ -1,0 +1,72 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "34CC680C876738D5"
+	group: "45C69FF4B14FEB82"
+	icon: "ic2:trade_o_mat"
+	id: "34CC680C876738D5"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		can_repeat: true
+		id: "7B9E4A14E4F8374C"
+		optional: true
+		rewards: [
+			{
+				id: "53165D387057ECB8"
+				item: {
+					Count: 1b
+					id: "minecraft:iron_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+			{
+				id: "42AE55AC6339C3E9"
+				item: {
+					Count: 1b
+					id: "minecraft:iron_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+			{
+				id: "6AF6C868BD88A58C"
+				item: {
+					Count: 1b
+					id: "minecraft:iron_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+			{
+				id: "1EBEAC74A28778DE"
+				item: {
+					Count: 1b
+					id: "minecraft:iron_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+		]
+		tasks: [{
+			consume_items: true
+			count: 4L
+			id: "4F90CAF19EE04D61"
+			item: "ic2:coin"
+			type: "item"
+		}]
+		title: "铁装备"
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "出售"
+}

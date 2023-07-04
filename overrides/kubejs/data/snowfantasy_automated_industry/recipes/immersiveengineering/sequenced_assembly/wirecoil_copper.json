@@ -1,0 +1,47 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:rods/wooden"
+  },
+  "transitionalItem": {
+    "item": "kubejs:engineering_coil_incomplete"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:engineering_coil_incomplete"
+        },
+        {
+          "tag": "forge:wires/copper"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:engineering_coil_incomplete"
+        }
+      ]
+    },
+    {
+     "type": "create:cutting",
+     "ingredients": [
+       {
+         "item": "kubejs:engineering_coil_incomplete"
+       }
+     ],
+     "results": [
+       {
+         "item": "kubejs:engineering_coil_incomplete"
+       }
+     ]
+   }
+  ],
+  "results": [
+    {
+      "count": 8,
+      "item": "immersiveengineering:wirecoil_copper"
+    }
+  ],
+  "loops": 4
+}

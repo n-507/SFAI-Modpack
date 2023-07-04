@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "pneumaticcraft:pressure_chamber_wall"
+    },
+    {
+      "item": "minecraft:hopper"
+    }
+  ],
+  "results": [
+    {
+      "item": "pneumaticcraft:pressure_chamber_interface"
+    }
+  ]
+}

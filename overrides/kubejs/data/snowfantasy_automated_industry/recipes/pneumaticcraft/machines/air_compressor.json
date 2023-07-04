@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "kubejs:pneumatic_machine_frame"
+    },
+    {
+      "item": "pneumaticcraft:turbine_rotor"
+    },
+    {
+      "item": "minecraft:furnace"
+    }
+  ],
+  "result": {
+    "item": "pneumaticcraft:air_compressor"
+  }
+}

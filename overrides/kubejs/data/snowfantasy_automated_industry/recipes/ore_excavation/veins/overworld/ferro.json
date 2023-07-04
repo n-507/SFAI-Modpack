@@ -1,0 +1,18 @@
+{
+  "type": "createoreexcavation:drilling",
+  "amountMax": 5.0,
+  "amountMin": 0.5,
+  "biomeWhitelist": "minecraft:is_overworld",
+  "drill": {
+    "tag": "createoreexcavation:drills"
+  },
+  "name": "{\"text\":\"铁磁矿\"}",
+  "output": [
+    {
+      "item": "kubejs:rocky_ferro_batch"
+    }
+  ],
+  "stress": 512,
+  "ticks": 300,
+  "weight": 125
+}

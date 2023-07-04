@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "ic2:advanced_machine_block"
+      },
+      {
+        "item": "minecraft:furnace"
+      },
+      {
+        "item": "immersiveengineering:heavy_engineering"
+      },
+      {
+        "item": "pneumaticcraft:small_tank"
+      }
+    ],
+    "result": {
+        "item": "ad_astra:fuel_refinery"
+    }
+}

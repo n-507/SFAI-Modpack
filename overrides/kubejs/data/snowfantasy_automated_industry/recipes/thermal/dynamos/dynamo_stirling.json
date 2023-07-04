@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "C": {
+      "item": "kubejs:dynamo_coil"
+    },
+    "G": {
+      "tag": "forge:gears/iron"
+    },
+    "I": {
+      "tag": "forge:ingots/iron"
+    },
+    "X": {
+      "tag": "forge:dusts/redstone"
+    },
+    "Y": {
+      "tag": "forge:stone"
+    }
+  },
+  "pattern": [
+    " C ",
+    "IGI",
+    "YXY"
+  ],
+  "result": {
+    "item": "thermal:dynamo_stirling"
+  }
+}

@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "ae2:calculation_processor"
+      },
+      {
+        "item": "ae2:logic_processor"
+      },
+      {
+        "item": "ae2:engineering_processor"
+      },
+      {
+        "item": "pneumaticcraft:logistics_core"
+      },
+      {
+        "item": "kubejs:fluix_tube"
+      }
+    ],
+    "result": {
+        "item": "ae2:cell_component_1k"
+    }
+}

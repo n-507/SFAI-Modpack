@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "thermal:machine_frame"
+    },
+    {
+      "item": "minecraft:ender_pearl"
+    },
+    {
+      "item": "create:encased_fan"
+    },
+    {
+      "item": "thermal:redstone_servo"
+    }
+  ],
+  "result": {
+      "item": "thermal:device_collector"
+  }
+}

@@ -1,0 +1,16 @@
+{
+    "type": "create:deploying",
+    "ingredients": [
+      {
+        "item": "ae2:basic_card"
+      },
+      {
+        "item": "ae2:engineering_processor"
+      }
+    ],
+    "results": [
+      {
+        "item": "ae2:advanced_card"
+      }
+    ]
+}

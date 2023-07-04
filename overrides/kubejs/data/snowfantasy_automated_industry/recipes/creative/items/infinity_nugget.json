@@ -1,0 +1,47 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "A": {
+      "tag": "forge:storage_blocks/diamond"
+    },
+    "B": {
+      "tag": "forge:storage_blocks/steel"
+    },
+    "C": {
+      "tag": "forge:storage_blocks/fluix"
+    },
+    "D": {
+      "tag": "forge:storage_blocks/refined_obsidian"
+    },
+    "E": {
+      "tag": "forge:storage_blocks/enderium"
+    },
+    "F": {
+      "item": "integrateddynamics:crystalized_chorus_block"
+    },
+    "G": {
+      "tag": "forge:storage_blocks/hop_graphite"
+    },
+    "H": {
+      "tag": "forge:storage_blocks/compressed_iron"
+    },
+    "I": {
+      "item": "powah:nitro_crystal_block"
+    }
+  },
+  "pattern": [
+    "AAAAAAAAA",
+    "BBBBBBBBB",
+    "CCCCCCCCC",
+    "DDDDDDDDD",
+    "EEEEEEEEE",
+    "FFFFFFFFF",
+    "GGGGGGGGG",
+    "HHHHHHHHH",
+    "IIIIIIIII"
+  ],
+  "result": {
+    "item": "kubejs:infinity_nugget"
+  }
+}

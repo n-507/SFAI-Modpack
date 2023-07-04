@@ -1,0 +1,78 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "thermal:redstone_servo"
+  },
+  "transitionalItem": {
+    "item": "kubejs:incomplete_mek_installer"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_mek_installer"
+        },
+        {
+          "tag": "forge:plates/desh"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_mek_installer"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_mek_installer"
+        },
+        {
+          "tag": "forge:alloys/advanced"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_mek_installer"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_mek_installer"
+        },
+        {
+          "tag": "forge:circuits/advanced"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_mek_installer"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_mek_installer"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_mek_installer"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "mekanism:advanced_tier_installer"
+    }
+  ],
+  "loops": 4
+}

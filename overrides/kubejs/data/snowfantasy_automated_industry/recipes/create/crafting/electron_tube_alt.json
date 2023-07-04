@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "C": {
+      "item": "create:polished_rose_quartz"
+    },
+    "I": {
+      "tag": "forge:wires"
+    },
+    "S":{
+      "tag": "forge:plates/iron"
+    }
+  },
+  "pattern": [
+    " C ",
+    "III",
+    " S "
+  ],
+  "result": {
+    "item": "create:electron_tube"
+  }
+}

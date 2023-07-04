@@ -1,0 +1,20 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+      {
+        "amount": 1000,
+        "fluid": "kubejs:liquid_amethyst"
+      },
+      {
+        "amount": 250,
+        "fluid": "thermal:redstone"
+      }
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "amount": 1000,
+      "fluid": "kubejs:liquid_crystal"
+    }
+  ]
+}

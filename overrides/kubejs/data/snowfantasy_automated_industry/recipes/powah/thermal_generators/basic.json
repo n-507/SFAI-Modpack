@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "powah:thermo_generator_starter"
+    },
+    {
+      "item": "powah:capacitor_basic_large"
+    },
+    {
+		  "item": "kubejs:energized_steel_tube"
+    },
+    {
+      "item": "powah:thermoelectric_plate"
+    }
+  ],
+  "result": {
+    "item": "powah:thermo_generator_basic"
+  }
+}

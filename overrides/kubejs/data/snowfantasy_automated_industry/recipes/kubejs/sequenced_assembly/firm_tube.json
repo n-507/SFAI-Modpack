@@ -1,0 +1,96 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "kubejs:tube_base"
+  },
+  "transitionalItem": {
+    "item": "kubejs:incomplete_tube"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_tube"
+        },
+        {
+          "tag": "forge:plates/brass"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_tube"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_tube"
+        },
+        {
+          "item": "create:polished_rose_quartz"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_tube"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_tube"
+        },
+        {
+          "item": "kubejs:glass_bulb"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_tube"
+        }
+      ]
+    },
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_tube"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_tube"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_tube"
+        },
+        {
+          "fluid": "thermal:redstone",
+          "nbt": {},
+          "amount": 100
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_tube"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:firm_tube"
+    }
+  ],
+  "loops": 1
+}

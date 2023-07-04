@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+    "ingredients": [
+      {
+        "item": "ic2:iron_triple_insulated_cable_item"
+      },
+      {
+        "item": "minecraft:lever"
+      }
+    ],
+    "results": [
+      {
+        "item": "ic2:splitter_cable_item"
+      }
+    ]
+  }

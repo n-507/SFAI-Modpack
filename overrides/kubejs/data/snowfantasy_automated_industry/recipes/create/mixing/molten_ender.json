@@ -1,0 +1,16 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "superheated",
+  "ingredients": [
+    {
+      "tag": "forge:ender_pearls"
+    }
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "amount": 125,
+      "fluid": "thermal:ender"
+    }
+  ]
+}

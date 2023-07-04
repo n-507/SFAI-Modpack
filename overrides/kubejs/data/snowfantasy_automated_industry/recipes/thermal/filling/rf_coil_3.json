@@ -1,0 +1,18 @@
+{
+    "type": "create:filling",
+    "ingredients": [
+      {
+        "item": "kubejs:rf_coil_incomplete_2"
+      },
+      {
+        "amount": 100,
+        "fluid": "thermal:redstone",
+        "nbt": {}
+      }
+    ],
+    "results": [
+      {
+        "item": "kubejs:rf_coil_incomplete_3"
+      }
+    ]
+}

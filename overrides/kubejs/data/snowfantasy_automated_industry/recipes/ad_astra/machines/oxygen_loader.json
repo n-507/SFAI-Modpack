@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "ic2:advanced_machine_block"
+      },
+      {
+        "item": "ad_astra:engine_fan"
+      },
+      {
+        "item": "immersiveengineering:heavy_engineering"
+      },
+      {
+        "item": "ad_astra:oxygen_tank"
+      }
+    ],
+    "result": {
+        "item": "ad_astra:oxygen_loader"
+    }
+}

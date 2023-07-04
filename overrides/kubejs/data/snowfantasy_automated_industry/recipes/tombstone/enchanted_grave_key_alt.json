@@ -1,0 +1,5 @@
+{
+  "type": "tombstone:enchanted_grave_key",
+  "ingredients": [{"item": "tombstone:grave_key"}, {"item": "kubejs:emergency_token"}],
+  "result": {"item": "tombstone:grave_key", "nbt": "{enchant:true}"}
+}

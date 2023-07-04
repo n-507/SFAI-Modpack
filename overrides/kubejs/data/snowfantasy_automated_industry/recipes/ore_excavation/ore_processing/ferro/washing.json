@@ -1,0 +1,27 @@
+{
+  "type": "createsifter:sifting",
+  "ingredients": [
+    {
+      "item": "kubejs:dirty_ferro_batch"
+    },
+    {
+      "item": "createsifter:string_mesh"
+    }
+  ],
+  "processingTime": 300,
+  "results": [
+    {
+      "chance": 0.8,
+      "item": "kubejs:ferro_batch"
+    },
+    {
+      "chance": 0.5,
+      "item": "minecraft:tuff"
+    },
+    {
+      "chance": 0.1,
+      "item": "create:experience_nugget"
+    }
+  ],
+  "waterlogged": true
+}

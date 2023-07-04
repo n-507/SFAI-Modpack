@@ -1,0 +1,23 @@
+{
+    "type": "create:mixing",
+    "heatRequirement": "heated",
+    "ingredients": [
+        {
+          "amount": 500,
+          "fluid": "kubejs:sulfuric_ancient_debris"
+        },
+        {
+            "tag": "forge:dusts/salt"
+        }
+    ],
+    "processingTime": 100,
+    "results": [
+      {
+        "amount": 500,
+        "fluid": "kubejs:sulfuric_sodium"
+      },
+      {
+        "item": "minecraft:netherite_scrap"
+      }
+    ]
+  }

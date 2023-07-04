@@ -1,0 +1,88 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1B08B44ABAAC5A1B"
+	group: "45C69FF4B14FEB82"
+	icon: "ic2:coin"
+	id: "1B08B44ABAAC5A1B"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			id: "603959A84AA367F7"
+			optional: true
+			rewards: [{
+				id: "7A9886D4546AE019"
+				item: "ic2:coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "58C89389D83BF300"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "7D0B4B6681755E1B"
+			optional: true
+			rewards: [{
+				id: "44B23A13CAE74B4D"
+				item: "ic2:coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "4108A4C08E4808A5"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			id: "0C9C8A94D85FF31E"
+			optional: true
+			rewards: [{
+				id: "7B1AF173A0319157"
+				item: "ic2:coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "3AB8EAA177DC61BB"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			id: "4B356EACD6F049F3"
+			optional: true
+			rewards: [{
+				id: "1BBA7ACABCEAE03D"
+				item: "ic2:coin_64x"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "238E7141FF8C6889"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+	]
+	title: "收购"
+}

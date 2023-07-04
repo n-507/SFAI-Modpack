@@ -1,0 +1,10 @@
+{
+	"type":"createaddition:rolling",
+	"input": {
+      	"tag": "forge:rods/bronze"
+	},
+	"result": {
+		"item": "ic2:bronze_cable_item",
+		"count": 2
+	}
+}

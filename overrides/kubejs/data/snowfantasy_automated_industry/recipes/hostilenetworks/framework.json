@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "kubejs:carbon_tube"
+    },
+    {
+      "item": "kubejs:lapis_circuit_board"
+    }
+  ],
+  "result": {
+		"item": "kubejs:uncharged_blank_data_model"
+  }
+}

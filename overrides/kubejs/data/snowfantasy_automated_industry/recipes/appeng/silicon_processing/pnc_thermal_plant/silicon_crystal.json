@@ -1,0 +1,20 @@
+{
+  "type": "pneumaticcraft:thermo_plant",
+  "exothermic": false,
+  "fluid_input": {
+    "type": "pneumaticcraft:fluid",
+    "amount": 250,
+    "tag": "forge:molten_silicon"
+  },
+  "item_input": {
+    "tag": "forge:gems/certus_quartz"
+  },
+  "item_output": {
+    "item": "kubejs:silicon_crystal_0"
+  },
+  "pressure": 1.5,
+  "speed": 0.5,
+  "temperature": {
+    "min_temp": 573
+  }
+}

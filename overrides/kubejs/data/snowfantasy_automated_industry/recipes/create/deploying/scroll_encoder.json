@@ -1,0 +1,16 @@
+{
+    "type": "create:deploying",
+    "ingredients": [
+      {
+        "item": "create:large_cogwheel"
+      },
+      {
+        "item": "create:precision_mechanism"
+      }
+    ],
+    "results": [
+      {
+        "item": "kubejs:scroll_encoder"
+      }
+    ]
+}

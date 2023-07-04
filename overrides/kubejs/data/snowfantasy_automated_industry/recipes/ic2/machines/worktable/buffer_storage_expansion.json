@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ic2:storage_expansion"
+    },
+    {
+      "item": "minecraft:chest"
+    }
+  ],
+  "result": {
+      "item": "ic2:buffer_storage_expansion"
+  }
+}

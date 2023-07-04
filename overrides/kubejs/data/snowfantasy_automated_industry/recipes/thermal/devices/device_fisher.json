@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "thermal:machine_frame"
+    },
+    {
+      "item": "create:deployer"
+    },
+    {
+      "item": "minecraft:fishing_rod"
+    }
+  ],
+  "result": {
+      "item": "thermal:device_fisher"
+  }
+}

@@ -1,0 +1,21 @@
+{
+    "type": "create:mixing",
+    "heatRequirement": "heated",
+    "ingredients": [
+      {
+        "tag": "forge:dusts/coal"
+      },
+      {
+        "tag": "forge:clay"
+      },
+      {
+        "tag": "forge:ingots/rubber"
+      }
+    ],
+    "results": [
+      {
+        "count": 8,
+        "item": "powah:dielectric_paste"
+      }
+    ]
+  }

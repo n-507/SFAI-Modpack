@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "powah:solar_panel_spirited"
+    },
+    {
+      "item": "powah:capacitor_nitro"
+    },
+    {
+		  "item": "kubejs:energized_steel_tube"
+    },
+    {
+      "item": "pneumaticcraft:solar_cell"
+    }
+  ],
+  "result": {
+    "item": "powah:solar_panel_nitro"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "supplementaries:lapis_bricks"
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:undrilled_advanced_pneumatic_shell"
+    }
+  ]
+}

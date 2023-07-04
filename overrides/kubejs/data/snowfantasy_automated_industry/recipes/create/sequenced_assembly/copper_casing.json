@@ -1,0 +1,78 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+      "tag": "minecraft:logs"
+    },
+    "loops": 1,
+    "results": [
+      {
+        "item": "create:copper_casing"
+      }
+    ],
+    "sequence": [
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "kubejs:copper_frame_incomplete"
+          },
+          {
+            "tag": "forge:ingots/copper"
+          }
+        ],
+        "results": [
+          {
+            "item": "kubejs:copper_frame_incomplete"
+          }
+        ]
+      },
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "kubejs:copper_frame_incomplete"
+          },
+          {
+            "item": "kubejs:rubber_sheet"
+          }
+        ],
+        "results": [
+          {
+            "item": "kubejs:copper_frame_incomplete"
+          }
+        ]
+      },
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "kubejs:copper_frame_incomplete"
+          },
+          {
+            "item": "kubejs:rubber_sheet"
+          }
+        ],
+        "results": [
+          {
+            "item": "kubejs:copper_frame_incomplete"
+          }
+        ]
+      },
+      {
+        "type": "create:pressing",
+        "ingredients": [
+          {
+            "item": "kubejs:copper_frame_incomplete"
+          }
+        ],
+        "results": [
+          {
+            "item": "kubejs:copper_frame_incomplete"
+          }
+        ]
+      }
+    ],
+    "transitionalItem": {
+      "item": "kubejs:copper_frame_incomplete"
+    }
+  }

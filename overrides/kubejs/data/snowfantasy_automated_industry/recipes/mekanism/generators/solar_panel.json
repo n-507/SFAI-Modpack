@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "A": {
+            "tag": "mekanism:alloys/infused"
+        },
+        "G": {
+            "item": "pneumaticcraft:solar_cell"
+        },
+        "O": {
+            "tag": "forge:ingots/osmium"
+        },
+        "R": {
+            "tag": "forge:dusts/redstone"
+        }
+    },
+    "pattern": [
+        "GGG",
+        "RAR",
+        "OOO"
+    ],
+    "result": {
+        "item": "mekanismgenerators:solar_panel"
+    }
+}

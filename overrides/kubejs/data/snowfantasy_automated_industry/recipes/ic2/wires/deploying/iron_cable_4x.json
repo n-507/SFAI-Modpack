@@ -1,0 +1,16 @@
+{
+    "type": "create:deploying",
+    "ingredients": [
+      {
+        "item": "ic2:iron_double_insulated_cable_item"
+      },
+      {
+        "item": "kubejs:rubber_sheet"
+      }
+    ],
+    "results": [
+      {
+        "item": "ic2:iron_triple_insulated_cable_item"
+      }
+    ]
+}

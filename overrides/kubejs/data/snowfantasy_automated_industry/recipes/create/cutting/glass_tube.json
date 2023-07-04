@@ -1,0 +1,14 @@
+{
+    "type": "create:cutting",
+    "ingredients": [
+      {
+        "item": "minecraft:glass_pane"
+      }
+    ],
+    "processingTime": 200,
+    "results": [
+      {
+        "item": "kubejs:glass_bulb"
+      }
+    ]
+  }

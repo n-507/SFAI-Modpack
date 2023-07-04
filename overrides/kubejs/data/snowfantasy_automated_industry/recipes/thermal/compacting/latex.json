@@ -1,0 +1,15 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+      {
+        "item": "minecraft:jungle_log"
+      }
+    ],
+    "results": [
+      {
+        "amount": 200,
+        "fluid": "thermal:latex",
+        "nbt": {}
+      }
+    ]
+  }

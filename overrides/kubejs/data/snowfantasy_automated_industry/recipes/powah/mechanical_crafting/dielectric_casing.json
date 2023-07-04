@@ -1,0 +1,23 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "S": {
+      "item": "powah:dielectric_rod_horizontal"
+    },
+    "H": {
+      "item": "powah:dielectric_rod"
+    }
+  },
+  "pattern": [
+    "SSSSS",
+    "H   H",
+    "H   H",
+    "H   H",
+    "SSSSS"
+  ],
+  "result": {
+    "count": 2,
+    "item": "powah:dielectric_casing"
+  }
+}

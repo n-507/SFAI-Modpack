@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "quark:framed_glass"
+    },
+    {
+      "item": "create:andesite_alloy"
+    }
+  ],
+  "results": [
+    {
+      "item": "create_crystal_clear:andesite_glass_casing"
+    }
+  ]
+}

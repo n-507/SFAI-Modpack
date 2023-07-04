@@ -1,0 +1,27 @@
+{
+    "type": "immersiveengineering:arc_furnace",
+    "additives": [
+        {
+            "base_ingredient": {
+                "tag": "forge:dusts/redstone"
+            },
+            "count": 2
+        },
+        {
+            "tag": "forge:glass/silica"
+        }
+    ],
+    "energy": 51200,
+    "input": {
+        "tag": "forge:gems/diamond"
+    },
+    "results": [
+        {
+            "base_ingredient": {
+                "item": "ic2:glassfiber_cable_item"
+            },
+            "count": 4
+        }
+    ],
+    "time": 200
+}

@@ -1,0 +1,16 @@
+{
+    "type": "create:deploying",
+    "ingredients": [
+      {
+        "item": "immersiveengineering:wirecoil_electrum"
+      },
+      {
+        "tag": "forge:fabric_hemp"
+      }
+    ],
+    "results": [
+      {
+        "item": "immersiveengineering:wirecoil_electrum_ins"
+      }
+    ]
+}

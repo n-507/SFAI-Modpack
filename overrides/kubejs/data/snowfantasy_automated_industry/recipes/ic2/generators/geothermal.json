@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "ic2:generator"
+      },
+      {
+        "item": "ic2:re_battery"
+      },
+      {
+        "item": "ic2:cell_empty"
+      },
+      {
+        "item": "pneumaticcraft:heat_pipe"
+      }
+    ],
+    "result": {
+        "item": "ic2:geothermal_generator"
+    }
+}

@@ -1,0 +1,12 @@
+{
+  "text.daily_rewards.claim_rewards": "使用%1$s以领取您的每日奖励。",
+  "text.daily_rewards.reward_screen": "已签到日期：%1$s天",
+  "text.daily_rewards.rewarded_item": "%1$s，恭喜您已获得%2$s作为您本月第%3$s天登入的奖励。",
+  "text.daily_rewards.unclaimed_rewarded_item": "%1$s，您有尚未领取的每日奖励，请在%2$s天内领取！",
+  "text.daily_rewards.unclaimed_rewarded_item_today": "%1$s，您有尚未领取的每日奖励。月度奖励表将在今晚重置，因此请在今日领取您的奖励！",
+  "text.daily_rewards.next_reward.in": "下一奖励：%1$s",
+  "text.daily_rewards.next_reward.reload": "重新打开页面以领取奖励！",
+
+  "item.daily_rewards.empty_reward": "无内容",
+  "item.daily_rewards.taken_reward": "已签到"
+}

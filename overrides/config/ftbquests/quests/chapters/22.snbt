@@ -1,0 +1,257 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "22"
+	group: "7E04F31ABCA9374E"
+	icon: {
+		Count: 1b
+		id: "pneumaticcraft:pneumatic_wrench"
+		tag: {
+			"pneumaticcraft:air": 30000
+		}
+	}
+	id: "21EFEFD4C84E38BD"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"扳手用于调整和拆卸气动工艺模组的设备。请不要用镐子——那让您看起来像个野蛮人！"
+				""
+				"注意：多数气动工艺模组的设备在压力过大或温度过高时将会爆炸。爆炸通常不会破坏方块，但将损坏机器并对附近生物造成伤害。因此，在使用时请小心，避免发生意外伤害或浪费材料。"
+				""
+				"提示：您需要拥有制作钢锭的能力才能够正式游玩气动工艺。因此，您将需要建造沉浸工艺的高炉，或通过某些其他方式炼钢。"
+				""
+				"提示：话虽如此，但气动工艺的许多零部件都会在战利品箱中生成。假如您找到了足够的材料，您的确可以一定程度提前开始发展气动工艺模组。"
+			]
+			id: "0C6D627CE1539A94"
+			tasks: [{
+				id: "39B04B315A0EC92F"
+				item: "pneumaticcraft:pneumatic_wrench"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0C6D627CE1539A94"]
+			description: ["在您拥有压力室之前，您必须通过其他方式生产压缩铁。这会消耗更多材料，但这是必要之举。"]
+			id: "67F843F35ED1C98E"
+			tasks: [{
+				id: "38CF1B9DA8317D1A"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["67F843F35ED1C98E"]
+			description: [
+				"要搭建压力室，您需要用压力室墙壁建造一个中空的立方体。"
+				""
+				"您还需要在至少某一侧面放置一个压力室气阀，并通过压缩机为其提供压力。"
+				""
+				"压力室接口可以用于自动输入输出物品，而不浪费压力室内的气压。请注意，接口有方向要求。蓝色“I”面输入，橙色“O”面输出。如放置方向错误，您可以使用气动扳手旋转它。"
+			]
+			id: "67C545237CABAA9D"
+			tasks: [{
+				id: "5618E451DED16E1C"
+				item: "pneumaticcraft:pressure_chamber_wall"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["67C545237CABAA9D"]
+			description: ["您需要通过某些方式获得一张气动工艺的PCB板蓝图。这可以通过平板电脑从亚马龙上购买，或从一个气动工程师村民那里取得。"]
+			id: "34CF92F10947EC77"
+			tasks: [{
+				id: "53C6C9E61D78F982"
+				item: "pneumaticcraft:pcb_blueprint"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["34CF92F10947EC77"]
+			id: "2BE47D7D363CC70B"
+			tasks: [{
+				id: "28D08819398DF0D5"
+				item: "pneumaticcraft:uv_light_box"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"2F7B6F275F590D71"
+				"2323340DCC4E6641"
+			]
+			description: [
+				"您需要将空电路板放入紫外线灯箱加工，以便使其上不需要蚀刻的部分曝光。"
+				""
+				"假如曝光不充分，则蚀刻酸可能溶解不需要蚀刻的部分，导致电路板损坏。"
+				""
+				"您可以通过熔炉回收蚀刻失败的电路板。"
+			]
+			id: "7C63F0313B8EA1F1"
+			tasks: [{
+				id: "6017BDDBF740D10B"
+				item: "pneumaticcraft:empty_pcb"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["67C545237CABAA9D"]
+			description: [
+				"使用精炼厂来处理您的石油。在最下面放置控制器，随后放置2-4个输出端。输出端越多，分馏越彻底。"
+				""
+				"如果您需要某种特定成分，您还可以使用热气动加工机将更重的馏分加工为更轻的产物。"
+				""
+				"气动工艺的一些设备，例如精炼厂，需要特定的温度范围才能工作。使用火把，熔岩或涡流管可以为设备加热；使用散热片可以为其降温。"
+				"在机器页面右侧的“热量”说明标签中查看更多信息。"
+			]
+			id: "2F7B6F275F590D71"
+			tasks: [
+				{
+					id: "0691C2493E0BDF93"
+					item: "pneumaticcraft:refinery"
+					type: "item"
+				}
+				{
+					id: "5D2ABF81E828F0D9"
+					item: "pneumaticcraft:refinery_output"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["67C545237CABAA9D"]
+			description: [
+				"如果您找不到石油，可以尝试使用此物品探测地下石油。"
+				""
+				"如果您实在找不到石油，可以考虑使用灵魂沙加工产出石油。这将是一个复杂的过程，但如果您的脸比石油还黑，或者居住在某些不可能产生石油的地方，又或者是想要寻求可持续发展，则这也是可行的方案。"
+			]
+			id: "54E1D434A3D2C15D"
+			optional: true
+			tasks: [{
+				id: "2ED5A807469D6505"
+				item: "pneumaticcraft:seismic_sensor"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2A4FBBD279D238AB"]
+			description: [
+				"石油或生物柴油经过一系列化工流程制得塑料。"
+				""
+				"您需要塑料来制作更高级的气动工艺机器，同时它也用于制作气动工艺的电路板。"
+				""
+				"提示：除气动工艺的设备外，您还需要一台沉浸工程的搅拌机用以加工乙烯。"
+			]
+			id: "2323340DCC4E6641"
+			tasks: [{
+				id: "26F2EC62F85246CA"
+				item: "pneumaticcraft:plastic"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["67C545237CABAA9D"]
+			id: "2A4FBBD279D238AB"
+			tasks: [{
+				id: "4EF1B21562801D03"
+				item: "pneumaticcraft:thermopneumatic_processing_plant"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7C63F0313B8EA1F1"]
+			description: [
+				"成功蚀刻的电路板。"
+				""
+				"假如您不想等待，在拥有装配台后，您还可以用激光程序直接蚀刻电路板，节约时间并避免蚀刻失败的问题。"
+			]
+			id: "63551290B9E6878E"
+			tasks: [{
+				id: "2A651219603ED48C"
+				item: "pneumaticcraft:unassembled_pcb"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["63551290B9E6878E"]
+			description: [
+				"完成加工的PCB还需要安装元件才能正常使用。"
+				""
+				"PCB板用于许多高级气动工艺设备的合成。"
+			]
+			id: "009FE0F247AF088F"
+			tasks: [{
+				id: "35C3D0CFE52BB1CC"
+				item: "pneumaticcraft:printed_circuit_board"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["009FE0F247AF088F"]
+			description: [
+				"装配台是气动工艺模组的终极设备。您需要使用装配台来制作最高级的设备与零部件。"
+				""
+				"您需要在装配台旁边（不能是对角位置）放置IO设备、激光器和钻头。此外，还需要与任意设备紧邻放置一个控制器。"
+				""
+				"为控制器输入压缩空气来启动装配台。您可以从亚马龙购买装配台使用的程序。"
+			]
+			id: "63157E8BA99B4865"
+			tasks: [
+				{
+					id: "6B33238AA2049027"
+					item: "pneumaticcraft:assembly_controller"
+					type: "item"
+				}
+				{
+					id: "29DDC8918DCA1F40"
+					item: "pneumaticcraft:assembly_io_unit_import"
+					type: "item"
+				}
+				{
+					id: "1739B2BD6981CE0C"
+					item: "pneumaticcraft:assembly_io_unit_export"
+					type: "item"
+				}
+				{
+					id: "7A8DBF6EBCF45C13"
+					item: "pneumaticcraft:assembly_drill"
+					type: "item"
+				}
+				{
+					id: "5BA75A4FC25C13F9"
+					item: "pneumaticcraft:assembly_laser"
+					type: "item"
+				}
+			]
+			title: "装配台"
+			x: 5.0d
+			y: 2.0d
+		}
+	]
+	title: "2.2气动工艺"
+}

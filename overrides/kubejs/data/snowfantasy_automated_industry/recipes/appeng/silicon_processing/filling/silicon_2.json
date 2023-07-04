@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "kubejs:silicon_crystal_1"
+    },
+    {
+      "amount": 125,
+      "fluid": "kubejs:molten_silicon",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:silicon_crystal_2"
+    }
+  ]
+}

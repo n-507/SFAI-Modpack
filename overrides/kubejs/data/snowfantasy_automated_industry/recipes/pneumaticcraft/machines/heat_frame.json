@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "kubejs:pneumatic_machine_frame"
+    },
+    {
+      "item": "pneumaticcraft:heat_pipe"
+    }
+  ],
+  "result": {
+    "item": "pneumaticcraft:heat_frame"
+  }
+}

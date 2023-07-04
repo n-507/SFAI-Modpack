@@ -1,0 +1,14 @@
+{
+    "type": "create:cutting",
+    "ingredients": [
+      {
+        "item": "ic2:rubber"
+      }
+    ],
+    "processingTime": 200,
+    "results": [
+      {
+        "item": "kubejs:rubber_ingot"
+      }
+    ]
+  }
