@@ -10,6 +10,12 @@
 	quests: [
 		{
 			id: "3462A8DC024F9BCE"
+			rewards: [{
+				count: 64
+				id: "20F839F46E0E0059"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3BD97B8E94E4EE67"
 				item: "create:andesite_alloy"

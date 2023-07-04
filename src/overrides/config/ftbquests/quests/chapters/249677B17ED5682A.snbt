@@ -15,6 +15,12 @@
 				"为避免维护不当的自动化导致严重卡顿，您所拥有的区块加载器将在您连续离线3天后停止工作，并在您再次上线时恢复。"
 			]
 			id: "1F2C46D5A780E872"
+			rewards: [{
+				count: 4
+				id: "64045753D7DBEF34"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
 			tasks: [{
 				id: "798667FDE7068FFA"
 				item: "chunkloaders:basic_chunk_loader"

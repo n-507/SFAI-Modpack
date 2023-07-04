@@ -25,6 +25,12 @@
 				"通过在工作盆中混合材料以制作焦炉砖。"
 			]
 			id: "23555099D1A817BC"
+			rewards: [{
+				count: 32
+				id: "49B6AE973F09FF07"
+				item: "minecraft:coal"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3215CF6D3DA949C1"
 				item: "immersiveengineering:cokebrick"

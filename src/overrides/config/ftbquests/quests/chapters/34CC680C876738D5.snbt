@@ -137,6 +137,128 @@
 			x: 1.0d
 			y: 0.0d
 		}
+		{
+			can_repeat: true
+			icon: { Count: 32b, id: "minecraft:andesite" }
+			id: "4C389A7B718F67FC"
+			optional: true
+			rewards: [{
+				count: 32
+				id: "098B593355CA033F"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "2EA971AAEAC405D9"
+				item: "ic2:coin"
+				type: "item"
+			}]
+			title: "安山岩"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			icon: "apotheosis:boss_summoner"
+			id: "57B6509EC7C993CB"
+			optional: true
+			rewards: [{
+				id: "1C77A20F0399550E"
+				item: "apotheosis:boss_summoner"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "358086AABB1BE918"
+				item: "ic2:coin_8x"
+				type: "item"
+			}]
+			title: "神话模组boss生成器"
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			icon: { Count: 16b, id: "minecraft:iron_ore" }
+			id: "1BAB6613E4479BFC"
+			optional: true
+			rewards: [{
+				count: 16
+				id: "2B19C0965687AF37"
+				item: "minecraft:iron_ore"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "108709B5AE5C9A8A"
+				item: "ic2:coin_8x"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: { Count: 24b, id: "minecraft:copper_ore" }
+			id: "033390FE3AE44063"
+			optional: true
+			rewards: [{
+				count: 24
+				id: "58C38594AC9E59B7"
+				item: "minecraft:copper_ore"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "39819490F41F7228"
+				item: "ic2:coin_8x"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			icon: { Count: 16b, id: "minecraft:gold_ore" }
+			id: "141153304781C32C"
+			optional: true
+			rewards: [{
+				count: 16
+				id: "31E6596C63E21860"
+				item: "minecraft:gold_ore"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "0D18A4A01AEE2DFE"
+				item: "ic2:coin_8x"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: { Count: 24b, id: "minecraft:redstone_ore" }
+			id: "2E53F4595540C01F"
+			optional: true
+			rewards: [{
+				count: 24
+				id: "7E07C1FE363AD238"
+				item: "minecraft:redstone_ore"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "28C009A489214E2A"
+				item: "ic2:coin_8x"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
 	]
 	title: "出售"
 }

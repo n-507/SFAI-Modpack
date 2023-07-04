@@ -189,6 +189,81 @@
 			x: 1.0d
 			y: 1.0d
 		}
+		{
+			can_repeat: true
+			dependencies: ["16B5158998C03E82"]
+			id: "1E9734046A84873E"
+			optional: true
+			rewards: [{
+				id: "716DAADC2F6B580B"
+				item: "ic2:coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "1CC7AC831AE93E94"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"此类别下的材料需要进行简单的加工。其价值仍然较低，但相比原材料有显著提高。"
+				""
+				"提示：您可以将任务显示器放置于您自动化流水线的末端，以便自动提交产物。"
+			]
+			id: "16B5158998C03E82"
+			tasks: [{
+				id: "6C3EBFC8480D0DD8"
+				title: "初级加工材料"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["16B5158998C03E82"]
+			id: "5F5F09279D730CC7"
+			optional: true
+			rewards: [{
+				id: "035310C54579DD2B"
+				item: "ic2:coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "01D6C4ED89875191"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["16B5158998C03E82"]
+			id: "4917C7815521A1EE"
+			optional: true
+			rewards: [{
+				id: "13EAAE6FA7222C92"
+				item: "ic2:coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "4D274F15B18B832E"
+				item: "create:polished_rose_quartz"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
 	]
 	title: "收购"
 }
