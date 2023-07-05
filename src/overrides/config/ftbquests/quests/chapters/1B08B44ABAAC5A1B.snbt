@@ -264,6 +264,54 @@
 			x: 4.0d
 			y: 2.0d
 		}
+		{
+			can_repeat: true
+			dependencies: ["16B5158998C03E82"]
+			id: "1743E0BDA144E913"
+			optional: true
+			rewards: [{
+				id: "24DD4B9645CBABBE"
+				item: "ic2:coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "08F98076006B78B9"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/steel"
+					}
+				}
+				title: "Any #forge:ingots/steel"
+				type: "item"
+			}]
+			title: "8x 钢锭"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["16B5158998C03E82"]
+			id: "0C2AEA525931C00E"
+			optional: true
+			rewards: [{
+				id: "1AA73FEA2CD9C0FC"
+				item: "ic2:coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "5BE30DAE31C92339"
+				item: "ic2:ingot_refined_iron"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
 	]
 	title: "收购"
 }

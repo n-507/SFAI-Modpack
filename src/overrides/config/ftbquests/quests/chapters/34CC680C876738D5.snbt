@@ -259,6 +259,48 @@
 			x: 4.0d
 			y: 1.0d
 		}
+		{
+			can_repeat: true
+			icon: { Count: 4b, id: "gag:mining_dynamite" }
+			id: "53171245167933F7"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "2574AAE478CECDFE"
+				item: "gag:mining_dynamite"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "77D82649937DFB09"
+				item: "ic2:coin"
+				type: "item"
+			}]
+			title: "采矿炸药"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			icon: { Count: 4b, id: "majruszsdifficulty:golden_bandage" }
+			id: "2CD9846F4DAC5D64"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "67EEF6EC0EB867B4"
+				item: "majruszsdifficulty:golden_bandage"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "6CB394A7E643446F"
+				item: "ic2:coin"
+				type: "item"
+			}]
+			title: "金绷带"
+			x: 4.0d
+			y: 3.0d
+		}
 	]
 	title: "出售"
 }

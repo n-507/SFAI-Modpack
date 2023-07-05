@@ -85,6 +85,12 @@
 		{
 			dependencies: ["0B6EE5BBEFDA7874"]
 			id: "032481C3A3B6E601"
+			rewards: [{
+				count: 64
+				id: "7A1BD66DCE476E47"
+				item: "immersiveengineering:coal_coke"
+				type: "item"
+			}]
 			tasks: [{
 				id: "435FB8D3725AB2C4"
 				item: {
@@ -106,6 +112,11 @@
 				"4F67BDB7E77D3500"
 			]
 			id: "529FD98D32F6F876"
+			rewards: [{
+				id: "5125FB5A9BF8B74A"
+				item: "ic2:coin_8x"
+				type: "item"
+			}]
 			tasks: [{
 				id: "37899D88EE67097F"
 				item: "kubejs:engineering_frame"
@@ -140,6 +151,12 @@
 				"您还将需要机械动力的注液器以加工防腐木。"
 			]
 			id: "4F67BDB7E77D3500"
+			rewards: [{
+				count: 27
+				id: "2D00EE4A83C277F9"
+				item: "immersiveengineering:cokebrick"
+				type: "item"
+			}]
 			tasks: [{
 				id: "10AE53D01900F2D0"
 				item: "immersiveengineering:treated_wood_horizontal"

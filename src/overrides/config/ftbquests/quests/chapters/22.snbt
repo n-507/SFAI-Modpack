@@ -55,6 +55,12 @@
 				"压力室接口可以用于自动输入输出物品，而不浪费压力室内的气压。请注意，接口有方向要求。蓝色“I”面输入，橙色“O”面输出。如放置方向错误，您可以使用气动扳手旋转它。"
 			]
 			id: "67C545237CABAA9D"
+			rewards: [{
+				count: 4
+				id: "0B904668D374F2F6"
+				item: "pneumaticcraft:pressure_chamber_wall"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5618E451DED16E1C"
 				item: "pneumaticcraft:pressure_chamber_wall"
