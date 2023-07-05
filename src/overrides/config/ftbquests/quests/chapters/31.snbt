@@ -15,6 +15,12 @@
 			"当您拥有机器框架后，您可以制作任何热力膨胀的机器。热力膨胀没有您需要遵守的严格发展流程。"
 		]
 		id: "48DB12F62FEF666A"
+		rewards: [{
+			count: 2
+			id: "7C37A17953A86576"
+			item: "thermal:machine_frame"
+			type: "item"
+		}]
 		tasks: [{
 			id: "68CAC164823F7510"
 			item: "thermal:machine_frame"

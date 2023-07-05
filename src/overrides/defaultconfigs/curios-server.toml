@@ -1,0 +1,12 @@
+[[curiosSettings]]
+  identifier = "curio"
+  size = 4
+  priority = 0
+[[curiosSettings]]
+  identifier = "ring"
+  size = 2
+[[curiosSettings]]
+  identifier = "head"
+  size = 2
+  hasCosmetic = true
+  override = true

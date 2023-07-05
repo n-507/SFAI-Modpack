@@ -45,6 +45,7 @@
 				"762110D418C63A74"
 				"6D04E89CFD1A2DC7"
 			]
+			description: ["前往水星/金星。"]
 			id: "4CA22B2397C4F187"
 			tasks: [{
 				id: "26B47C4427467E49"
@@ -65,6 +66,7 @@
 				"5033977A2FE3E5F0"
 				"1CF6376FC6820A17"
 			]
+			description: ["前往火星。"]
 			id: "762110D418C63A74"
 			tasks: [{
 				id: "6FC01745238BB797"
@@ -81,7 +83,55 @@
 			y: -2.0d
 		}
 		{
+			description: ["一级火箭。用于前往月球。"]
 			id: "5033977A2FE3E5F0"
+			rewards: [
+				{
+					id: "656C8C587DD255C9"
+					item: {
+						Count: 1b
+						id: "ad_astra:space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4FDC4AA0808DF31C"
+					item: {
+						Count: 1b
+						id: "ad_astra:space_suit"
+						tag: {
+							BotariumData: { }
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3F9215E6AE435243"
+					item: {
+						Count: 1b
+						id: "ad_astra:space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0EE32EE6D39B7088"
+					item: {
+						Count: 1b
+						id: "ad_astra:space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "0BD76651D76492A8"
 				item: {

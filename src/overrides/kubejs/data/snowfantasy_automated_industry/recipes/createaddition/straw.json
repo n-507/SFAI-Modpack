@@ -1,0 +1,10 @@
+{
+	"type":"createaddition:rolling",
+	"input": {
+      	"item": "pneumaticcraft:plastic"
+	},
+	"result": {
+		"item": "createaddition:straw",
+		"count": 1
+	}
+}

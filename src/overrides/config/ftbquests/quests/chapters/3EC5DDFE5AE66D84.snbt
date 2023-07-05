@@ -132,6 +132,12 @@
 				"注意：升级一个蓄电池会浪费其中剩余的电量。"
 			]
 			id: "4978ADD61EFF0B6B"
+			rewards: [{
+				count: 16
+				id: "06C81B222A931A27"
+				item: "createaddition:capacitor"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1AE9BB6C0C20FF91"
 				item: "immersiveengineering:capacitor_lv"
@@ -169,6 +175,17 @@
 			dependencies: ["4F67BDB7E77D3500"]
 			description: ["用于通过蓝图制作零件。部分配方比手搓配方更省材料，而其他一些配方仅能通过此方法合成。"]
 			id: "1C34700305974CEB"
+			rewards: [{
+				id: "164D72F6AAD2575C"
+				item: {
+					Count: 1b
+					id: "immersiveengineering:blueprint"
+					tag: {
+						blueprint: "components"
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "757DC492FB6228C9"
 				item: "immersiveengineering:workbench"
@@ -185,6 +202,26 @@
 				"如果您不明白如何建造某台机器，请查看工程师手册。"
 			]
 			id: "6E50F1B42E6FF378"
+			rewards: [
+				{
+					count: 4
+					id: "1C6228E8BFC8760C"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1B09AD3E7241CED5"
+					item: "immersiveengineering:heavy_engineering"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "14D3D6994CA4DA47"
+					item: "immersiveengineering:light_engineering"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "6D245D644A931DCB"
@@ -211,6 +248,12 @@
 			description: ["沉浸工艺采用真正的线缆传输电力，而非传统的管道。建议您使用绝缘线缆以避免发生意外的事故。"]
 			hide: false
 			id: "24C4649DE20E6C12"
+			rewards: [{
+				count: 4
+				id: "5928BB2FEFB55A15"
+				item: "immersiveengineering:wirecoil_copper_ins"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "3A555469264DB15E"

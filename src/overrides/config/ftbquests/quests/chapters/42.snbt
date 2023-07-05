@@ -11,6 +11,12 @@
 		{
 			description: ["用于制作MeK的机器。您将需要首先游玩热力与IC2才能制作它。"]
 			id: "4EED10E6C08D1C35"
+			rewards: [{
+				count: 32
+				id: "25EFD9A23B9D02C4"
+				item: "mekanism:ingot_osmium"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7D195C3FF4EB8673"
 				item: "mekanism:steel_casing"
@@ -39,6 +45,12 @@
 			dependencies: ["4EED10E6C08D1C35"]
 			description: ["此设备用于制作MeK模组的重要零件：合金与电路板。"]
 			id: "61156EC46F710AAE"
+			rewards: [{
+				count: 16
+				id: "678CEADC141884F1"
+				item: "mekanism:enriched_redstone"
+				type: "item"
+			}]
 			tasks: [{
 				id: "14C9526AA37066C3"
 				item: "mekanism:metallurgic_infuser"
@@ -111,6 +123,11 @@
 				"所有使用气体的机器以及多方块机器都无法升级为工厂。"
 			]
 			id: "548E780F233392BE"
+			rewards: [{
+				id: "7502E82DF57EE8FB"
+				item: "mekanism:basic_tier_installer"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7F3700E069292A6F"
 				item: "mekanism:basic_tier_installer"
@@ -122,6 +139,11 @@
 		{
 			dependencies: ["17D991CD2C615B13"]
 			id: "631B51C6DB404400"
+			rewards: [{
+				id: "2CCA766D6972F2A4"
+				item: "mekanism:advanced_tier_installer"
+				type: "item"
+			}]
 			tasks: [{
 				id: "02496E1B362C7081"
 				item: "mekanism:advanced_tier_installer"
@@ -133,6 +155,11 @@
 		{
 			dependencies: ["12A57D8D0E683A16"]
 			id: "1882A07DF94EC8A5"
+			rewards: [{
+				id: "44A996ABEF526BC9"
+				item: "mekanism:elite_tier_installer"
+				type: "item"
+			}]
 			tasks: [{
 				id: "10F1D18F8CE7E56B"
 				item: "mekanism:elite_tier_installer"
@@ -144,6 +171,11 @@
 		{
 			dependencies: ["571F893FB091A0BC"]
 			id: "50F48C2A1488EED5"
+			rewards: [{
+				id: "0E2982E1972D0CF6"
+				item: "mekanism:ultimate_tier_installer"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3D95CDB11E437EFB"
 				item: "mekanism:ultimate_tier_installer"
@@ -177,6 +209,32 @@
 		{
 			dependencies: ["6A3F84323C0051F8"]
 			id: "45FBCA2D889E4B07"
+			rewards: [
+				{
+					count: 96
+					id: "21DECEB3200974AE"
+					item: "mekanism:induction_casing"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1E5065937BAB109A"
+					item: "mekanism:induction_port"
+					type: "item"
+				}
+				{
+					count: 25
+					id: "0B81D2E05EA7B5AB"
+					item: "mekanism:basic_induction_cell"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1EB0F678EF3C7598"
+					item: "mekanism:basic_induction_provider"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "3C083541340C54CA"
 				item: "mekanism:alloy_atomic"
@@ -193,6 +251,12 @@
 				"裂变反应堆可以产出大量能源，但更重要的是裂变后的产物。您将需要这些产物来制作MEK模组的终极物品。"
 			]
 			id: "0A963F9C66EB9D9E"
+			rewards: [{
+				count: 32
+				id: "0BEAACC2E9661CEF"
+				item: "mekanism:upgrade_gas"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "5F653297BC7F3833"

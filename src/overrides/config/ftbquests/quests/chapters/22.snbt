@@ -37,6 +37,12 @@
 			dependencies: ["0C6D627CE1539A94"]
 			description: ["在您拥有压力室之前，您必须通过其他方式生产压缩铁。这会消耗更多材料，但这是必要之举。"]
 			id: "67F843F35ED1C98E"
+			rewards: [{
+				count: 32
+				id: "324A5332BF5157D6"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
 			tasks: [{
 				id: "38CF1B9DA8317D1A"
 				item: "pneumaticcraft:ingot_iron_compressed"
@@ -105,6 +111,12 @@
 				"您可以通过熔炉回收蚀刻失败的电路板。"
 			]
 			id: "7C63F0313B8EA1F1"
+			rewards: [{
+				count: 8
+				id: "5E9C5D4FEF3F0C03"
+				item: "pneumaticcraft:plastic"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6017BDDBF740D10B"
 				item: "pneumaticcraft:empty_pcb"
@@ -148,6 +160,19 @@
 			]
 			id: "54E1D434A3D2C15D"
 			optional: true
+			rewards: [
+				{
+					id: "6D709A76F697B32A"
+					item: "pneumaticcraft:gas_lift"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5B8808889476065D"
+					item: "pneumaticcraft:drill_pipe"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "2ED5A807469D6505"
 				item: "pneumaticcraft:seismic_sensor"
@@ -227,6 +252,11 @@
 				"为控制器输入压缩空气来启动装配台。您可以从亚马龙购买装配台使用的程序。"
 			]
 			id: "63157E8BA99B4865"
+			rewards: [{
+				id: "1CF76DFF5482FA13"
+				item: "ic2:coin_8x"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "6B33238AA2049027"

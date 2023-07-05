@@ -312,6 +312,94 @@
 			x: 5.0d
 			y: 1.0d
 		}
+		{
+			can_repeat: true
+			dependencies: ["16B5158998C03E82"]
+			id: "06B9AF5E612FBFA4"
+			optional: true
+			rewards: [{
+				id: "1273A06EDC69D433"
+				item: "ic2:coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "636D5ECE7E471E2E"
+				item: "immersiveengineering:treated_wood_horizontal"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			description: ["此类别下的材料需要经过更多加工，因此价值更高。"]
+			id: "4D8FDF06591EEC65"
+			tasks: [{
+				id: "523E9768044DCAD3"
+				title: "复合材料"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4D8FDF06591EEC65"]
+			id: "73BB258DD68DAFA5"
+			optional: true
+			rewards: [{
+				id: "617D98F71DD77606"
+				item: "ic2:coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "124A246F72EF9AA3"
+				item: "create:precision_mechanism"
+				match_nbt: false
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4D8FDF06591EEC65"]
+			id: "01E2A62BBC89F788"
+			optional: true
+			rewards: [{
+				id: "0B2A5BD7E2003DD0"
+				item: "ic2:coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "7B1AB319B13A7F45"
+				item: "create:electron_tube"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4D8FDF06591EEC65"]
+			id: "5B6F6928295C7213"
+			rewards: [{
+				id: "6BE14251DA7A9F95"
+				item: "ic2:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "000E052F7D7A0EF5"
+				item: "kubejs:redstone_circuit_board"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
 	]
 	title: "收购"
 }

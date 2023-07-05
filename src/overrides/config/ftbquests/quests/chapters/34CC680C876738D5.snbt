@@ -301,6 +301,90 @@
 			x: 4.0d
 			y: 3.0d
 		}
+		{
+			icon: { Count: 16b, id: "apotheosis:common_material" }
+			id: "33179BAF36752476"
+			rewards: [{
+				count: 16
+				id: "0AC2AAE676781EC6"
+				item: "apotheosis:common_material"
+				type: "item"
+			}]
+			tasks: [{
+				id: "65678559F483DA71"
+				item: "ic2:coin_8x"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			icon: { Count: 8b, id: "apotheosis:uncommon_material" }
+			id: "4FB7B96BCCAE6ECE"
+			rewards: [{
+				count: 8
+				id: "28CF7103C93D2991"
+				item: "apotheosis:uncommon_material"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1191D3720F5E2CF8"
+				item: "ic2:coin_8x"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			icon: { Count: 4b, id: "apotheosis:rare_material" }
+			id: "7140E88834FE0E8F"
+			rewards: [{
+				count: 4
+				id: "1307A3844B2B95DF"
+				item: "apotheosis:rare_material"
+				type: "item"
+			}]
+			tasks: [{
+				id: "357E3659B5724DCF"
+				item: "ic2:coin_8x"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			icon: { Count: 2b, id: "apotheosis:epic_material" }
+			id: "36EA070D6E3AE285"
+			rewards: [{
+				count: 2
+				id: "64D69A90EA50C52C"
+				item: "apotheosis:epic_material"
+				type: "item"
+			}]
+			tasks: [{
+				id: "627377F7138B4ED9"
+				item: "ic2:coin_8x"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			icon: "apotheosis:mythic_material"
+			id: "2FAAD1800CFC8A61"
+			rewards: [{
+				id: "6EB0C3F819292CFA"
+				item: "apotheosis:mythic_material"
+				type: "item"
+			}]
+			tasks: [{
+				id: "195437F22FC15C3A"
+				item: "ic2:coin_8x"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
 	]
 	title: "出售"
 }
