@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "prettypipes:medium_low_priority_module"
+      },
+      {
+        "tag": "forge:plates/gold"
+      }
+    ],
+    "result": {
+      "item": "prettypipes:high_low_priority_module"
+    }
+}

@@ -308,7 +308,7 @@
 		"editor-color": "#8cff00"
 	},
 	"singularity_armor_piercing": {
-		"title": "奇点：+10%护甲穿透",
+		"title": "奇点：+10%护甲穿透与保护穿透",
 		"frame": "challenge",
 		"icon": {
 			"type": "effect",
@@ -320,9 +320,17 @@
 			{
 				"type": "puffish_skills:attribute",
 				"data": {
-					"attribute": "apotheosis:piercing",
+					"attribute": "apotheosis:armor_pierce",
 					"value": 0.1,
-					"operation": "multiply_total"
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "apotheosis:prot_pierce",
+					"value": 0.1,
+					"operation": "addition"
 				}
 			}
 		],

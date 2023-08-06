@@ -1,5 +1,5 @@
 ServerEvents.recipes(event => {
-    event.remove({output: '#forge:ingots', type:'minecraft:smelting', not: [{output:'#forge:ingots/copper'}, {output:'#forge:ingots/zinc'}, {output:'#forge:ingots/lead'}, {output:'#forge:ingots/tin'}]})
+    event.remove({output: '#forge:ingots', type:'minecraft:smelting', not: [{output:'#forge:ingots/copper'}, {output:'#forge:ingots/zinc'}, {output:'#forge:ingots/lead'}, {output:'#forge:ingots/tin'}, {output:'#forge:ingots/brick'}]})
 
     event.replaceInput({output: 'minecraft:blast_furnace'}, '#forge:ingots/iron', '#forge:ingots/copper')
     event.replaceInput({input: 'thermal:cured_rubber', not:{output:'thermal:cured_rubber_block'}, type: 'minecraft:crafting_shaped'}, 'thermal:cured_rubber', '#forge:ingots/rubber')

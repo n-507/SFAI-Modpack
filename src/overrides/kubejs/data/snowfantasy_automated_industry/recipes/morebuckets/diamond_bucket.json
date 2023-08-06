@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "morebuckets:bucket_enabled",
+      "bucket": "morebuckets:diamond"
+    }
+  ],
+  "pattern": [
+    "M M",
+    " M "
+  ],
+  "key": {
+    "M": {
+      "tag": "forge:gems/diamond"
+    }
+  },
+  "result": {
+    "item": "morebuckets:diamond_bucket"
+  }
+}

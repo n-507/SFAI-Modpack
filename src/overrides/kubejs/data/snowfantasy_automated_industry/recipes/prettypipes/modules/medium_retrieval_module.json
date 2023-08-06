@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "prettypipes:low_retrieval_module"
+      },
+      {
+        "tag": "forge:plates/iron"
+      }
+    ],
+    "result": {
+      "item": "prettypipes:medium_retrieval_module"
+    }
+}

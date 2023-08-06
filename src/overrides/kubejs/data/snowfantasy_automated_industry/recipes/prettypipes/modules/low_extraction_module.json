@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "prettypipes:blank_module"
+      },
+      {
+        "tag": "forge:plates/brass"
+      },
+      {
+        "item": "create:andesite_funnel"
+      }
+    ],
+    "result": {
+      "item": "prettypipes:low_extraction_module"
+    }
+}

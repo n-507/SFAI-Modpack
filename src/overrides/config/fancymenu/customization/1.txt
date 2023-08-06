@@ -276,7 +276,7 @@ customization {
   enable_scrolling = false
   shadow = true
   scale = 1.0
-  source = 整合包与服务器内容可能更改，恕不另行通知。%n%请加服务器群%PLACEHOLDER%了解详情。%n%如有问题，请联系n507。
+  source = 整合包与服务器内容可能更改，恕不另行通知。%n%请加服务器群632902430了解详情。%n%如有问题，请联系n507。
   text_border = 0
   case_mode = normal
   source_mode = direct

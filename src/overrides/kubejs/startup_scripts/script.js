@@ -161,6 +161,26 @@ StartupEvents.registry('item', event => {
 	event.create('redstone_batch').displayName('待分拣通量矿')
 
 	event.create('methane_ice').displayName('可燃冰').burnTime(3200)
+
+	// --- 其他 ---
+	event.create('crowbar', 'sword')
+		.displayName('物理学圣剑')
+		.tier('gold')
+		.glow(true)
+		.tooltip(Text.gold('内测玩家专属'))
+		.attackDamageBaseline(4.0)
+		.attackDamageBonus(6.0)
+		.unstackable()
+		.modifyTier(
+			tier => {
+				tier.uses = 1024
+				tier.speed = 6.0
+				tier.attackDamageBonus = 2.0
+				tier.level = 4
+				tier.enchantmentValue = 40
+				tier.repairIngredient = '#forge:ingots/iron'
+			}
+		)
 })
 
 StartupEvents.registry('block', event => {

@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "prettypipes:blank_module"
+      },
+      {
+        "tag": "forge:plates/zinc"
+      },
+      {
+        "tag": "forge:tools/pickaxes"
+      }
+    ],
+    "result": {
+      "item": "prettypipes:damage_filter_modifier"
+    }
+}

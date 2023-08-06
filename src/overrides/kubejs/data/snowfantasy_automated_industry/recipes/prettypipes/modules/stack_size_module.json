@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "prettypipes:blank_module"
+      },
+      {
+        "tag": "forge:plates/brass"
+      },
+      {
+        "item": "create:electron_tube"
+      }
+    ],
+    "result": {
+      "item": "prettypipes:stack_size_module"
+    }
+}

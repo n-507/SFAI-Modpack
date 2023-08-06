@@ -1,0 +1,11 @@
+{
+  "replace": "true",
+  "values": [
+    "enigmaticlegacy:xp_scroll",
+    "enigmaticlegacy:escape_scroll",
+    "enigmaticlegacy:cursed_scroll",
+    "enigmaticlegacy:avarice_scroll",
+    "enigmaticlegacy:darkest_scroll",
+    "enigmaticlegacy:cosmic_scroll"
+  ]
+}

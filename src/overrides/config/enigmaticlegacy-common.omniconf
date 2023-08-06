@@ -160,10 +160,10 @@
     B:ForbiddenFruitEnabled=true
 
     # Whether or not Gift of the Heaven should be enabled. [default: true, synchronized: yes]
-    B:GiftoftheHeavenEnabled=true
+    B:GiftoftheHeavenEnabled=false
 
     # Whether or not Grace of the Creator should be enabled. [default: true, synchronized: yes]
-    B:GraceoftheCreatorEnabled=true
+    B:GraceoftheCreatorEnabled=false
 
     # Whether or not Guide to Feral Hunt should be enabled. [default: true, synchronized: yes]
     B:GuidetoFeralHuntEnabled=true

@@ -817,7 +817,7 @@
 	preparation_duration = 10.0
 	#Duration before all mobs will be highlighted (in seconds).
 	#Range: 30.0 ~ 3600.0
-	highlight_delay = 300.0
+	highlight_delay = 30.0
 	#Extra size ratio per each additional player on multiplayer (0.25 means ~25% bigger army per player).
 	#Range: 0.0 ~ 1.0
 	extra_size_per_player = 0.5
@@ -826,10 +826,10 @@
 	army_radius = 70
 	#Required amount of killed undead to start the Undead Army. (set to 0 if you want to disable this)
 	#Range: 0 ~ 1000
-	kill_requirement = 75
+	kill_requirement = 125
 	#Required amount of killed undead to start the first Undead Army.
 	#Range: 0 ~ 1000
-	kill_requirement_first = 25
+	kill_requirement_first = 50
 
 [GameStage]
 	#Game stage set at the beginning of a new world.

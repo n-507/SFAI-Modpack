@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "prettypipes:blank_module"
+      },
+      {
+        "tag": "forge:plates/brass"
+      },
+      {
+        "item": "minecraft:redstone_torch"
+      }
+    ],
+    "result": {
+      "item": "prettypipes:redstone_module"
+    }
+}

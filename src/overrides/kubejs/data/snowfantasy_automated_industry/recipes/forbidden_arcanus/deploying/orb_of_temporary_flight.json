@@ -1,0 +1,16 @@
+{
+    "type": "create:deploying",
+    "ingredients": [
+      {
+        "item": "forbidden_arcanus:xpetrified_orb"
+      },
+      {
+        "item": "minecraft:feather"
+      }
+    ],
+    "results": [
+      {
+        "item": "forbidden_arcanus:orb_of_temporary_flight"
+      }
+    ]
+}

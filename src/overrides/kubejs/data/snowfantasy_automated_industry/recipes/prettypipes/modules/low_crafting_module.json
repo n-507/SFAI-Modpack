@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "prettypipes:blank_module"
+      },
+      {
+        "tag": "forge:plates/brass"
+      },
+      {
+        "item": "minecraft:crafting_table"
+      }
+    ],
+    "result": {
+      "item": "prettypipes:low_crafting_module"
+    }
+}

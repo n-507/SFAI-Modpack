@@ -1,0 +1,222 @@
+{
+	"entity": "blue_skies:emberback",
+	"weight": 100,
+	"size": {
+		"width": 2,
+		"height": 1
+	},
+	"valid_gear_sets": [
+		"#blue_skies"
+	],
+	"dimensions": [
+		"blue_skies:everdawn"
+	],
+	"min_rarity": "rare",
+	"max_rarity": "ancient",
+	"stats": {
+		"rare": {
+			"enchant_chance": 0.40,
+			"enchantment_levels": [30, 24, 50, 40],
+			"effects": [{
+				"effect": "minecraft:fire_resistance",
+				"chance": 1.0
+			}],
+			"attribute_modifiers": [{
+					"attribute": "minecraft:generic.max_health",
+					"operation": "ADDITION",
+					"value": {
+						"min": 160,
+						"steps": 75,
+						"step": 1
+					}
+				},
+				{
+					"attribute": "minecraft:generic.movement_speed",
+					"operation": "MULTIPLY_BASE",
+					"value": {
+						"min": 0.11,
+						"steps": 15,
+						"step": 0.01
+					}
+				},
+				{
+					"attribute": "minecraft:generic.attack_damage",
+					"operation": "MULTIPLY_BASE",
+					"value": {
+						"min": 0.4,
+						"steps": 25,
+						"step": 0.01
+					}
+				},
+				{
+					"attribute": "minecraft:generic.knockback_resistance",
+					"operation": "ADDITION",
+					"value": 0.4
+				},
+				{
+					"attribute": "minecraft:generic.armor",
+					"operation": "ADDITION",
+					"value": 4
+				},
+				{
+					"attribute": "minecraft:generic.armor_toughness",
+					"operation": "ADDITION",
+					"value": 3.5
+				}
+			]
+		},
+		"epic": {
+			"enchant_chance": 0.80,
+			"enchantment_levels": [30, 24, 50, 40],
+			"effects": [{
+				"effect": "minecraft:fire_resistance",
+				"chance": 1.0
+			}],
+			"attribute_modifiers": [{
+					"attribute": "minecraft:generic.max_health",
+					"operation": "ADDITION",
+					"value": {
+						"min": 160,
+						"steps": 75,
+						"step": 2
+					}
+				},
+				{
+					"attribute": "minecraft:generic.movement_speed",
+					"operation": "MULTIPLY_BASE",
+					"value": {
+						"min": 0.16,
+						"steps": 25,
+						"step": 0.01
+					}
+				},
+				{
+					"attribute": "minecraft:generic.attack_damage",
+					"operation": "MULTIPLY_BASE",
+					"value": {
+						"min": 0.6,
+						"steps": 35,
+						"step": 0.01
+					}
+				},
+				{
+					"attribute": "minecraft:generic.knockback_resistance",
+					"operation": "ADDITION",
+					"value": 0.6
+				},
+				{
+					"attribute": "minecraft:generic.armor",
+					"operation": "ADDITION",
+					"value": 8
+				},
+				{
+					"attribute": "minecraft:generic.armor_toughness",
+					"operation": "ADDITION",
+					"value": 4.5
+				}
+			]
+		},
+		"mythic": {
+			"enchant_chance": 0.85,
+			"enchantment_levels": [32, 25, 60, 50],
+			"effects": [{
+				"effect": "minecraft:fire_resistance",
+				"chance": 1.0
+			}],
+			"attribute_modifiers": [{
+					"attribute": "minecraft:generic.max_health",
+					"operation": "ADDITION",
+					"value": {
+						"min": 220,
+						"steps": 90,
+						"step": 2
+					}
+				},
+				{
+					"attribute": "minecraft:generic.movement_speed",
+					"operation": "MULTIPLY_BASE",
+					"value": {
+						"min": 0.2,
+						"steps": 35,
+						"step": 0.01
+					}
+				},
+				{
+					"attribute": "minecraft:generic.attack_damage",
+					"operation": "MULTIPLY_BASE",
+					"value": {
+						"min": 0.9,
+						"steps": 35,
+						"step": 0.01
+					}
+				},
+				{
+					"attribute": "minecraft:generic.knockback_resistance",
+					"operation": "ADDITION",
+					"value": 1
+				},
+				{
+					"attribute": "minecraft:generic.armor",
+					"operation": "ADDITION",
+					"value": 14
+				},
+				{
+					"attribute": "minecraft:generic.armor_toughness",
+					"operation": "ADDITION",
+					"value": 10
+				}
+			]
+		},
+		"ancient": {
+			"enchant_chance": 1,
+			"enchantment_levels": [32, 25, 60, 50],
+			"effects": [{
+				"effect": "minecraft:fire_resistance",
+				"chance": 1.0
+			}],
+			"attribute_modifiers": [{
+					"attribute": "minecraft:generic.max_health",
+					"operation": "ADDITION",
+					"value": {
+						"min": 220,
+						"steps": 90,
+						"step": 2
+					}
+				},
+				{
+					"attribute": "minecraft:generic.movement_speed",
+					"operation": "MULTIPLY_BASE",
+					"value": {
+						"min": 0.2,
+						"steps": 35,
+						"step": 0.01
+					}
+				},
+				{
+					"attribute": "minecraft:generic.attack_damage",
+					"operation": "MULTIPLY_BASE",
+					"value": {
+						"min": 0.9,
+						"steps": 35,
+						"step": 0.01
+					}
+				},
+				{
+					"attribute": "minecraft:generic.knockback_resistance",
+					"operation": "ADDITION",
+					"value": 1
+				},
+				{
+					"attribute": "minecraft:generic.armor",
+					"operation": "ADDITION",
+					"value": 14
+				},
+				{
+					"attribute": "minecraft:generic.armor_toughness",
+					"operation": "ADDITION",
+					"value": 10
+				}
+			]
+		}
+	}
+}

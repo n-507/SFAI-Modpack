@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "prettypipes:blank_module"
+      },
+      {
+        "tag": "forge:plates/zinc"
+      },
+      {
+        "item": "minecraft:dispenser"
+      }
+    ],
+    "result": {
+      "item": "prettypipes:random_sorting_modifier"
+    }
+}

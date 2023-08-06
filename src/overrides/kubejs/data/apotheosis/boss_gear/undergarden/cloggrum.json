@@ -1,0 +1,67 @@
+{
+	"weight": 40,
+	"mainhands": [{
+			"weight": 3,
+			"stack": {
+				"item": "undergarden:cloggrum_sword"
+			}
+		},
+		{
+			"weight": 3,
+			"stack": {
+				"item": "undergarden:cloggrum_axe"
+			}
+		},
+		{
+			"weight": 5,
+			"stack": {
+				"item": "undergarden:cloggrum_battleaxe"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "undergarden:cloggrum_pickaxe"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "undergarden:cloggrum_shovel"
+			}
+		}
+	],
+	"offhands": [{
+		"weight": 1,
+		"stack": {
+			"item": "undergarden:cloggrum_shield"
+		}
+	}],
+	"boots": [{
+		"weight": 1,
+		"stack": {
+			"item": "undergarden:cloggrum_boots"
+		}
+	}],
+	"leggings": [{
+		"weight": 1,
+		"stack": {
+			"item": "undergarden:cloggrum_leggings"
+		}
+	}],
+	"chestplates": [{
+		"weight": 1,
+		"stack": {
+			"item": "undergarden:cloggrum_chestplate"
+		}
+	}],
+	"helmets": [{
+		"weight": 1,
+		"stack": {
+			"item": "undergarden:cloggrum_helmet"
+		}
+	}],
+	"tags": [
+		"undergarden"
+	]
+}

@@ -14,4 +14,6 @@ ItemEvents.tooltip(event => {
 	event.add(['enigmaticlegacy:cursed_ring'], Text.red('警告：装备前请三思！'))
 	event.add(['enigmaticlegacy:cursed_ring'], Text.red('警告：装备前请三思！'))
 	event.add(['enigmaticlegacy:cursed_ring'], Text.red('警告：装备前请三思！'))
+	event.add(['enigmaticlegacy:fabulous_scroll', 'enigmaticlegacy:heaven_scroll'], Text.red('由于性能问题，该物品已被禁用。'))
+	event.add(['enigmaticlegacy:fabulous_scroll', 'enigmaticlegacy:heaven_scroll'], Text.red('请联系管理员或服主以获取原材料补偿。'))
 })

@@ -1,0 +1,148 @@
+
+1.1.0
+**需要关注的重点内容**
+    - 神话模组已更新大版本。这导致许多宝石的效果与装备词条发生了改变。如效果不再合适，考虑使用 灼热驱逐剂 移除宝石。
+        - 将为先前登录过的玩家提供 灼热驱逐剂 和 装备重铸材料。
+    - 天堂之礼 和 创造者的恩赐 卷轴无法再被装备。如您已经制作了这些物品，请向服主寻求帮助。
+
+
+模组更新
+
+移除模组：
+entangled-1.3.14-forge-mc1.19.2.jar
+
+添加模组：
+alternate-current-mc1.19-1.7.0.jar
+ars_elemental-1.19.2-0.5.9.1.2b.jar
+cccbridge-mc1.19.2-forge-v1.5.1.jar
+crashutilities-6.2.jar
+Create-Guardian-Beam-Defense-1.2.3b.jar
+create_misc_and_things_  1.19.2_3.0.jar
+cupboard-1.19.2-1.5.jar
+gpumemleakfix-1.19.2-1.6.jar
+oculus-flywheel-compat-1.19.2-0.2.1.jar
+compressedcreativity-1.19.2-0.1.7.jar
+creeperconfetti-4.0.jar
+
+
+更新模组：
+ad_astra-forge-1.19.2-1.12.6.jar                                   ->   ad_astra-forge-1.19.2-1.12.7.jar
+adaptive_performance_tweaks_mods_1.19.2-6.5.2.jar                  ->   adaptive_performance_tweaks_mods_1.19.2-6.5.3.jar
+AE2WTLib-12.9.5.jar                                                ->   AE2WTLib-12.9.7.jar
+Apotheosis-1.19.2-6.2.1.jar                                        ->   Apotheosis-1.19.2-6.3.2.jar
+Architects-Palette-1.19.2-1.3.2.jar                                ->   Architects-Palette-1.19.2-1.3.3.jar
+ars_nouveau-1.19.2-3.17.7.jar                                      ->   ars_nouveau-1.19.2-3.17.10.jar
+betterlily-1.2.0.jar                                               ->   betterlily-1.1.2.jar
+canary-mc1.19.2-0.2.7.jar                                          ->   canary-mc1.19.2-0.2.8.jar
+chat_heads-0.10.16-forge-1.19.2.jar                                ->   chat_heads-0.10.19-forge-1.19.2.jar
+Chimes-v2.0.0-1.19.2.jar                                           ->   Chimes-v2.0.1-1.19.2.jar
+chunkloaders-1.2.5-forge-mc1.19.jar                                ->   chunkloaders-1.2.6-forge-mc1.19.jar
+chunksending-forge-1.19-2.5.jar                                    ->   chunksending-1.19.2-2.6.jar
+create_central_kitchen-1.19.2-for-create-0.5.1.b-1.3.8.jar         ->   create_central_kitchen-1.19.2-for-create-0.5.1.c-1.3.9.c.jar
+create_enchantment_industry-1.19.2-for-create-0.5.1.b-1.2.5.jar    ->   create_enchantment_industry-1.19.2-for-create-0.5.1.c-1.2.6.jar
+create_mechanical_extruder-1.19.2-1.4.1.b-30.jar                   ->   create_mechanical_extruder-1.19.2-1.5.0.c-36.jar
+createaddition-1.19.2-20230623a.jar                                ->   createaddition-1.19.2-1.0.0.jar
+createoreexcavation-1.19-1.2.1.jar                                 ->   createoreexcavation-1.19-1.2.2.jar
+createsifter-1.19.2-1.5.2.b-30.jar                                 ->   createsifter-1.19.2-1.7.0.c-36.jar
+CustomSkinLoader_ForgeActive-14.16.jar                             ->   CustomSkinLoader_ForgeActive-14.17.jar
+CyclopsCore-1.19.2-1.18.6.jar                                      ->   CyclopsCore-1.19.2-1.18.7.jar
+fancymenu_forge_2.14.7_MC_1.19-1.19.2.jar                          ->   fancymenu_forge_2.14.9_MC_1.19-1.19.2.jar
+FarmersDelight-1.19.2-1.2.2.jar                                    ->   FarmersDelight-1.19.2-1.2.3.jar
+FastSuite-1.19.2-4.1.0.jar                                         ->   FastSuite-1.19.2-4.1.1.jar
+FastWorkbench-1.19.2-7.1.3.jar                                     ->   FastWorkbench-1.19.2-7.1.4.jar
+ftb-chunks-forge-1902.3.22-build.271.jar                           ->   ftb-chunks-forge-1902.4.1-build.290.jar
+ftb-library-forge-1902.3.19-build.214.jar                          ->   ftb-library-forge-1902.4.1-build.236.jar
+ftb-quests-forge-1902.4.18-build.244.jar                           ->   ftb-quests-forge-1902.5.3-build.258.jar
+GameMenuModOption-1.19-1.18.jar                                    ->   gamemenumodoption-mc1.19.2-1.18.1.jar
+HostileNeuralNetworks-1.19.2-4.1.0.jar                             ->   HostileNeuralNetworks-1.19.2-4.1.1.jar
+immersive_armors-1.5.5+1.19.2-forge.jar                            ->   immersive_armors-1.5.6+1.19.2-forge.jar
+immersive_paintings-0.6.1+1.19.2-forge.jar                         ->   immersive_paintings-0.6.3+1.19.2-forge.jar
+IntegratedCrafting-1.19.2-1.1.2.jar                                ->   IntegratedCrafting-1.19.2-1.1.3.jar
+IntegratedDynamics-1.19.2-1.16.8.jar                               ->   IntegratedDynamics-1.19.2-1.17.0.jar
+kubejs-forge-1902.6.0-build.142.jar                                ->   kubejs-forge-1902.6.1-build.352.jar
+L_Enders_Cataclysm-0.84-1.19.2.jar                                 ->   L_Enders_Cataclysm-1.28-1.19.2.jar
+lootbeams-1.19.2-release-june2023.jar                              ->   lootbeams-1.19.2-1.0.jar
+lootr-1.19-0.4.24.62.jar                                           ->   lootr-1.19-0.4.24.64.jar
+MaxHealthFix-Forge-1.19.2-8.0.1.jar                                ->   MaxHealthFix-Forge-1.19.2-8.0.2.jar
+meetyourfight-1.19.2-1.3.3.jar                                     ->   meetyourfight-1.19.2-1.3.4.jar
+megacells-forge-2.0.0-1.19.2.jar                                   ->   megacells-forge-2.0.1-1.19.2.jar
+Mekanism-1.19.2-10.3.8.477.jar                                     ->   Mekanism-1.19.2-10.3.9.13.jar
+MekanismAdditions-1.19.2-10.3.8.477.jar                            ->   MekanismAdditions-1.19.2-10.3.9.13.jar
+MekanismGenerators-1.19.2-10.3.8.477.jar                           ->   MekanismGenerators-1.19.2-10.3.9.13.jar
+MekanismTools-1.19.2-10.3.8.477.jar                                ->   MekanismTools-1.19.2-10.3.9.13.jar
+modernfix-forge-5.2.3+mc1.19.2.jar                                 ->   modernfix-forge-5.6.0+mc1.19.2.jar
+Placebo-1.19.2-7.3.0.jar                                           ->   Placebo-1.19.2-7.3.2.jar
+pneumaticcraft-repressurized-1.19.2-4.3.5-25.jar                   ->   pneumaticcraft-repressurized-1.19.2-4.3.6-27.jar
+sophisticatedcore-1.19.2-0.5.78.363.jar                            ->   sophisticatedcore-1.19.2-0.5.83.394.jar
+sophisticatedstorage-1.19.2-0.8.38.555.jar                         ->   sophisticatedstorage-1.19.2-0.8.39.573.jar
+supermartijn642corelib-1.1.10-forge-mc1.19.2.jar                   ->   supermartijn642corelib-1.1.12-forge-mc1.19.2.jar
+tetra-1.19.2-5.3.1.jar                                             ->   tetra-1.19.2-5.4.0.jar
+the_bumblezone_forge-6.7.25+1.19.2.jar                             ->   the_bumblezone_forge-6.7.28+1.19.2.jar
+toms_storage-1.19-1.5.8.jar                                        ->   toms_storage-1.19-1.5.9.jar
+torchmaster-19.2.90.jar                                            ->   torchmaster-19.2.93.jar
+upgradednetherite_items-1.19.2-4.1.0.1-release.jar                 ->   upgradednetherite_items-1.19.2-4.1.0.2-release.jar
+Vampirism-1.19.2-1.9.4.jar                                         ->   Vampirism-1.19.2-1.9.5.jar
+voicechat-forge-1.19.2-2.4.13.jar                                  ->   voicechat-forge-1.19.2-2.4.16.jar
+YungsBetterNetherFortresses-1.19.2-Forge-1.0.5.jar                 ->   YungsBetterNetherFortresses-1.19.2-Forge-1.0.6.jar
+
+
+调整
+    - 神话模组的爆炸箭不再破坏方块
+    
+    - 由于性能问题，禁用了 天堂之礼 和 创造者的恩赐。
+        - 此物品每tick都尝试在玩家附近搜寻信标。这导致服务器运行缓慢。
+    - 短暂飞行之球现在可以合成
+    
+    - 将触发亡灵军团所需的亡灵击杀数提升至150（原为75）。
+    - 亡灵军团的生物将在生成30秒后被高亮。
+
+    - 气动工艺的 微型导弹 会在发射后10秒自毁，以防其堆积在加载范围边缘并导致卡顿。
+
+
+修复
+    - 修复Powah线缆的合成冲突问题
+    - 修复Pretty Pipes矿辞过滤模块与堆叠限制模块的合成冲突问题
+
+
+服务端修复
+    - 修复了单区块内数据过大导致玩家无法进入服务器的问题
+    - 如有NBT过大问题，请下载群文件nbt_packet_fix-1.0模组。由于这绕过了一些原版的安全限制，默认并未安装。
+        - 它对于您的电脑是完全安全的。但绕过这一限制可能导致客户端加载某些区块或首次连接服务器时更容易停止响应。
+
+
+未能修复的问题
+    - 新安装的客户端首次启动时背景音乐震耳欲聋
+    - 在尝试加载新区块时，有时会因为多个结构同时尝试生成而导致逻辑互锁，进而导致服务器崩溃
+
+
+1.0.1
+    更新模组:
+        ars_nouveau-1.19.2-3.17.6.jar                       ->  ars_nouveau-1.19.2-3.17.7.jar
+        artifacts-1.19.2-5.0.2.jar                          ->  artifacts-1.19.2-5.0.3.jar
+        AttributeFix-Forge-1.19.2-17.2.6.jar                ->  AttributeFix-Forge-1.19.2-17.2.7.jar
+        cloth-config-8.2.88-forge.jar                       ->  cloth-config-8.3.103-forge.jar
+        collective-1.19.2-6.62.jar                          ->  collective-1.19.2-6.65.jar
+        easy_villagers-1.19.2-1.0.8.jar                     ->  easy_villagers-1.19.2-1.0.11.jar
+        FarmersDelight-1.19-1.2.1.jar                       ->  FarmersDelight-1.19.2-1.2.2.jar
+        farmingforblockheads-forge-1.19.2-11.3.0.jar        ->  farmingforblockheads-forge-1.19.2-11.3.1.jar
+        friendsandfoes-forge-mc1.19.2-1.8.4.jar             ->  friendsandfoes-forge-mc1.19.2-1.8.5.jar
+        idas_forge-1.7.4+1.19.2.jar                         ->  idas_forge-1.7.6+1.19.2.jar
+        IntegratedDynamics-1.19.2-1.16.7.jar                ->  IntegratedDynamics-1.19.2-1.16.8.jar
+        IntegratedTunnels-1.19.2-1.8.19.jar                 ->  IntegratedTunnels-1.19.2-1.8.20.jar
+        L_Enders_Cataclysm-0.84-1.19.2.jar                  ->  L_Enders_Cataclysm-1.16-1.19.2.jar
+        modernfix-forge-5.2.0+mc1.19.2.jar                  ->  modernfix-forge-5.2.3+mc1.19.2.jar
+        rubidium_extras-1.19.2_v1.4.1.jar                   ->  rubidium_extras-1.19.2_v1.4.3.jar
+        ShoulderSurfing-Forge-1.19.2-2.4.jar                ->  ShoulderSurfing-Forge-1.19.2-2.4.1.jar
+        sophisticatedbackpacks-1.19.2-3.18.53.868.jar       ->  sophisticatedbackpacks-1.19.2-3.18.55.889.jar
+        sophisticatedcore-1.19.2-0.5.77.346.jar             ->  sophisticatedcore-1.19.2-0.5.78.363.jar
+        sophisticatedstorage-1.19.2-0.8.32.510.jar          ->  sophisticatedstorage-1.19.2-0.8.38.555.jar
+        tombstone-8.2.9-1.19.2.jar                          ->  tombstone-8.2.10-1.19.2.jar
+        waystones-forge-1.19.2-11.4.0.jar                   ->  waystones-forge-1.19.2-11.4.1.jar
+
+1.0.1-hotfix 1
+    回退模组版本:
+        L_Enders_Cataclysm-0.84-1.19.2.jar                  <-  L_Enders_Cataclysm-1.16-1.19.2.jar
+        回退原因：实体错误导致服务器崩溃。
+
+1.1.0
+    更新模组：

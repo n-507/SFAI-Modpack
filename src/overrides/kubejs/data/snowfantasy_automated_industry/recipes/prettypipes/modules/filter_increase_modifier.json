@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "prettypipes:blank_module"
+      },
+      {
+        "tag": "forge:plates/zinc"
+      },
+      {
+        "item": "minecraft:iron_bars"
+      }
+    ],
+    "result": {
+      "item": "prettypipes:filter_increase_modifier"
+    }
+}
