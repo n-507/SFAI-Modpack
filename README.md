@@ -19,3 +19,6 @@
  - AE2
  - 热力膨胀
  
+# License
+玩法修改内容（overrides/kubejs文件夹）以LGPL-3.0-only协议授权，协议文本可在[此处](https://www.gnu.org/licenses/lgpl-3.0-standalone.html)找到。您可依据协议条款对此部分进行再利用或从中学习。
+对于mods文件夹中包含的2个模组，其分别根据LGPL-3.0-only（对于mediaworks模组）与MIT（对于moreiotas模组）授权。本整合包不宣称其所有权。其余模组通过curseforge方式打包，不包含在本整合包分发的文件内。
