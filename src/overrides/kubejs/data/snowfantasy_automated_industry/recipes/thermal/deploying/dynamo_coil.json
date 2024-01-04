@@ -1,16 +1,16 @@
 {
-    "type": "create:deploying",
-    "ingredients": [
-      {
-        "item": "kubejs:dynamo_coil_empty"
-      },
-      {
-        "item": "kubejs:redstone_crystal"
-      }
-    ],
-    "results": [
-      {
-        "item": "kubejs:dynamo_coil"
-      }
-    ]
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "tag": "forge:wires/electrum"
+    },
+    {
+      "tag": "forge:dusts/redstone"
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:comp.te.dynamo_coil.inc"
+    }
+  ]
 }

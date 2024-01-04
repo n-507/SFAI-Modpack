@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "pneumaticcraft:large_tank"
+    },
+    {
+      "tag": "forge:ingots/netherite"
+    }
+  ],
+  "results": [
+    {
+      "item": "pneumaticcraft:huge_tank"
+    }
+  ]
+}

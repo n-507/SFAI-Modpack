@@ -1,0 +1,16 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "superheated",
+  "ingredients": [
+    {
+      "tag": "forge:storage_blocks/redstone"
+    }
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "amount": 900,
+      "fluid": "thermal:redstone"
+    }
+  ]
+}

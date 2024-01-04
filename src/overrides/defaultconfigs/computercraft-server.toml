@@ -1,7 +1,7 @@
 #The disk space limit for computers and turtles, in bytes.
-computer_space_limit = 8388608
+computer_space_limit = 1000000
 #The disk space limit for floppy disks, in bytes.
-floppy_space_limit = 4194304
+floppy_space_limit = 5000000
 #Set how many files a computer can have open at the same time. Set to 0 for unlimited.
 #Range: > 0
 maximum_open_files = 128

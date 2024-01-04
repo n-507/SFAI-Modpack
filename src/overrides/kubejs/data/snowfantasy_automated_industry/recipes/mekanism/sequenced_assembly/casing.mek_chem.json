@@ -1,0 +1,66 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "kubejs:casing.mek"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "kubejs:casing.mek_chem",
+      "count": 1
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:casing.mek_chem.inc"
+        },
+        {
+          "tag": "mekanism:alloys/atomic"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:casing.mek_chem.inc"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:casing.mek_chem.inc"
+        },
+        {
+          "tag": "forge:circuits/ultimate"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:casing.mek_chem.inc"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:casing.mek_chem.inc"
+        },
+        {
+          "item": "mekanism:electrolytic_core"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:casing.mek_chem.inc"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "kubejs:casing.mek_chem.inc"
+  }
+}

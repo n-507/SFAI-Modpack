@@ -1,0 +1,14 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "tag": "forge:plates/electrum"
+    }
+  ],
+  "processingTime": 200,
+  "results": [
+    {
+      "item": "kubejs:comp.te.coil.0"
+    }
+  ]
+}

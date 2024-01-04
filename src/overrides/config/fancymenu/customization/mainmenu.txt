@@ -1,0 +1,590 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.TitleScreen
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = mainmenu_slides
+  action = setbackgroundslideshow
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=604346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = bottom-centered
+  x = -110
+  action = movebutton
+  y = -105
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = kubejs/assets/kubejs/gui/button-mp-on.png
+  backgroundnormal = kubejs/assets/kubejs/gui/button-mp.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  seconds = 0.0
+  onlyfirsttime = false
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  orientation = bottom-centered
+  x = 91
+  action = movebutton
+  y = -85
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  width = 40
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = kubejs/assets/kubejs/gui/button-accessability-on.png
+  backgroundnormal = kubejs/assets/kubejs/gui/button-accessability.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  seconds = 0.6
+  onlyfirsttime = false
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = bottom-centered
+  x = -120
+  action = movebutton
+  y = -85
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 40
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = kubejs/assets/kubejs/gui/button-menu-on.png
+  backgroundnormal = kubejs/assets/kubejs/gui/button-menu.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  seconds = 0.4
+  onlyfirsttime = false
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = bottom-centered
+  x = -120
+  action = movebutton
+  y = -65
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  width = 40
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = kubejs/assets/kubejs/gui/button-quit-on.png
+  backgroundnormal = kubejs/assets/kubejs/gui/button-quit.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  seconds = 0.6
+  onlyfirsttime = false
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = bottom-centered
+  x = 59
+  action = movebutton
+  y = -85
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  width = 40
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = kubejs/assets/kubejs/gui/button-lang-on.png
+  backgroundnormal = kubejs/assets/kubejs/gui/button-lang.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  seconds = 0.4
+  onlyfirsttime = false
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = bottom-centered
+  x = -88
+  action = movebutton
+  y = -85
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 155
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = kubejs/assets/kubejs/gui/button-sp-on.png
+  backgroundnormal = kubejs/assets/kubejs/gui/button-sp.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  seconds = 0.2
+  onlyfirsttime = false
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = bottom-centered
+  x = -152
+  action = movebutton
+  y = -85
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  width = 40
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = kubejs/assets/kubejs/gui/button-modlist-on.png
+  backgroundnormal = kubejs/assets/kubejs/gui/button-modlist.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  seconds = 0.6
+  onlyfirsttime = false
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 122
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = 29c4a661-a5e6-41c0-9103-371ddb4877051704237526813
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 143
+  action = deep_customization_element:title_screen_branding
+  actionid = 002134d3-53aa-4960-b583-0cd98e651ca11704237526813
+  y = 212
+  height = 60
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 283
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 35cbb0fb-c2ea-4ec9-b09c-46e246d9a6691704237526813
+  y = 254
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 359
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 5581dd7c-3383-4e0a-8321-b7db42dfbbda1704237526813
+  y = 168
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 119
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 2d13982e-07a7-4a58-a19f-74101ad19c521704237526813
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = top-right
+  splash_color = #ffff00
+  hidden = true
+  x = -75
+  width = 60
+  splash_rotation = -25
+  action = deep_customization_element:title_screen_splash
+  actionid = f83f6af0-ca8f-482f-9e1c-49d4eb0c45901704237526813
+  y = 72
+  height = 30
+}
+
+customization {
+  orientation = bottom-centered
+  shape = rectangle
+  color = #000000aa
+  x = -293
+  width = 571
+  action = addshape
+  actionid = 5f52544f-d656-476a-987a-33a7a85b9e811704242016108
+  y = -106
+  height = 60
+}
+
+customization {
+  orientation = bottom-right
+  copy_client_player = true
+  slim = false
+  auto_skin = false
+  scale = 30
+  headrotationy = 0.0
+  headrotationx = 0.0
+  skinurl = http://textures.minecraft.net/texture/895ec2bfa33213b1eecf7ea8a113281c21bc636d96c46761e324e0fa90160dfc
+  showname = true
+  crouching = false
+  follow_mouse = true
+  x = -40
+  width = 18
+  parrot_left_shoulder = false
+  action = custom_layout_element:fancymenu_customization_player_entity
+  actionid = 3d548708-5d0a-49c6-b0c6-c708d6a0a7641704239963514
+  y = -104
+  playername = n507
+  bodyrotationx = 0.0
+  parrot = false
+  bodyrotationy = 0.0
+  auto_cape = false
+  is_baby = false
+  height = 54
+}
+
+customization {
+  orientation = bottom-centered
+  restartbackgroundanimations = true
+  delayappearanceseconds = 0.6
+  buttonaction = openlink;http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=RANHIi9rbRTg9or66TVSE4_VK2f7fGqn&authKey=bIIlwxK32fpsMvVnWeXpJWQulJXM9hufpFpFepuX2vA1mNGDKH2j12pBAhZiW5d3&noverify=0&group_code=632902430%btnaction_splitter_fm%
+  backgroundhovered = kubejs/assets/kubejs/gui/button-curios-on.png
+  description = 加入服务器群聊
+  label = 
+  loopbackgroundanimations = true
+  hoverlabel = 
+  fadein = true
+  fadeinspeed = 1.0
+  x = 59
+  width = 40
+  action = addbutton
+  actionid = bf2bb21b-9994-4c50-9ad1-4b9a53b6e1e31704245425174
+  y = -65
+  delayappearance = true
+  backgroundnormal = kubejs/assets/kubejs/gui/button-curios.png
+  delayappearanceeverytime = true
+  height = 20
+}
+
+customization {
+  path = kubejs/assets/kubejs/gui/title.png
+  orientation = top-centered
+  x = -142
+  width = 285
+  action = addtexture
+  actionid = bdc14260-9b8e-48de-a7b1-c8d7c09a83a81704246029906
+  y = 22
+  height = 41
+}
+
+customization {
+  path = kubejs/assets/kubejs/gui/2.png
+  orientation = top-centered
+  x = 141
+  width = 12
+  action = addtexture
+  actionid = 6d8577af-8705-42d4-9b85-c7e453ba0db41704246126265
+  y = 30
+  height = 17
+}
+
+customization {
+  orientation = top-centered
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = 整合包与服务器内容可能更改，恕不另行通知。%n%请加服务器群632902430（或点击下方加群按钮）了解详情。%n%如有问题，请联系n507。
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -141
+  width = 282
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = b091448e-81b8-40f3-8068-890a469f1dad1704246223759
+  y = 62
+  alignment = centered
+  height = 44
+}
+
+customization {
+  orientation = mid-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = https://minecraft-server-dats-1259594557.cos.ap-beijing.myqcloud.com/pack-remote-data/notice.txt
+  text_border = 0
+  case_mode = normal
+  source_mode = web
+  line_spacing = 1
+  x = 5
+  width = 120
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = a795a67f-f4c5-478d-a103-b02afed119381704246588439
+  y = -67
+  alignment = left
+  height = 56
+}
+
+customization {
+  orientation = mid-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = 本地版本：1.0.0
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 4
+  width = 200
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = a531350a-44bc-4007-bd2c-d4c64ed817b61704246767894
+  y = -10
+  alignment = left
+  height = 12
+}
+
+customization {
+  orientation = mid-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = 当前版本：
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 4
+  width = 200
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 78b67494-6945-4552-90dd-182a9d79585a1704246796092
+  y = 0
+  alignment = left
+  height = 13
+}
+
+customization {
+  orientation = bottom-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = Minecraft {"placeholder":"mcversion"}, Forge {"placeholder":"modversion","values":{"modid":"forge"}}%n%模组已加载{"placeholder":"totalmods"}/已启用{"placeholder":"loadedmods"}%n%{"placeholder":"usedram"}MB/{"placeholder":"maxram"}MB({"placeholder":"percentram"}%)
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 0
+  width = 200
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 4ba049e1-f1c5-4417-aa97-fba486fa996e1704247045932
+  y = -32
+  alignment = left
+  height = 40
+}
+
+customization {
+  orientation = bottom-centered
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = 服务器状态:{"placeholder":"serverstatus","values":{"ip":"snowfantasy.net:25565"}}%n% 玩家数{"placeholder":"serverplayercount","values":{"ip":"snowfantasy.net:25565"}}
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 86
+  width = 200
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 56eb0f8a-4e56-4572-9882-3c8d53670bcf1704247311028
+  y = -107
+  alignment = left
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  basecolor = #ffff00
+  shadow = true
+  splashfilepath = kubejs/assets/kubejs/text/splash.txt
+  rotation = 20.0
+  scale = 1.0
+  refresh = false
+  bouncing = true
+  vanilla-like = false
+  x = 372
+  actionid = 28dc02b1-d0ce-4f84-9ad2-cb5d22b458aa1704320297319
+  action = addsplash
+  y = 44
+}
+
+customization {
+  orientation = mid-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = https://minecraft-server-dats-1259594557.cos.ap-beijing.myqcloud.com/pack-remote-data/version.txt
+  text_border = 0
+  case_mode = normal
+  source_mode = web
+  line_spacing = 1
+  x = 49
+  width = 200
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 838b22ff-44d1-45b8-9857-a54016e74f891704320760808
+  y = 0
+  alignment = left
+  height = 13
+}
+
+customization {
+  identifier = %id=376322%
+  action = hidebutton
+}
+

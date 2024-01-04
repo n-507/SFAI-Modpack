@@ -1,0 +1,84 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:plates/gold"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "kubejs:comp.cpu.tensor",
+      "count": 1
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:comp.cpu.tensor.inc"
+        },
+        {
+          "item": "elementalcraft:strongly_contained_crystal"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:comp.cpu.tensor.inc"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:comp.cpu.tensor.inc"
+        },
+        {
+          "tag": "forge:plates/enderium"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:comp.cpu.tensor.inc"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:comp.cpu.tensor.inc"
+        },
+        {
+          "item": "kubejs:comp.aicore.advanced"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:comp.cpu.tensor.inc"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "kubejs:comp.cpu.tensor.inc"
+        },
+        {
+          "amount": 250,
+          "fluid": "kubejs:liquid_soldering_material",
+          "nbt": {}
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:comp.cpu.tensor.inc"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "kubejs:comp.cpu.tensor.inc"
+  }
+}

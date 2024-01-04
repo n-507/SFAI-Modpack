@@ -1,0 +1,68 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+      "tag": "forge:plates/gold"
+    },
+    "loops": 1,
+    "results": [
+      {
+        "item": "kubejs:comp.cpu.scalar",
+        "count": 1
+      }
+    ],
+    "sequence": [
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "kubejs:comp.cpu.scalar.inc"
+          },
+          {
+            "item": "create:electron_tube"
+          }
+        ],
+        "results": [
+          {
+            "item": "kubejs:comp.cpu.scalar.inc"
+          }
+        ]
+      },
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "kubejs:comp.cpu.scalar.inc"
+          },
+          {
+            "item": "create:electron_tube"
+          }
+        ],
+        "results": [
+          {
+            "item": "kubejs:comp.cpu.scalar.inc"
+          }
+        ]
+      },
+      {
+        "type": "create:filling",
+        "ingredients": [
+          {
+            "item": "kubejs:comp.cpu.scalar.inc"
+          },
+          {
+            "amount": 250,
+            "fluid": "thermal:redstone",
+            "nbt": {}
+          }
+        ],
+        "results": [
+          {
+            "item": "kubejs:comp.cpu.scalar.inc"
+          }
+        ]
+      }
+    ],
+    "transitionalItem": {
+      "item": "kubejs:comp.cpu.scalar.inc"
+    }
+  }

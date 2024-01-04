@@ -1,0 +1,63 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+      "item": "create:railway_casing"
+    },
+    "loops": 1,
+    "results": [
+      {
+        "item": "kubejs:casing.train",
+        "count": 1
+      }
+    ],
+    "sequence": [
+      {
+        "type": "create:cutting",
+        "ingredients":[
+          {
+            "item": "kubejs:casing.train.inc"
+          }
+        ],
+        "results":[
+          {
+            "item": "kubejs:casing.train.inc"
+          }
+        ]
+      },
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "kubejs:casing.train.inc"
+          },
+          {
+            "item": "create:electron_tube"
+          }
+        ],
+        "results": [
+          {
+            "item": "kubejs:casing.train.inc"
+          }
+        ]
+      },
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "kubejs:casing.train.inc"
+          },
+          {
+            "tag": "forge:plates/iron"
+          }
+        ],
+        "results": [
+          {
+            "item": "kubejs:casing.train.inc"
+          }
+        ]
+      }
+    ],
+    "transitionalItem": {
+      "item": "kubejs:casing.train.inc"
+    }
+  }

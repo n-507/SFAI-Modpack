@@ -1,0 +1,79 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+      "item": "create:brass_casing"
+    },
+    "loops": 1,
+    "results": [
+      {
+        "item": "kubejs:casing.brass",
+        "count": 1
+      }
+    ],
+    "sequence": [
+      {
+        "type": "create:cutting",
+        "ingredients":[
+          {
+            "item": "kubejs:casing.brass.inc"
+          }
+        ],
+        "results":[
+          {
+            "item": "kubejs:casing.brass.inc"
+          }
+        ]
+      },
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "kubejs:casing.brass.inc"
+          },
+          {
+            "item": "kubejs:comp.rubber.sheet"
+          }
+        ],
+        "results": [
+          {
+            "item": "kubejs:casing.brass.inc"
+          }
+        ]
+      },
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "kubejs:casing.brass.inc"
+          },
+          {
+            "item": "create:electron_tube"
+          }
+        ],
+        "results": [
+          {
+            "item": "kubejs:casing.brass.inc"
+          }
+        ]
+      },
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "kubejs:casing.brass.inc"
+          },
+          {
+            "item": "create:precision_mechanism"
+          }
+        ],
+        "results": [
+          {
+            "item": "kubejs:casing.brass.inc"
+          }
+        ]
+      }
+    ],
+    "transitionalItem": {
+      "item": "kubejs:casing.brass.inc"
+    }
+  }

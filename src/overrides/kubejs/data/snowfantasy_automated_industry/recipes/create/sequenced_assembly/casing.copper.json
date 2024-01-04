@@ -1,0 +1,79 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+      "item": "create:copper_casing"
+    },
+    "loops": 1,
+    "results": [
+      {
+        "item": "kubejs:casing.copper",
+        "count": 1
+      }
+    ],
+    "sequence": [
+      {
+        "type": "create:cutting",
+        "ingredients":[
+          {
+            "item": "kubejs:casing.copper.inc"
+          }
+        ],
+        "results":[
+          {
+            "item": "kubejs:casing.copper.inc"
+          }
+        ]
+      },
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "kubejs:casing.copper.inc"
+          },
+          {
+            "item": "kubejs:comp.rubber.sheet"
+          }
+        ],
+        "results": [
+          {
+            "item": "kubejs:casing.copper.inc"
+          }
+        ]
+      },
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "kubejs:casing.copper.inc"
+          },
+          {
+            "tag": "forge:plates/copper"
+          }
+        ],
+        "results": [
+          {
+            "item": "kubejs:casing.copper.inc"
+          }
+        ]
+      },
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "kubejs:casing.copper.inc"
+          },
+          {
+            "tag": "forge:glass/colorless"
+          }
+        ],
+        "results": [
+          {
+            "item": "kubejs:casing.copper.inc"
+          }
+        ]
+      }
+    ],
+    "transitionalItem": {
+      "item": "kubejs:casing.copper.inc"
+    }
+  }

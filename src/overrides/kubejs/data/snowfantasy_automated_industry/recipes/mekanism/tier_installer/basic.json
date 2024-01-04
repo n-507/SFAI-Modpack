@@ -1,0 +1,50 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+      "item": "mekanism:hdpe_sheet"
+    },
+    "loops": 1,
+    "results": [
+      {
+        "item": "mekanism:basic_tier_installer",
+        "count": 1
+      }
+    ],
+    "sequence": [
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "kubejs:comp.mek.installer.inc"
+          },
+          {
+            "item": "mekanism:basic_control_circuit"
+          }
+        ],
+        "results": [
+          {
+            "item": "kubejs:comp.mek.installer.inc"
+          }
+        ]
+      },
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "kubejs:comp.mek.installer.inc"
+          },
+          {
+            "item": "mekanism:alloy_atomic"
+          }
+        ],
+        "results": [
+          {
+            "item": "kubejs:comp.mek.installer.inc"
+          }
+        ]
+      }
+    ],
+    "transitionalItem": {
+      "item": "kubejs:comp.mek.installer.inc"
+    }
+  }

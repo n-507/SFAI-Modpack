@@ -1,0 +1,23 @@
+{
+  "type": "integrateddynamics:crafting_special_shaped_omni_directional",
+  "group": "integrateddynamics:part_connector_omni_directional",
+  "pattern": [
+    "XLX",
+    "MCM",
+    "XLX"
+  ],
+  "key": {
+    "L": {
+      "item": "integrateddynamics:logic_director"
+    },
+    "M": {
+      "item": "integrateddynamics:part_connector_mono_directional"
+    },
+    "C": {
+      "item": "integrateddynamics:cable"
+    },
+    "X": {
+      "item": "thermal:enderium_ingot"
+    }
+  }
+}

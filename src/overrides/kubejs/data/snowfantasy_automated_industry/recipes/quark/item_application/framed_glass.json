@@ -2,10 +2,10 @@
   "type": "create:item_application",
   "ingredients": [
     {
-      "tag": "forge:glass/silica"
+      "tag": "forge:glass/colorless"
     },
     {
-      "tag": "forge:rods/iron"
+      "tag": "forge:rods/all_metal"
     }
   ],
   "results": [

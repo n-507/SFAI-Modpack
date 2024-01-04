@@ -1,0 +1,68 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+      "item": "kubejs:comp.etube.base"
+    },
+    "loops": 1,
+    "results": [
+      {
+        "item": "create:electron_tube",
+        "count": 1
+      }
+    ],
+    "sequence": [
+      {
+        "type": "create:deploying",
+        "ingredients":[
+          {
+            "item": "kubejs:comp.etube.inc"
+          },
+          {
+              "item": "create:polished_rose_quartz"
+          }
+        ],
+        "results":[
+          {
+            "item": "kubejs:comp.etube.inc"
+          }
+        ]
+      },
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "kubejs:comp.etube.inc"
+          },
+          {
+            "item": "kubejs:comp.glass_bulb"
+          }
+        ],
+        "results": [
+          {
+            "item": "kubejs:comp.etube.inc"
+          }
+        ]
+      },
+      {
+        "type": "create:filling",
+        "ingredients": [
+          {
+            "item": "kubejs:comp.etube.inc"
+          },
+          {
+            "amount": 250,
+            "fluid": "thermal:redstone",
+            "nbt": {}
+          }
+        ],
+        "results": [
+          {
+            "item": "kubejs:comp.etube.inc"
+          }
+        ]
+      }
+    ],
+    "transitionalItem": {
+      "item": "kubejs:comp.etube.inc"
+    }
+  }

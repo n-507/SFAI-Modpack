@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "enigmaticlegacy:the_cube"
+  },
+  "addition": {
+    "item": "kubejs:comp.creativifier"
+  },
+  "result": {
+    "item": "enigmaticlegacy:enigmatic_item"
+  }
+}

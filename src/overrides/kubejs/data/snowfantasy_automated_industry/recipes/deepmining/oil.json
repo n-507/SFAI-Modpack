@@ -1,0 +1,18 @@
+{
+  "type": "createoreexcavation:extracting",
+  "amountMax": 2.0,
+  "amountMin": 1.0,
+  "biomeWhitelist": "minecraft:is_overworld",
+  "drill": {
+    "tag": "createoreexcavation:drills"
+  },
+  "name": "{\"text\":\"原油\"}",
+  "neverFinite": true,
+  "output": {
+    "amount": 100,
+    "fluid": "createdieselgenerators:crude_oil"
+  },
+  "stress": 1024,
+  "ticks": 200,
+  "weight": 50
+}

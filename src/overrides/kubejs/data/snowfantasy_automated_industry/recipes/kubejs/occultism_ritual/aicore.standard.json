@@ -1,0 +1,36 @@
+{
+  "type": "occultism:ritual",
+  "ritual_type": "occultism:craft",
+  "activation_item": {
+    "item": "occultism:book_of_binding_bound_afrit"
+  },
+  "pentacle_id": "occultism:craft_afrit",
+  "duration": 100,
+  "ritual_dummy": {
+    "item": "kubejs:dummy.occultism.aicore.standard"
+  },
+  "ingredients": [
+    {
+      "tag": "forge:storage_blocks/electrum"
+    },
+    {
+      "tag": "forge:storage_blocks/drenched_iron"
+    },
+    {
+      "item": "kubejs:comp.cpu.vector"
+    },
+    {
+      "item": "kubejs:comp.pncr.lapis_cell"
+    },
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "occultism:spirit_attuned_crystal"
+    }
+  ],
+  "result": {
+    "item": "kubejs:comp.aicore.standard",
+    "count": 32
+  }
+}

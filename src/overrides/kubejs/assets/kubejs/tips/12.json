@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "自动工业2 提示：",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "被动技能树(Passive Skill Tree)可提供许多增益。在按键设置中修改打开技能树的按键（默认为o，存在按键冲突。）"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "count": 1,
+    "ingredient": {
+      "item": "kubejs:casing.te_device"
+    },
+    "result": "thermal:device_hive_extractor"
+  }

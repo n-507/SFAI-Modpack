@@ -1,0 +1,17 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "ae2:logic_processor"
+    },
+    {
+      "item": "pneumaticcraft:logistics_core"
+    }
+  ],
+  "results": [
+    {
+      "item": "ae2:annihilation_core",
+      "count": 1
+    }
+  ]
+}

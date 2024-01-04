@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "ae2:crafting_unit"
+    },
+    {
+      "item": "kubejs:comp.board.lapis"
+    }
+  ],
+  "results": [
+    {
+      "item": "ae2:crafting_accelerator"
+    }
+  ]
+}

@@ -20,7 +20,7 @@
 	#Caps the duration of Ghostly Shape effect to 10 seconds when teleporting with a Grave's Key [false/true|default:true]
 	nerf_ghostly_shape_teleport_with_key = true
 	#Cancel the Ghostly Shape effect when colliding an enemy [false/true|default:true]
-	nerf_ghostly_shape_enemy_collision = true
+	nerf_ghostly_shape_enemy_collision = false
 	#Cancel the Ghostly Shape effect when opening a chest [false/true|default:true]
 	nerf_ghostly_shape_open_chest = true
 	#Cancel the Ghostly Shape effect when breaking a block [false/true|default:true]
@@ -126,7 +126,7 @@
 	#Damaged items can be recycled with the Book of Recycling
 	can_recycle_damaged_item = false
 	#The items that can't be recycled by the Book of Recycling
-	denied_item_to_recycle = ["*:*"]
+	denied_item_to_recycle = []
 	#Allows to disenchant enchanted books with the Book of Disenchantment
 	can_disenchant_enchanted_book = false
 	#Allows lost tablets to find locations outside the current world [false/true|default:true]

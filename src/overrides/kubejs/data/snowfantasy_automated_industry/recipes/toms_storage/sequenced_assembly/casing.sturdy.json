@@ -1,0 +1,79 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+      "item": "create:andesite_casing"
+    },
+    "loops": 1,
+    "results": [
+      {
+        "item": "kubejs:casing.sturdy",
+        "count": 1
+      }
+    ],
+    "sequence": [
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "kubejs:casing.sturdy.inc"
+          },
+          {
+            "item": "pneumaticcraft:logistics_core"
+          }
+        ],
+        "results": [
+          {
+            "item": "kubejs:casing.sturdy.inc"
+          }
+        ]
+      },
+      {
+        "type": "create:cutting",
+        "ingredients":[
+          {
+            "item": "kubejs:casing.sturdy.inc"
+          }
+        ],
+        "results":[
+          {
+            "item": "kubejs:casing.sturdy.inc"
+          }
+        ]
+      },
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "kubejs:casing.sturdy.inc"
+          },
+          {
+            "item": "create:precision_mechanism"
+          }
+        ],
+        "results": [
+          {
+            "item": "kubejs:casing.sturdy.inc"
+          }
+        ]
+      },
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "kubejs:casing.sturdy.inc"
+          },
+          {
+            "item": "create:belt_connector"
+          }
+        ],
+        "results": [
+          {
+            "item": "kubejs:casing.sturdy.inc"
+          }
+        ]
+      }
+    ],
+    "transitionalItem": {
+      "item": "kubejs:casing.sturdy.inc"
+    }
+  }

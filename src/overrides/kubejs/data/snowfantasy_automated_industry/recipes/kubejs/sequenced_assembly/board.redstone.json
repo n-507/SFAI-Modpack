@@ -1,0 +1,97 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:plates/iron"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "kubejs:comp.board.redstone",
+      "count": 1
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:comp.board.redstone.inc"
+        },
+        {
+          "item": "kubejs:comp.cpu.scalar"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:comp.board.redstone.inc"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:comp.board.redstone.inc"
+        },
+        {
+          "tag": "forge:wires/gold"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:comp.board.redstone.inc"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:comp.board.redstone.inc"
+        },
+        {
+          "item": "create:electron_tube"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:comp.board.redstone.inc"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "kubejs:comp.board.redstone.inc"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:comp.board.redstone.inc"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "kubejs:comp.board.redstone.inc"
+        },
+        {
+          "amount": 250,
+          "fluid": "thermal:redstone",
+          "nbt": {}
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:comp.board.redstone.inc"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "kubejs:comp.board.redstone.inc"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "pneumaticcraft:assembly_laser",
+  "input": {
+    "item": "kubejs:comp.te.servo.unw"
+  },
+  "program": "laser",
+  "result": {
+    "count": 1,
+    "item": "kubejs:comp.te.servo"
+  }
+}

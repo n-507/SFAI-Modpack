@@ -1,0 +1,36 @@
+{
+  "type": "occultism:ritual",
+  "ritual_type": "occultism:craft",
+  "activation_item": {
+    "item": "occultism:book_of_binding_bound_djinni"
+  },
+  "pentacle_id": "occultism:craft_djinni",
+  "duration": 100,
+  "ritual_dummy": {
+    "item": "kubejs:dummy.occultism.aicore.basic"
+  },
+  "ingredients": [
+    {
+      "tag": "forge:storage_blocks/gold"
+    },
+    {
+      "tag": "forge:storage_blocks/iesnium"
+    },
+    {
+      "item": "kubejs:comp.cpu.scalar"
+    },
+    {
+      "item": "create:electron_tube"
+    },
+    {
+      "item": "occultism:spirit_attuned_crystal"
+    },
+    {
+      "item": "occultism:spirit_attuned_crystal"
+    }
+  ],
+  "result": {
+    "item": "kubejs:comp.aicore.basic",
+    "count": 64
+  }
+}

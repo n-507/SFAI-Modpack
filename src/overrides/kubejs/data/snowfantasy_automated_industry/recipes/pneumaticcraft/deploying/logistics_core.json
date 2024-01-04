@@ -1,17 +1,17 @@
 {
-    "type": "create:deploying",
-    "ingredients": [
-      {
-        "item": "kubejs:reinforced_stone_plate"
-      },
-      {
-        "item": "kubejs:firm_tube"
-      }
-    ],
-    "results": [
-      {
-        "count": 2,
-        "item": "pneumaticcraft:logistics_core"
-      }
-    ]
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "pneumaticcraft:reinforced_brick_tile"
+    },
+    {
+      "item": "create:electron_tube"
+    }
+  ],
+  "results": [
+    {
+      "item": "pneumaticcraft:logistics_core",
+      "count": 2
+    }
+  ]
 }

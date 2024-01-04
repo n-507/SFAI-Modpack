@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "自动工业2 提示：",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "生物并不会尝试避开 Create Crafts & Additions 的铁丝网。这通常将会导致足以致命的伤害。"
+    }
+}

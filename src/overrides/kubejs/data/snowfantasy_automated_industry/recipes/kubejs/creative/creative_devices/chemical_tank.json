@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "mekanism:basic_chemical_tank"
+  },
+  "addition": {
+    "item": "kubejs:comp.creativifier"
+  },
+  "result": {
+    "item": "mekanism:creative_chemical_tank"
+  }
+}

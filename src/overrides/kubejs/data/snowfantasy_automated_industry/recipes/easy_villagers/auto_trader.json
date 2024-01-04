@@ -1,17 +1,25 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "easy_villagers:trader"
-    },
-    {
-      "item": "kubejs:lapis_circuit_board"
-    },
-    {
-      "item": "minecraft:hopper"
-    }
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "GRG",
+    "INI"
   ],
+  "key": {
+    "G": {
+      "tag": "forge:glass_panes/colorless"
+    },
+    "I": {
+      "tag": "forge:ingots/iron"
+    },
+    "R": {
+      "item": "kubejs:comp.board.redstone"
+    },
+    "N": {
+      "tag": "forge:ingots/netherite"
+    }
+  },
   "result": {
-      "item": "easy_villagers:auto_trader"
+    "item": "easy_villagers:auto_trader"
   }
 }

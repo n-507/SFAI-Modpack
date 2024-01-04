@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:blasting",
+    "cookingtime": 100,
+    "experience": 0.1,
+    "ingredient": {
+      "item": "kubejs:comp.create.raw_andesite"
+    },
+    "result": "create:andesite_alloy"
+}

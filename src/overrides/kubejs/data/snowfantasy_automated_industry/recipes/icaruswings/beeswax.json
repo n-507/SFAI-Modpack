@@ -1,0 +1,17 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "superheated",
+  "ingredients": [
+    {
+      "item": "minecraft:honeycomb"
+    },
+    {
+      "tag": "forge:slimeballs"
+    }
+  ],
+  "results": [
+    {
+      "item": "locusazzurro_icaruswings:beeswax"
+    }
+  ]
+}

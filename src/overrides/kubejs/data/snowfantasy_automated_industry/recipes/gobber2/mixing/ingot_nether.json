@@ -1,0 +1,21 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "gobber2:gobber2_glob_nether"
+    },
+    {
+      "item": "minecraft:netherite_scrap"
+    },
+    {
+      "item": "gobber2:gobber2_ingot"
+    }
+  ],
+  "results": [
+    {
+      "item": "gobber2:gobber2_ingot_nether",
+      "count": 3
+    }
+  ]
+}

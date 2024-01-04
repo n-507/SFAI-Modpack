@@ -1,0 +1,163 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2"
+	group: ""
+	icon: "pneumaticcraft:air_compressor"
+	id: "388C9E4D64E43D1E"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["084BC711485F9BE7"]
+			id: "14F6C1CC09334DF0"
+			tasks: [{
+				id: "4B68C162B8D28AA8"
+				item: "kubejs:casing.pnc_basic"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1D10713D66C69807"]
+			description: [
+				"压力室用于气动工艺模组中部分零件的合成。"
+				""
+				"您将需要使用机械动力的动力合成器来制作它所需的材料。"
+			]
+			id: "084BC711485F9BE7"
+			tasks: [{
+				id: "6B71645CAB7D5EFC"
+				item: "pneumaticcraft:pressure_chamber_wall"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["14F6C1CC09334DF0"]
+			description: ["您需要使用石油来制作塑料。原油可在地表找到，或通过钻井从地下抽取。"]
+			id: "15CCAE5988C880F4"
+			tasks: [{
+				id: "40FF80ED2211326B"
+				item: "pneumaticcraft:plastic"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"4D830217789D92B5"
+				"15CCAE5988C880F4"
+			]
+			id: "0204F4DB5A8AC5DF"
+			tasks: [{
+				id: "4D7B2D820FCBFC60"
+				item: "kubejs:casing.pnc_adv"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6A5E5D015D6D1C10"]
+			description: ["这仅仅是一个零件。"]
+			id: "4D830217789D92B5"
+			tasks: [{
+				id: "101EF7B86171ADB7"
+				item: "kubejs:comp.cpu.vector"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			description: [
+				"您需要发展神秘学来制作一些零件，从而继续发展。"
+				""
+				"关于神秘学的信息可以在此模组的手册中找到。此模组的仪式法阵均可重复使用。"
+			]
+			id: "6A5E5D015D6D1C10"
+			tasks: [{
+				id: "650618D6D14C677D"
+				item: "occultism:golden_sacrificial_bowl"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0204F4DB5A8AC5DF"]
+			description: [
+				"用于制作气动工艺模组中更高等级的材料。"
+				""
+				"需要："
+				"- 装配平台"
+				"- 装配平台IO设备（输入）  --还需要一个紧邻的输入容器"
+				"- 装配平台IO设备（输出）  --还需要一个紧邻的输出容器"
+				"- 装配激光"
+				"- 装配钻头"
+				"- 装配控制器"
+				""
+				"除装配控制器外，所有设备必须紧邻装配平台四边放置（不能位于斜向）。装配控制器仅需与任意装配设备相连。"
+			]
+			id: "1D769D9760B49324"
+			tasks: [{
+				id: "41FB2747842B6B6F"
+				item: "pneumaticcraft:assembly_platform"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["15CCAE5988C880F4"]
+			description: [
+				"您将需要此物品来制作部分后续物品。"
+				""
+				"PCB蓝图可以通过村民交易或从亚马龙上购买（需要制作亚马龙平板电脑）取得。"
+			]
+			id: "627ED2B7EA705FCA"
+			tasks: [{
+				id: "4F56B278714CC5CF"
+				item: "pneumaticcraft:printed_circuit_board"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["15CCAE5988C880F4"]
+			description: [
+				"可上架物品以供其他玩家购买。"
+				""
+				"此外，还会刷新村民的交易。"
+			]
+			id: "1EA6B6911617CE8E"
+			tasks: [{
+				id: "630C25F73FEF317E"
+				item: "pneumaticcraft:amadron_tablet"
+				match_nbt: false
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["084BC711485F9BE7"]
+			description: ["一个简易的手动空气压缩机。如果您没有从其他地方（例如：村民的家中）获得其他空气压缩机，那么您可能需要暂时使用这个来为您的压力室供能。"]
+			id: "2B4ED82A16B0229A"
+			optional: true
+			tasks: [{
+				id: "1317758778C84CA6"
+				item: "pneumaticcraft:manual_compressor"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+	]
+	title: "2"
+}

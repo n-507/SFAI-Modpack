@@ -2,7 +2,7 @@
     "type": "create:deploying",
     "ingredients": [
       {
-        "item": "kubejs:reinforced_stone_plate"
+        "tag": "forge:plates/iron"
       },
       {
         "item": "prettypipes:pipe"

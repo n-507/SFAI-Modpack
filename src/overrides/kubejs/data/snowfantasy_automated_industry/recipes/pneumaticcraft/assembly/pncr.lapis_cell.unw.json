@@ -1,0 +1,11 @@
+{
+  "type": "pneumaticcraft:assembly_drill",
+  "input": {
+    "tag": "forge:gems/lapis"
+  },
+  "program": "drill",
+  "result": {
+    "count": 1,
+    "item": "kubejs:comp.pncr.lapis_cell.unw"
+  }
+}

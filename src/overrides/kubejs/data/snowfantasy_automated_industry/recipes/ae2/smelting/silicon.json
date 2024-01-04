@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "cookingtime": 200,
+  "experience": 0.35,
+  "ingredient": {
+    "tag": "ae2:all_quartz_dust"
+  },
+  "result": "kubejs:comp.ae.silicon"
+}

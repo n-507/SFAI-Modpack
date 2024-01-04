@@ -1,0 +1,17 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "pneumaticcraft:pressure_chamber_wall"
+    },
+    {
+      "item": "pneumaticcraft:pressure_tube"
+    }
+  ],
+  "results": [
+    {
+      "item": "pneumaticcraft:stone_base",
+      "count": 1
+    }
+  ]
+}

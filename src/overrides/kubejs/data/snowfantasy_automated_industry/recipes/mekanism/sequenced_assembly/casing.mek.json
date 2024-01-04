@@ -1,0 +1,66 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "mekanism:steel_casing"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "kubejs:casing.mek",
+      "count": 1
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:casing.mek.inc"
+        },
+        {
+          "item": "kubejs:comp.board.ender"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:casing.mek.inc"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:casing.mek.inc"
+        },
+        {
+          "item": "thermal:lumium_gear"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:casing.mek.inc"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:casing.mek.inc"
+        },
+        {
+          "item": "kubejs:comp.interface"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:casing.mek.inc"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "kubejs:casing.mek.inc"
+  }
+}

@@ -1,0 +1,22 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "amount": 990,
+            "fluid": "minecraft:water"
+        },
+        {
+            "amount": 10,
+            "fluidTag": "forge:plantoil"
+        },
+        {
+            "tag": "forge:sand"
+        }
+    ],
+    "results": [
+        {
+            "amount": 1000,
+            "fluid": "kubejs:drill_fluid"
+        }
+    ]
+}

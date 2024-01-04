@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "count": 1,
+    "ingredient": {
+      "item": "pneumaticcraft:pressure_gauge"
+    },
+    "result": "pneumaticcraft:air_grate_module"
+  }

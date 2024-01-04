@@ -1,0 +1,19 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "superheated",
+  "ingredients": [
+    {
+      "amount": 1000,
+      "fluid": "minecraft:lava"
+    },
+    {
+      "item": "occultism:datura"
+    }
+  ],
+  "results": [
+    {
+      "amount": 1000,
+      "fluid": "kubejs:liquid_spirit_fire"
+    }
+  ]
+}

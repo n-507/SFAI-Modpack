@@ -1,0 +1,100 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+      "tag": "forge:dusts/end_stone"
+    },
+    "loops": 1,
+    "results": [
+      {
+        "item": "kubejs:casing.chalk",
+        "count": 1
+      }
+    ],
+    "sequence": [
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "kubejs:casing.chalk.inc"
+          },
+          {
+            "item": "occultism:afrit_essence"
+          }
+        ],
+        "results": [
+          {
+            "item": "kubejs:casing.chalk.inc"
+          }
+        ]
+      },
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "kubejs:casing.chalk.inc"
+          },
+          {
+            "tag": "forge:dusts/gold"
+          }
+        ],
+        "results": [
+          {
+            "item": "kubejs:casing.chalk.inc"
+          }
+        ]
+      },
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "kubejs:casing.chalk.inc"
+          },
+          {
+            "tag": "forge:dusts/obsidian"
+          }
+        ],
+        "results": [
+          {
+            "item": "kubejs:casing.chalk.inc"
+          }
+        ]
+      },
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "kubejs:casing.chalk.inc"
+          },
+          {
+            "item": "occultism:otherworld_ashes"
+          }
+        ],
+        "results": [
+          {
+            "item": "kubejs:casing.chalk.inc"
+          }
+        ]
+      },
+      {
+        "type": "create:filling",
+        "ingredients": [
+          {
+            "item": "kubejs:casing.chalk.inc"
+          },
+          {
+            "amount": 250,
+            "fluid": "kubejs:liquid_spirit_fire",
+            "nbt": {}
+          }
+        ],
+        "results": [
+          {
+            "item": "kubejs:casing.chalk.inc"
+          }
+        ]
+      }
+    ],
+    "transitionalItem": {
+      "item": "kubejs:casing.chalk.inc"
+    }
+  }

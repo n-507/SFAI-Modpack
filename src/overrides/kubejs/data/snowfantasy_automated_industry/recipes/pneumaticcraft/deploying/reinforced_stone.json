@@ -1,17 +1,17 @@
 {
-    "type": "create:deploying",
-    "ingredients": [
-      {
-        "item": "minecraft:stone"
-      },
-      {
-        "tag": "forge:ingots/compressed_iron"
-      }
-    ],
-    "results": [
-      {
-        "count": 16,
-        "item": "pneumaticcraft:reinforced_stone"
-      }
-    ]
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "minecraft:stone"
+    },
+    {
+      "tag": "forge:ingots/compressed_iron"
+    }
+  ],
+  "results": [
+    {
+      "count": 8,
+      "item": "pneumaticcraft:reinforced_stone"
+    }
+  ]
 }

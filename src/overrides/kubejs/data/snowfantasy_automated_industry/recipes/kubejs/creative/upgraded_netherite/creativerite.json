@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "upgradednetherite_ultimate:ultimate_upgraded_netherite_ingot"
+  },
+  "addition": {
+    "item": "kubejs:comp.creativifier"
+  },
+  "result": {
+    "item": "upgradednetherite_creative:creative_upgraded_netherite_ingot"
+  }
+}

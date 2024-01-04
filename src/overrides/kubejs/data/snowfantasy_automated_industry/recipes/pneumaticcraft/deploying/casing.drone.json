@@ -1,0 +1,17 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "create:redstone_link"
+    },
+    {
+      "item": "pneumaticcraft:turbine_rotor"
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:casing.pnc_drone",
+      "count": 1
+    }
+  ]
+}

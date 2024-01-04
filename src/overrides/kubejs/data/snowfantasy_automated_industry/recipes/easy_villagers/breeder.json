@@ -10,13 +10,13 @@
       "tag": "forge:glass_panes/colorless"
     },
     "I": {
-      "item": "kubejs:emerald_tube"
+      "tag": "forge:ingots/iron"
     },
     "B": {
       "tag": "minecraft:beds"
     },
     "W": {
-      "tag": "minecraft:planks"
+      "item": "kubejs:comp.board.redstone"
     }
   },
   "result": {

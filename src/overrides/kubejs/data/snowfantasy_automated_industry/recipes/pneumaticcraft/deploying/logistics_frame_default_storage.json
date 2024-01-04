@@ -1,0 +1,17 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "minecraft:item_frame"
+    },
+    {
+      "item": "pneumaticcraft:logistics_core"
+    }
+  ],
+  "results": [
+    {
+      "count": 8,
+      "item": "pneumaticcraft:logistics_frame_default_storage"
+    }
+  ]
+}

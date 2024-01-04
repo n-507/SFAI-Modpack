@@ -1,0 +1,840 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "680DB7AEAC4C30D1"
+	group: ""
+	icon: "coinsje:copper_coin_pile"
+	id: "680DB7AEAC4C30D1"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"您可在此处购买部分您可能需要的资源。"
+				""
+				"货币可通过完成科技线任务，每日奖励，或与其他玩家贸易取得。"
+			]
+			id: "6392E233452977EA"
+			rewards: [{
+				id: "2497C00CB117B209"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5DCF416651A2382D"
+				title: "信息：商店"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00B98F2002EA07B1"]
+			id: "48156C29254D7471"
+			tasks: [{
+				id: "7A5D6B3D33290802"
+				title: "需要前置：机械外壳（安山合金）"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7DC2930E05D88126"]
+			id: "7775ECAC7CD08CAA"
+			tasks: [{
+				id: "3EDE5C1652001D59"
+				title: "需要前置：机械组件"
+				type: "checkmark"
+			}]
+			title: "需要前置：机械组件（压缩铁）"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5114BE2D44DF0A60"]
+			id: "7F767C6303DB124C"
+			tasks: [{
+				id: "5D9A001267B52011"
+				title: "需要前置：机械组件（赛特斯）"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["33203AE3D78B7C04"]
+			id: "457DC28C16BFF6B7"
+			tasks: [{
+				id: "23EE46C3A82A3276"
+				title: "需要前置：机械组件（复杂机械）"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			description: [
+				"您可以直接购买这些物品。"
+				""
+				"提示：兑换时，请确保您的背包有足够空间，以防物品喷涌而出（或更糟糕的是，被扫地插件清理。）"
+			]
+			id: "4BF24B5A79CF5554"
+			tasks: [{
+				id: "29BED6430F9C18F2"
+				title: "没有前置"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4BF24B5A79CF5554"]
+			icon: "apotheosis:boss_summoner"
+			id: "04DD8C0C61AFE29D"
+			rewards: [{
+				id: "5156A28BF1509DD0"
+				item: "apotheosis:boss_summoner"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "387EA90A99EC55BF"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			title: "神话boss生成器"
+			x: -7.5d
+			y: 4.5d
+		}
+		{
+			id: "60932DE22D81AAB5"
+			tasks: [
+				{
+					id: "42330429CC06EB42"
+					title: "需要前置：新生魔艺"
+					type: "checkmark"
+				}
+				{
+					id: "657641A698DD3E96"
+					item: "ars_nouveau:novice_spell_book"
+					match_nbt: false
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["60932DE22D81AAB5"]
+			icon: {
+				Count: 1b
+				id: "ars_nouveau:caster_tome"
+				tag: { }
+			}
+			id: "02225AB26C779888"
+			rewards: [{
+				id: "1C8753E2EDBC8E97"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:caster_tome"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "36DCEF24C4897EE0"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			title: "施法者卷册"
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["60932DE22D81AAB5"]
+			icon: {
+				Count: 1b
+				id: "ars_elemental:fire_caster_tome"
+				tag: { }
+			}
+			id: "03EEDA087269628C"
+			rewards: [{
+				id: "40395CE6546AC8AF"
+				item: {
+					Count: 1b
+					id: "ars_elemental:fire_caster_tome"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "5F6A6F701D0F62C5"
+				item: "coinsje:gold_coin"
+				type: "item"
+			}]
+			title: "火之施法者卷册"
+			x: -4.5d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["60932DE22D81AAB5"]
+			icon: {
+				Count: 1b
+				id: "ars_elemental:water_caster_tome"
+				tag: { }
+			}
+			id: "22ADB0C7A2ABC0BE"
+			rewards: [{
+				id: "39543CDA8F0F4111"
+				item: {
+					Count: 1b
+					id: "ars_elemental:water_caster_tome"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "5095380F92311B14"
+				item: "coinsje:gold_coin"
+				type: "item"
+			}]
+			title: "水之施法者卷册"
+			x: -4.5d
+			y: 6.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["60932DE22D81AAB5"]
+			icon: {
+				Count: 1b
+				id: "ars_elemental:earth_caster_tome"
+				tag: { }
+			}
+			id: "485A3DD8B829ECD6"
+			rewards: [{
+				id: "629AEB378886C1C8"
+				item: {
+					Count: 1b
+					id: "ars_elemental:earth_caster_tome"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "1C52CB1D63E6F189"
+				item: "coinsje:gold_coin"
+				type: "item"
+			}]
+			title: "土之施法者卷册"
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["60932DE22D81AAB5"]
+			icon: {
+				Count: 1b
+				id: "ars_elemental:air_caster_tome"
+				tag: { }
+			}
+			id: "51DE5AD541CF22CE"
+			rewards: [{
+				id: "266EA38D4998453B"
+				item: {
+					Count: 1b
+					id: "ars_elemental:air_caster_tome"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "6FF5611C49B6E0D6"
+				item: "coinsje:gold_coin"
+				type: "item"
+			}]
+			title: "气之施法者卷册"
+			x: -3.5d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["60932DE22D81AAB5"]
+			icon: {
+				Count: 1b
+				id: "ars_elemental:anima_caster_tome"
+				tag: { }
+			}
+			id: "41CA97E6EB93BC99"
+			rewards: [{
+				id: "043CC65904AF00DB"
+				item: {
+					Count: 1b
+					id: "ars_elemental:anima_caster_tome"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "0CA86B32EC85E86B"
+				item: "coinsje:gold_coin"
+				type: "item"
+			}]
+			title: "灵魂施法者卷册"
+			x: -3.5d
+			y: 6.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4BF24B5A79CF5554"]
+			icon: "create_sa:heap_of_experience"
+			id: "21EB913D88931B29"
+			rewards: [{
+				id: "4A93D79019C96D79"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "414A7CDA5BAAB53D"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			title: "+1经验等级"
+			x: -6.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["60932DE22D81AAB5"]
+			icon: {
+				Count: 1b
+				id: "ars_nouveau:starbuncle_charm"
+				tag: { }
+			}
+			id: "074F5DE7E615A058"
+			rewards: [{
+				id: "6E37A94C6C76E1E1"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:starbuncle_charm"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3C814F70A8F76776"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			title: "星宝石兽护符"
+			x: -4.5d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4BF24B5A79CF5554"]
+			icon: "minecraft:coal_ore"
+			id: "73F5576D1EDF88BA"
+			rewards: [{
+				count: 16
+				id: "49991F771B50EC20"
+				item: "minecraft:coal_ore"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "7CBEDD6751BFFD49"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			title: "煤矿石"
+			x: -7.5d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4BF24B5A79CF5554"]
+			icon: "minecraft:iron_ore"
+			id: "33202A527EA73678"
+			rewards: [{
+				count: 8
+				id: "7052386773424C50"
+				item: "minecraft:iron_ore"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "544F462489994BCF"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			title: "铁矿石"
+			x: -6.5d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4BF24B5A79CF5554"]
+			icon: "minecraft:copper_ore"
+			id: "25783C16B9F682BD"
+			rewards: [{
+				count: 8
+				id: "2868856D707A5A77"
+				item: "minecraft:copper_ore"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "38FDD69774857868"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			title: "铜矿石"
+			x: -7.5d
+			y: 6.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4BF24B5A79CF5554"]
+			icon: "minecraft:gold_ore"
+			id: "5442CDE05930978B"
+			rewards: [{
+				count: 4
+				id: "30A2EB8F2F650584"
+				item: "minecraft:gold_ore"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "494CBD1A516E1167"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			title: "金矿石"
+			x: -6.5d
+			y: 6.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4BF24B5A79CF5554"]
+			icon: "minecraft:redstone_ore"
+			id: "27387F8BE7B5FC83"
+			rewards: [{
+				count: 4
+				id: "5DC760F4D40ECF38"
+				item: "minecraft:redstone_ore"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "22188E40DBAE5124"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			title: "红石矿石"
+			x: -7.5d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4BF24B5A79CF5554"]
+			icon: "minecraft:emerald"
+			id: "167565B560B02A84"
+			rewards: [{
+				count: 4
+				id: "1AC4B11E259742B2"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "310515C2DA5879F0"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			title: "绿宝石"
+			x: -6.5d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4BF24B5A79CF5554"]
+			icon: "minecraft:lapis_ore"
+			id: "46490A4AE728454A"
+			rewards: [{
+				count: 8
+				id: "7A6AB98AE30A3B3C"
+				item: "minecraft:lapis_ore"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "1BE419A7890BE195"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			title: "青金石矿石"
+			x: -7.5d
+			y: 8.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4BF24B5A79CF5554"]
+			icon: "minecraft:diamond_ore"
+			id: "3C11C3013617CDD5"
+			rewards: [{
+				count: 2
+				id: "57FD7D5F861E092D"
+				item: "minecraft:diamond_ore"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "324FA9CEB8455628"
+				item: "coinsje:copper_coin"
+				type: "item"
+			}]
+			title: "钻石矿石"
+			x: -6.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["7775ECAC7CD08CAA"]
+			icon: {
+				Count: 1b
+				id: "pneumaticcraft:small_tank"
+				tag: {
+					BlockEntityTag: {
+						ForgeCaps: { }
+						Items: {
+							Items: [ ]
+							Size: 2
+						}
+						SavedTanks: {
+							Tank: {
+								Amount: 32000
+								FluidName: "createdieselgenerators:crude_oil"
+							}
+						}
+						UpgradeInventory: {
+							Items: [ ]
+							Size: 4
+						}
+						id: "pneumaticcraft:small_tank"
+					}
+					display: {
+						Lore: ["\"(+NBT)\""]
+					}
+				}
+			}
+			id: "7B789E776BBA3377"
+			rewards: [{
+				id: "7406736F623D400C"
+				item: {
+					Count: 1b
+					id: "pneumaticcraft:small_tank"
+					tag: {
+						BlockEntityTag: {
+							ForgeCaps: { }
+							Items: {
+								Items: [ ]
+								Size: 2
+							}
+							SavedTanks: {
+								Tank: {
+									Amount: 32000
+									FluidName: "createdieselgenerators:crude_oil"
+								}
+							}
+							UpgradeInventory: {
+								Items: [ ]
+								Size: 4
+							}
+							id: "pneumaticcraft:small_tank"
+						}
+						display: {
+							Lore: ["\"(+NBT)\""]
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "682EE44AA84247A9"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			title: "32B 原油"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["48156C29254D7471"]
+			icon: {
+				Count: 1b
+				id: "createaddition:diamond_grit_sandpaper"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "17978ED4F16607F4"
+			rewards: [{
+				id: "3BB43779AD08C504"
+				item: {
+					Count: 1b
+					id: "createaddition:diamond_grit_sandpaper"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "09FEAA3A5C7F032C"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			title: "钻石砂纸"
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7F767C6303DB124C"]
+			icon: "ae2:flawless_budding_quartz"
+			id: "51143E0B93F769F8"
+			rewards: [{
+				id: "67C4BF068935F039"
+				item: "ae2:flawless_budding_quartz"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "11E853E4A105A561"
+				item: "coinsje:gold_coin"
+				type: "item"
+			}]
+			title: "无暇的赛特斯母岩"
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["457DC28C16BFF6B7"]
+			icon: "elementalcraft:source"
+			id: "6140382AEC0DCD88"
+			rewards: [{
+				id: "49D9E41E53931419"
+				item: "elementalcraft:source"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "7758D5B8C9E4FF1B"
+				item: "coinsje:diamond_coin"
+				type: "item"
+			}]
+			title: "元素源点"
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			id: "1D5251BD6ED33E3F"
+			tasks: [{
+				id: "58878A4276AC0BCB"
+				title: "注意：商店尚未完工"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["48156C29254D7471"]
+			icon: "minecraft:andesite"
+			id: "3FEE4C7108149E94"
+			rewards: [{
+				id: "6F086F28CB191F89"
+				item: {
+					Count: 1b
+					id: "minecraft:chest"
+					tag: {
+						BlockEntityTag: {
+							ForgeCaps: { }
+							Items: [
+								{
+									Count: 64b
+									Slot: 0b
+									id: "minecraft:andesite"
+								}
+								{
+									Count: 64b
+									Slot: 1b
+									id: "minecraft:andesite"
+								}
+								{
+									Count: 64b
+									Slot: 2b
+									id: "minecraft:andesite"
+								}
+								{
+									Count: 64b
+									Slot: 3b
+									id: "minecraft:andesite"
+								}
+								{
+									Count: 64b
+									Slot: 4b
+									id: "minecraft:andesite"
+								}
+								{
+									Count: 64b
+									Slot: 5b
+									id: "minecraft:andesite"
+								}
+								{
+									Count: 64b
+									Slot: 6b
+									id: "minecraft:andesite"
+								}
+								{
+									Count: 64b
+									Slot: 7b
+									id: "minecraft:andesite"
+								}
+								{
+									Count: 64b
+									Slot: 8b
+									id: "minecraft:andesite"
+								}
+								{
+									Count: 64b
+									Slot: 9b
+									id: "minecraft:andesite"
+								}
+								{
+									Count: 64b
+									Slot: 10b
+									id: "minecraft:andesite"
+								}
+								{
+									Count: 64b
+									Slot: 11b
+									id: "minecraft:andesite"
+								}
+								{
+									Count: 64b
+									Slot: 12b
+									id: "minecraft:andesite"
+								}
+								{
+									Count: 64b
+									Slot: 13b
+									id: "minecraft:andesite"
+								}
+								{
+									Count: 64b
+									Slot: 14b
+									id: "minecraft:andesite"
+								}
+								{
+									Count: 64b
+									Slot: 15b
+									id: "minecraft:andesite"
+								}
+								{
+									Count: 64b
+									Slot: 16b
+									id: "minecraft:andesite"
+								}
+								{
+									Count: 64b
+									Slot: 17b
+									id: "minecraft:andesite"
+								}
+								{
+									Count: 64b
+									Slot: 18b
+									id: "minecraft:andesite"
+								}
+								{
+									Count: 64b
+									Slot: 19b
+									id: "minecraft:andesite"
+								}
+								{
+									Count: 64b
+									Slot: 20b
+									id: "minecraft:andesite"
+								}
+								{
+									Count: 64b
+									Slot: 21b
+									id: "minecraft:andesite"
+								}
+								{
+									Count: 64b
+									Slot: 22b
+									id: "minecraft:andesite"
+								}
+								{
+									Count: 64b
+									Slot: 23b
+									id: "minecraft:andesite"
+								}
+								{
+									Count: 64b
+									Slot: 24b
+									id: "minecraft:andesite"
+								}
+								{
+									Count: 64b
+									Slot: 25b
+									id: "minecraft:andesite"
+								}
+								{
+									Count: 64b
+									Slot: 26b
+									id: "minecraft:andesite"
+								}
+							]
+							id: "minecraft:chest"
+						}
+						display: {
+							Lore: ["\"(+NBT)\""]
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "69A276CAF5F4AFB9"
+				item: "coinsje:iron_coin"
+				type: "item"
+			}]
+			title: "一箱安山岩（1728个）"
+			x: -2.0d
+			y: 5.5d
+		}
+	]
+	title: "商店"
+}

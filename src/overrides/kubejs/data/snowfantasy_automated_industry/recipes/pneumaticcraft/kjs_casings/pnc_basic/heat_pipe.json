@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "count": 16,
+    "ingredient": {
+      "item": "kubejs:casing.pnc_basic"
+    },
+    "result": "pneumaticcraft:heat_pipe"
+  }

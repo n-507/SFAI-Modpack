@@ -1,0 +1,23 @@
+{
+    "type": "create:mixing",
+    "heatRequirement": "superheated",
+    "ingredients": [
+        {
+            "amount": 900,
+            "fluid": "minecraft:water"
+        },
+        {
+            "amount": 100,
+            "fluidTag": "forge:plantoil"
+        },
+        {
+            "tag": "forge:nuggets/netherite"
+        }
+    ],
+    "results": [
+        {
+            "amount": 1000,
+            "fluid": "kubejs:drill_fluid_netherite"
+        }
+    ]
+}

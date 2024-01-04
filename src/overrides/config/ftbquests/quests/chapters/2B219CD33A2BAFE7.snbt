@@ -1,0 +1,235 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2B219CD33A2BAFE7"
+	group: ""
+	id: "2B219CD33A2BAFE7"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"下列方块可在FTB圈地中交互："
+				""
+				"- 木门"
+				"- 木按钮"
+				"（如有安全需求，请用铁门/机械动力门，或石制按钮/铁质按钮）"
+				""
+				"- @AppleCrates 模组“货架”"
+				"（可用于与其他玩家交易。其自带物品栏锁，因此其他玩家将无法直接拿取货物。）"
+				""
+				"- Create: Things And Misc 读卡器"
+				""
+				"- 战利品箱、战利品桶"
+				"（事实上，除非您将自然生成的结构作为您的基地，否则您也不应该圈选这些公共资源。）"
+			]
+			id: "0F47A9D3FABC01AC"
+			tasks: [{
+				id: "35E561F65462C1C1"
+				title: "信息：圈地交互"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"为防止由于墓碑模组自动装备等功能导致的意外，已禁止开局自动给予七咒之戒。"
+				"如您有需要，可从此处领取。"
+				""
+				"警告：七咒之戒将会显著提升游戏难度！如您并未做好心理准备，请勿继续！"
+			]
+			id: "4D5DCE8DDCC02336"
+			rewards: [{
+				id: "008197C6C39893B0"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "enigmaticlegacy:cursed_ring"
+					tag: {
+						affix_data: {
+							affixes: {
+								"apotheosis:socket": 1.0f
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4AF475372AC61C62"
+				title: "七咒之戒"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"整合包设计制作："
+				"n507（吴绫柒）"
+				""
+				"数据包、代码："
+				"n507（吴绫柒）"
+				"Water_Moon（滢月凛霜）"
+				"Ying_Lan（樱岚）"
+				""
+				"优化："
+				"Mirror_Flower（陌漓·艾莲娜）"
+				""
+				"美工："
+				"Withered_Flower（滢月琬璃）"
+				""
+				"服务器运营："
+				"Maple_Mo（末年）"
+				"Water_Moon（滢月凛霜）"
+			]
+			id: "194AADE970BF6546"
+			tasks: [{
+				id: "0D27EB1667655E3A"
+				title: "制作者名单"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"提示：夜间十分危险。在您拥有良好的装备前，请尽量避免在夜间外出。"
+				""
+				"提示：您可以使用巨型火把来避免怪物侵扰。"
+				""
+				"提示：使用/home设置家。请务必及时设置您家的位置——寻求管理员帮助传送可能有很长的等待时间！"
+			]
+			id: "28388F7FADA0D654"
+			rewards: [
+				{
+					id: "03B70859546055CF"
+					item: {
+						Count: 1b
+						id: "minecraft:chainmail_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 1.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0150587ECAC445F3"
+					item: {
+						Count: 1b
+						id: "minecraft:chainmail_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 1.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6D9C7862943D1389"
+					item: {
+						Count: 1b
+						id: "minecraft:chainmail_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 0.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "02AC43AB7F8E659E"
+					item: {
+						Count: 1b
+						id: "minecraft:chainmail_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 1.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "478197EDD59ADF81"
+					item: {
+						Count: 1b
+						id: "simplyswords:iron_cutlass"
+						tag: {
+							Damage: 0
+							affix_data: {
+								affixes: {
+									"apotheosis:socket": 1.0f
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "63881749619EC766"
+					item: "gobber2:gobber2_gooey_bread"
+					type: "item"
+				}
+				{
+					id: "4B9771274E2DF976"
+					item: "magnumtorch:diamond_magnum_torch"
+					type: "item"
+				}
+				{
+					id: "64F31D467F214A68"
+					item: "sophisticatedbackpacks:backpack"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4EDC2291ABB75850"
+				title: "新手礼包"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"如果您不幸身亡，您可能会发现没有/back指令。"
+				""
+				"请在本任务界面右上角的“应急物品”中领取应急代币。"
+				"在物品栏中，将应急代币与您的坟墓钥匙组合，并使用获得的附魔坟墓钥匙传送回您的坟墓。"
+				""
+				"死亡还会导致您的装备额外损耗耐久。因此，请尽可能避免死亡，并避免携带不必要的物品。"
+			]
+			id: "61AD59E55B34D051"
+			tasks: [{
+				id: "1ED5B95AEEFBE64D"
+				title: "信息：back"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+	]
+	title: "信息"
+}

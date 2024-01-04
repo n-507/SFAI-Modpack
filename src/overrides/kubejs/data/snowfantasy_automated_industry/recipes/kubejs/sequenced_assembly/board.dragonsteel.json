@@ -1,0 +1,97 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "kubejs:comp.board.ender"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "kubejs:comp.board.dragon",
+      "count": 1
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:comp.board.dragon.inc"
+        },
+        {
+          "item": "kubejs:comp.cpu.infiar"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:comp.board.dragon.inc"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:comp.board.dragon.inc"
+        },
+        {
+          "tag": "forge:storage_blocks/dragonsteel"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:comp.board.dragon.inc"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:comp.board.dragon.inc"
+        },
+        {
+          "item": "mekanism:pellet_antimatter"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:comp.board.dragon.inc"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "kubejs:comp.board.dragon.inc"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:comp.board.dragon.inc"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "kubejs:comp.board.dragon.inc"
+        },
+        {
+          "amount": 250,
+          "fluid": "kubejs:liquid_soldering_material",
+          "nbt": {}
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:comp.board.dragon.inc"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "kubejs:comp.board.dragon.inc"
+  }
+}

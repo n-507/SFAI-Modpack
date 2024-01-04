@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "G": {
+      "tag": "forge:nuggets/gold"
+    },
+    "L": {
+      "item": "kubejs:comp.board.lapis"
+    },
+    "P": {
+      "item": "minecraft:paper"
+    }
+  },
+  "pattern": [
+    "PPG",
+    "PLG",
+    " PG"
+  ],
+  "result": {
+    "count": 4,
+    "item": "modularrouters:blank_upgrade"
+  }
+}

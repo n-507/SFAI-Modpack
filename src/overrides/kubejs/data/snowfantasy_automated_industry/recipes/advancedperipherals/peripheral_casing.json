@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "I": {
+      "tag": "forge:ingots/iron"
+    },
+    "R": {
+      "tag": "forge:storage_blocks/redstone"
+    },
+    "i": {
+      "item": "computercraft:wired_modem"
+    },
+    "C":{
+      "item": "kubejs:comp.board.redstone"
+    }
+  },
+  "pattern": [
+    "ICI",
+    "iRi",
+    "ICI"
+  ],
+  "result": {
+    "item": "advancedperipherals:peripheral_casing"
+  }
+}

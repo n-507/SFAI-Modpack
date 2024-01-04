@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "kubejs:casing.pnc_basic"
+    },
+    {
+      "item": "pneumaticcraft:pcb_blueprint"
+    }
+  ],
+  "result": {
+    "item": "pneumaticcraft:uv_light_box"
+  }
+}

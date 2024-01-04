@@ -1,0 +1,36 @@
+{
+  "type": "createoreexcavation:drilling",
+  "amountMax": 1.0,
+  "amountMin": 1.0,
+  "biomeWhitelist": "minecraft:is_end",
+  "drill": {
+    "item": "createoreexcavation:netherite_drill"
+  },
+  "fluid": {
+    "amount": 50,
+    "fluid": "kubejs:drill_fluid_netherite",
+    "nbt": {}
+  },
+  "name": "{\"text\":\"末地戈伯矿\"}",
+  "output": [
+    {
+      "chance": 1,
+      "item": "minecraft:end_stone"
+    },
+    {
+      "chance": 0.2,
+      "item": "gobber2:gobber2_globette_end"
+    },
+    {
+      "chance": 0.15,
+      "item": "gobber2:gobber2_ore_end"
+    },
+    {
+      "chance": 0.1,
+      "item": "gobber2:gobber2_lucky_block_end"
+    }
+  ],
+  "stress": 1024,
+  "ticks": 500,
+  "weight": 80
+}

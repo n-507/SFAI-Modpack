@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "count": 1,
+    "ingredient": {
+      "item": "kubejs:casing.mek"
+    },
+    "result": "mekanism:modification_station"
+  }

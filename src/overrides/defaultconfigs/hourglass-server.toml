@@ -4,12 +4,12 @@
 	#Day is defined as any time between 23500 (middle of dawn) and 12500 (middle of dusk) the next day.
 	#Vanilla speed: 1.0
 	#Range: 0.0 ~ 24000.0
-	daySpeed = 0.5
+	daySpeed = 2.0
 	#The speed at which time passes during the night.
 	#Night is defined as any time between 12500 (middle of dusk) and 23500 (middle of dawn).
 	#Vanilla speed: 1.0
 	#Range: 0.0 ~ 24000.0
-	nightSpeed = 0.5
+	nightSpeed = 2.0
 
 	[time.effects]
 		#When applied, this effect syncs the passage of weather with the current speed of time.
@@ -25,7 +25,7 @@
 		#WARNING: This setting overwrites the randomTickSpeed game rule. To modify the base random tick speed,
 		#use the baseRandomTickSpeed setting instead of changing the game rule directly.
 		#Allowed Values: NEVER, ALWAYS, SLEEPING
-		randomTickEffect = "SLEEPING"
+		randomTickEffect = "NEVER"
 		#The base random tick speed used by the randomTickEffect time effect.
 		#Range: > 0
 		baseRandomTickSpeed = 3
@@ -58,7 +58,7 @@
 	#The maximum speed at which time passes when all players are sleeping.
 	#A value of 110 is nearly equal to the time it takes to sleep in vanilla.
 	#Range: 0.0 ~ 24000.0
-	sleepSpeedMax = 60.0
+	sleepSpeedMax = 50.0
 	#The minimum speed at which time passes when only 1 player is sleeping in a full server.
 	#Range: 0.0 ~ 24000.0
 	sleepSpeedMin = 1.0
@@ -74,7 +74,7 @@
 	#Credit to Dino Dini for the function: https://dinodini.wordpress.com/2010/04/05/normalized-tunable-sigmoid-functions/
 	#Credit to SmoothSleep for the idea: https://www.spigotmc.org/resources/smoothsleep.32043/
 	#Range: 0.0 ~ 1.0
-	sleepSpeedCurve = 0.175
+	sleepSpeedCurve = 0.3
 	#Set to 'true' for the weather to clear when players wake up in the morning as it does in vanilla.
 	#Set to 'false' to force weather to pass naturally. Adds realism when accelerateWeather is enabled.
 	#Note: This setting is ignored if game rule doWeatherCycle is false.
@@ -83,7 +83,7 @@
 	#Note: Other mods may override this ability.
 	allowDaySleep = false
 	#When true, a clock is displayed in the sleep interface.
-	displayBedClock = false
+	displayBedClock = true
 
 	#This section defines settings for notification messages.
 	#All messages support Minecraft formatting codes (https://minecraft.fandom.com/wiki/Formatting_codes).
@@ -103,10 +103,10 @@
 			#sleepingPlayers -> the number of players in the current dimension who were sleeping.
 			#totalPlayers -> the number of players in the current dimension (spectators are not counted).
 			#sleepingPercentage -> the percentage of players in the current dimension who were sleeping (does not include % symbol).
-			message = "§e§o早上好！"
+			message = "§e§o早上好!"
 			#Sets where this message appears.
 			#Allowed Values: SYSTEM, GAME_INFO
-			type = "SYSTEM"
+			type = "GAME_INFO"
 			#Sets to whom this message is sent.
 			#A target of 'SLEEPING' will send the message to all players who just woke up.
 			#Allowed Values: ALL, DIMENSION, SLEEPING
@@ -119,10 +119,10 @@
 			#sleepingPlayers -> the number of players in the current dimension who are sleeping.
 			#totalPlayers -> the number of players in the current dimension (spectators are not counted).
 			#sleepingPercentage -> the percentage of players in the current dimension who are sleeping (does not include % symbol).
-			message = "${player}躺下准备睡觉了。 [${sleepingPlayers}/${totalPlayers}]"
+			message = "${player} 躺下准备睡觉了。 [${sleepingPlayers}/${totalPlayers}]"
 			#Sets where this message appears.
 			#Allowed Values: SYSTEM, GAME_INFO
-			type = "SYSTEM"
+			type = "GAME_INFO"
 			#Sets to whom this message is sent.
 			#Allowed Values: ALL, DIMENSION, SLEEPING
 			target = "DIMENSION"
@@ -134,10 +134,10 @@
 			#sleepingPlayers -> the number of players in the current dimension who are sleeping.
 			#totalPlayers -> the number of players in the current dimension (spectators are not counted).
 			#sleepingPercentage -> the percentage of players in the current dimension who are sleeping (does not include % symbol).
-			message = "${player}从床上爬起来了。 [${sleepingPlayers}/${totalPlayers}]"
+			message = "${player} 从床上爬起来了。 [${sleepingPlayers}/${totalPlayers}]"
 			#Sets where this message appears.
 			#Allowed Values: SYSTEM, GAME_INFO
-			type = "SYSTEM"
+			type = "GAME_INFO"
 			#Sets to whom this message is sent.
 			#Allowed Values: ALL, DIMENSION, SLEEPING
 			target = "DIMENSION"

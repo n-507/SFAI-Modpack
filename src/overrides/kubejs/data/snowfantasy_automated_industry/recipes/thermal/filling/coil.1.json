@@ -1,0 +1,17 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "kubejs:comp.te.coil.0"
+    },
+    {
+      "amount": 100,
+      "fluid": "thermal:redstone"
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:comp.te.coil.1"
+    }
+  ]
+}

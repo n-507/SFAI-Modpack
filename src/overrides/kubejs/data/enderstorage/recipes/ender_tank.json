@@ -1,11 +1,28 @@
 {
-	"type": "minecraft:crafting_shapeless",
-	"ingredients": [
-	  {
-		"item": "minecraft:barrier"
-	  }
-	],
+	"type": "enderstorage:create_recipe",
 	"result": {
-	  "item": "minecraft:barrier"
+		"item": "enderstorage:ender_tank"
+	},
+	"pattern": [
+		"BWB",
+		"OCO",
+		"BPB"
+	],
+	"key": {
+		"P": {
+			"tag": "forge:ender_pearls"
+		},
+		"O": {
+			"tag": "forge:obsidian"
+		},
+		"C": {
+			"item": "minecraft:cauldron"
+		},
+		"B": {
+			"item": "minecraft:blaze_rod"
+		},
+		"W": {
+			"tag": "forge:wool"
+		}
 	}
-  }
+}

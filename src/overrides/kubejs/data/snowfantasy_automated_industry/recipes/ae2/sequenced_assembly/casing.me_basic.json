@@ -1,0 +1,98 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:storage_blocks/certus_quartz"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "kubejs:casing.me_basic",
+      "count": 1
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:casing.me_basic.inc"
+        },
+        {
+          "tag": "forge:plates/iron"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:casing.me_basic.inc"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:casing.me_basic.inc"
+        },
+        {
+          "item": "ae2:formation_core"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:casing.me_basic.inc"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:casing.me_basic.inc"
+        },
+        {
+          "item": "ae2:annihilation_core"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:casing.me_basic.inc"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:casing.me_basic.inc"
+        },
+        {
+          "item": "ae2:engineering_processor"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:casing.me_basic.inc"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:casing.me_basic.inc"
+        },
+        {
+          "item": "kubejs:comp.board.redstone"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:casing.me_basic.inc"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "kubejs:casing.me_basic.inc"
+  }
+}

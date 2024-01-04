@@ -1,0 +1,17 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "kubejs:comp.ae.silicon.1"
+    },
+    {
+      "amount": 100,
+      "fluid": "minecraft:water"
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:comp.ae.silicon.2"
+    }
+  ]
+}

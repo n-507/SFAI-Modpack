@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "ars_nouveau:source_jar"
+  },
+  "addition": {
+    "item": "kubejs:comp.creativifier"
+  },
+  "result": {
+    "item": "ars_nouveau:creative_source_jar"
+  }
+}

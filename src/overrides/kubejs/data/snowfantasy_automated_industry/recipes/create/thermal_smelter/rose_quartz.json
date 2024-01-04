@@ -1,0 +1,19 @@
+{
+  "type": "thermal:smelter",
+  "ingredients": [
+    {
+      "tag": "forge:gems/quartz"
+    },
+    {
+      "tag": "forge:dusts/redstone",
+      "count": 2
+    }
+  ],
+  "result": [
+    {
+      "item": "create:rose_quartz",
+      "count": 1
+    }
+  ],
+  "energy": 800
+}

@@ -10,7 +10,7 @@
       "tag": "forge:glass_panes/colorless"
     },
     "I": {
-      "item": "kubejs:emerald_tube"
+      "item": "kubejs:comp.board.redstone"
     },
     "D": {
       "item": "minecraft:dirt"

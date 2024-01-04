@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "create:polished_rose_quartz"
+        },
+        {
+            "item": "create:polished_rose_quartz"
+        },
+        {
+            "item": "create:polished_rose_quartz"
+        },
+        {
+            "item": "create:polished_rose_quartz"
+        },
+        {
+            "item": "kubejs:comp.glass_bulb"
+        },
+        {
+            "item": "kubejs:comp.etube.base"
+        }
+    ],
+    "result": {
+        "item": "create:electron_tube"
+    }
+}

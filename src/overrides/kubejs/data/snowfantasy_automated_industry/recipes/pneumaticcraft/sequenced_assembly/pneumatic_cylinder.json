@@ -1,0 +1,63 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "pneumaticcraft:cannon_barrel"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "pneumaticcraft:pneumatic_cylinder",
+      "count": 1
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:comp.pncr.cyl.inc"
+        },
+        {
+          "tag": "forge:rods/iron"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:comp.pncr.cyl.inc"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:comp.pncr.cyl.inc"
+        },
+        {
+          "tag": "pneumaticcraft:plastic_sheets"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:comp.pncr.cyl.inc"
+        }
+      ]
+    },
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "kubejs:comp.pncr.cyl.inc"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:comp.pncr.cyl.inc"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "kubejs:comp.pncr.cyl.inc"
+  }
+}

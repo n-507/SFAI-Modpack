@@ -1,0 +1,23 @@
+{
+    "type": "create:compacting",
+    "heatRequirement": "superheated",
+    "ingredients": [
+        {
+            "item": "occultism:chalk_white_impure"
+        },
+        {
+            "tag": "forge:dusts/obsidian"
+        },
+        {
+            "tag": "forge:dusts/obsidian"
+        },
+        {
+            "tag": "forge:dusts/obsidian"
+        }
+    ],
+    "results": [
+        {
+            "item": "occultism:chalk_purple_impure"
+        }
+    ]
+}

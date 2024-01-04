@@ -1,0 +1,84 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:plates/gold"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "kubejs:comp.cpu.matrix",
+      "count": 1
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:comp.cpu.matrix.inc"
+        },
+        {
+          "item": "pneumaticcraft:printed_circuit_board"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:comp.cpu.matrix.inc"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:comp.cpu.matrix.inc"
+        },
+        {
+          "item": "kubejs:comp.pncr.lapis_cell"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:comp.cpu.matrix.inc"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:comp.cpu.matrix.inc"
+        },
+        {
+          "item": "kubejs:comp.aicore.standard"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:comp.cpu.matrix.inc"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "kubejs:comp.cpu.matrix.inc"
+        },
+        {
+          "amount": 250,
+          "fluid": "thermal:redstone",
+          "nbt": {}
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:comp.cpu.matrix.inc"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "kubejs:comp.cpu.matrix.inc"
+  }
+}

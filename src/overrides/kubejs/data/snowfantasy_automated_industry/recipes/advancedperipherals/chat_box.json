@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "count": 1,
+    "ingredient": {
+      "item": "advancedperipherals:peripheral_casing"
+    },
+    "result": "advancedperipherals:chat_box"
+  }

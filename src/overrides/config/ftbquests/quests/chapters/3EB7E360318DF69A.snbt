@@ -1,0 +1,408 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3EB7E360318DF69A"
+	group: ""
+	icon: "kubejs:casing.andesite"
+	id: "3EB7E360318DF69A"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["32AC901A07F9DB88"]
+			id: "59CF58501CE9760B"
+			tasks: [{
+				id: "2F7732B9C31304B8"
+				item: "kubejs:comp.board.redstone"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"59CF58501CE9760B"
+				"2EDC49FDD806DA06"
+			]
+			id: "5E27308740826576"
+			tasks: [{
+				id: "60A6B72F7AE74ADD"
+				item: "kubejs:comp.board.lapis"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"1CD279F9011893C2"
+				"7F02654AB7B570FF"
+			]
+			id: "327E0B54C92103CC"
+			tasks: [{
+				id: "383A0803A913968B"
+				item: "kubejs:comp.board.ender"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["27FE064D129E4B7B"]
+			id: "32AC901A07F9DB88"
+			tasks: [{
+				id: "3124D18EFE782B35"
+				item: "kubejs:comp.cpu.scalar"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"59CF58501CE9760B"
+				"6AA97360305FF221"
+			]
+			id: "2EDC49FDD806DA06"
+			tasks: [{
+				id: "458F30BDE6A7D2EF"
+				item: "kubejs:comp.cpu.vector"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"5E27308740826576"
+				"1BC0F8F983764FB8"
+			]
+			id: "775737FB6325079F"
+			tasks: [{
+				id: "03123FAC1DD3D13D"
+				item: "kubejs:comp.cpu.matrix"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"49B191CAB89E0E43"
+				"7F02654AB7B570FF"
+			]
+			id: "1CD279F9011893C2"
+			tasks: [{
+				id: "2B81869775A311C2"
+				item: "kubejs:comp.cpu.tensor"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 8.0d
+		}
+		{
+			id: "27FE064D129E4B7B"
+			tasks: [{
+				id: "783DE1BA3AB4D575"
+				item: "create:electron_tube"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			id: "00B98F2002EA07B1"
+			tasks: [{
+				id: "4A66EF92829EDEBD"
+				item: "kubejs:casing.andesite"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"27FE064D129E4B7B"
+				"00B98F2002EA07B1"
+			]
+			id: "065CB8B4BEED3C3D"
+			tasks: [{
+				id: "67B8F04CCF9CEE95"
+				item: "kubejs:casing.brass"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["27FE064D129E4B7B"]
+			id: "64DA10A547E3C361"
+			tasks: [{
+				id: "02A0C790CE8D7C7F"
+				item: "kubejs:casing.copper"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["27FE064D129E4B7B"]
+			id: "60A241CDD24ACE2A"
+			tasks: [{
+				id: "5EC8A6D0A7FFF855"
+				item: "kubejs:casing.smart"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["27FE064D129E4B7B"]
+			id: "55DDE5F874B2D4CC"
+			tasks: [{
+				id: "190B61522AD26AF8"
+				item: "kubejs:casing.train"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["065CB8B4BEED3C3D"]
+			id: "3A95CB6956770914"
+			tasks: [{
+				id: "55CC3C375C7EC4CE"
+				item: "kubejs:casing.sturdy"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"065CB8B4BEED3C3D"
+				"64DA10A547E3C361"
+			]
+			id: "7805387E013088A1"
+			tasks: [{
+				id: "72D3BFC97192169F"
+				item: "kubejs:casing.te_device"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"59CF58501CE9760B"
+				"065CB8B4BEED3C3D"
+			]
+			id: "7DC2930E05D88126"
+			tasks: [{
+				id: "6465576167172B71"
+				item: "kubejs:casing.pnc_basic"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"32AC901A07F9DB88"
+				"77C886827A6D6F1F"
+			]
+			id: "6AA97360305FF221"
+			tasks: [{
+				id: "4D8A643C08C47F4F"
+				item: "kubejs:comp.aicore.basic"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"2EDC49FDD806DA06"
+				"784A9B6F9A09C632"
+			]
+			id: "1BC0F8F983764FB8"
+			tasks: [{
+				id: "220F272F25B6FE6A"
+				item: "kubejs:comp.aicore.standard"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"775737FB6325079F"
+				"556F57D25AC03305"
+			]
+			id: "49B191CAB89E0E43"
+			tasks: [{
+				id: "42E169DCB3286FD6"
+				item: "kubejs:comp.aicore.advanced"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["56AF59D2CE189569"]
+			id: "77C886827A6D6F1F"
+			tasks: [{
+				id: "6DF37599DF773404"
+				item: "occultism:golden_sacrificial_bowl"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["77C886827A6D6F1F"]
+			id: "784A9B6F9A09C632"
+			tasks: [{
+				id: "6EFC56F4CDE5776C"
+				item: "elementalcraft:infuser"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["784A9B6F9A09C632"]
+			id: "556F57D25AC03305"
+			tasks: [{
+				id: "297CCEFBC8063E33"
+				item: "elementalcraft:binder"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 8.0d
+		}
+		{
+			id: "56AF59D2CE189569"
+			tasks: [{
+				id: "50722E7864BEC031"
+				item: "ars_nouveau:source_gem"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"7DC2930E05D88126"
+				"2EDC49FDD806DA06"
+			]
+			id: "7DCDE76E127CDCAD"
+			tasks: [{
+				id: "151C28C0BB6A0A26"
+				item: "kubejs:casing.pnc_adv"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"7DCDE76E127CDCAD"
+				"5E27308740826576"
+			]
+			id: "1EC101D3CF928941"
+			tasks: [{
+				id: "0C6A9D033712687F"
+				item: "kubejs:casing.pnc_ult"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"7DCDE76E127CDCAD"
+				"7F02654AB7B570FF"
+			]
+			id: "33203AE3D78B7C04"
+			tasks: [{
+				id: "28D2D528E40093EC"
+				item: "kubejs:casing.te_machine"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"775737FB6325079F"
+				"5E27308740826576"
+			]
+			id: "7F02654AB7B570FF"
+			tasks: [{
+				id: "1BDA972B528273EE"
+				item: "kubejs:comp.board.blaze"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"065CB8B4BEED3C3D"
+				"59CF58501CE9760B"
+			]
+			id: "5114BE2D44DF0A60"
+			tasks: [{
+				id: "53E4F44518402877"
+				item: "kubejs:casing.me_basic"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"7DCDE76E127CDCAD"
+				"775737FB6325079F"
+			]
+			id: "41812933D7E16D89"
+			tasks: [{
+				id: "3E62063E9975FDCE"
+				item: "kubejs:casing.me_adv"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"327E0B54C92103CC"
+				"33203AE3D78B7C04"
+			]
+			id: "7023BD54FE00B203"
+			tasks: [{
+				id: "20EE7F9E0460BDE8"
+				item: "kubejs:casing.mek"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"7023BD54FE00B203"
+				"33203AE3D78B7C04"
+			]
+			id: "516D66CC38B6F687"
+			tasks: [{
+				id: "6BC5B89B3F3CBD04"
+				item: "kubejs:casing.mek_chem"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 10.0d
+		}
+	]
+	title: "科技线"
+}

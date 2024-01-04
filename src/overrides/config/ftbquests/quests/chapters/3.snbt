@@ -1,0 +1,169 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3"
+	group: ""
+	icon: "thermal:machine_frame"
+	id: "3B99D4B418C65ABD"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"4D7B2D820FCBFC60"
+				"513A695F294E6DC5"
+			]
+			description: ["用于制作热力膨胀的机器。"]
+			id: "19B40B5E46772324"
+			tasks: [{
+				id: "36C7BE6BB3162633"
+				item: "kubejs:casing.te_machine"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["434D78B912985E94"]
+			description: ["零件"]
+			id: "5F26025D91A212E1"
+			tasks: [{
+				id: "37C691586A19CBA8"
+				item: "kubejs:comp.aicore.standard"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"您将需要发展元素魔法以制作部分后续材料。"
+				""
+				"元素魔法模组需要来自于源点的元素。您在探索时可能会看到由白色石头组成的祭坛，其上的光球就是本模组的元素源点。"
+			]
+			id: "434D78B912985E94"
+			tasks: [{
+				id: "3C39D7F46EFC46E7"
+				item: "elementalcraft:drenched_iron_ingot"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"73C6DBF2043E3F42"
+				"5F26025D91A212E1"
+			]
+			description: ["零件"]
+			id: "513A695F294E6DC5"
+			tasks: [{
+				id: "7FC45A2AF8D6A478"
+				item: "kubejs:comp.board.blaze"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"您需要使用Powah模组的充能台获取部分零件。"
+				""
+				"充能台无法直接通电。需要附近的充能棒为其供能。"
+			]
+			id: "73C6DBF2043E3F42"
+			tasks: [{
+				id: "35C3FB48F8370261"
+				item: "powah:crystal_blazing"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1C4CFD3E24502663"]
+			description: ["用于制作通用机械的基础设备。"]
+			id: "6C95E2370353021F"
+			tasks: [{
+				id: "21D7C39C1F9A32D3"
+				item: "kubejs:casing.mek"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["19B40B5E46772324"]
+			description: ["通过在热力膨胀的感应炉中烧制来制作。"]
+			id: "69F02E967489FFB4"
+			tasks: [{
+				id: "0A3500D97B1FFC19"
+				item: "thermal_extra:shellite_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["434D78B912985E94"]
+			id: "786EF9C8AA82798F"
+			tasks: [{
+				id: "3D87E82379C33CA5"
+				item: "elementalcraft:fireite_ingot"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"69F02E967489FFB4"
+				"786EF9C8AA82798F"
+			]
+			description: ["零件"]
+			id: "1C4CFD3E24502663"
+			tasks: [{
+				id: "32B57837ED020F07"
+				item: "kubejs:comp.board.ender"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6C95E2370353021F"]
+			description: ["用于制作通用机械的高级设备。"]
+			id: "7FA3A3B80CBDFCC9"
+			tasks: [{
+				id: "714FCE030C26E815"
+				item: "kubejs:casing.mek_chem"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7FA3A3B80CBDFCC9"]
+			id: "4E450FE1AC2D2800"
+			tasks: [{
+				id: "3E61C7F07FDD2CB3"
+				item: "mekanism:antiprotonic_nucleosynthesizer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4E450FE1AC2D2800"]
+			id: "3C5C869001BCE76C"
+			tasks: [{
+				id: "3CF4247D5E2D9683"
+				item: "kubejs:comp.creativifier"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+	]
+	title: "3"
+}

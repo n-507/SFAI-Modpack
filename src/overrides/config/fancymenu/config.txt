@@ -32,7 +32,7 @@ S:customgameintroskiptext = '';
 ##[minecraftwindow]
 
 [A minecraft restart is required after changing this value.]
-S:customwindowtitle = 'SnowFantasy: Automated Industry - 1.1.0 | Minecraft 1.19.2';
+S:customwindowtitle = 'SnowFantasy Automated Industry 2 | Minecraft 1.19.2';
 [A minecraft restart is required after changing this value.]
 B:customwindowicon = 'true';
 
@@ -65,7 +65,7 @@ B:showvanillamovewarning = 'true';
 ##[ui]
 
 B:show_unicode_warning = 'true';
-F:uiscale = '2.0';
+F:uiscale = '2';
 
 
 ##[compatibility]

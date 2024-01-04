@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "I": {
+      "tag": "forge:plates/iron"
+    }
+  },
+  "pattern": [
+    "I I",
+    "I I",
+    "III"
+  ],
+  "result": {
+    "item": "create:basin"
+  }
+}

@@ -76,7 +76,7 @@
     B:CorruptedTomeEnabled=true
 
     # Whether or not Cosmic Scroll should be enabled. [default: true, synchronized: yes]
-    B:CosmicScrollEnabled=false
+    B:CosmicScrollEnabled=true
 
     # Whether or not Enigmatic Legacy should purposefully crash client whenever any mod tries to inject unnamed LootPool into any loot table. If false, stacktraces will be printed to log but game will proceed as normal. [default: true, synchronized: no]
     B:CrashOnUnnamedPool=true
@@ -241,7 +241,7 @@
     B:RingofEnderEnabled=true
 
     # Whether or not Ring of the Seven Curses should be enabled. [default: true, synchronized: yes]
-    B:RingoftheSevenCursesEnabled=true
+    B:RingoftheSevenCursesEnabled=false
 
     # Whether or not Scroll of Ageless Wisdom should be enabled. [default: true, synchronized: yes]
     B:ScrollofAgelessWisdomEnabled=true
@@ -433,13 +433,13 @@
     B:EnigmaticAmuletOwnerOnlyVessel=false
 
     # What fraction of player's experience should be stored in Extradimensional Vessel upon their death. Experience that is not stored will be lost forever. 1.0 means that all experience is saved. [range: 0.0 ~ 1.0, default: 1.0, synchronized: yes]
-    D:EnigmaticAmuletSavedXPFraction=1.0
+    D:EnigmaticAmuletSavedXPFraction=0.0
 
     # If true, color of Enigmatic Amulet will be assigned using player's name as seed for generating it, instead of randomly - so that every player will always receive one specific color. [default: false, synchronized: yes]
     B:EnigmaticAmuletSeededColorGen=false
 
     # Whether or not Enigmatic Amulet should be summoning Extradimensional Vessel on owner's death. [default: true, synchronized: yes]
-    B:EnigmaticAmuletVesselEnabled=true
+    B:EnigmaticAmuletVesselEnabled=false
 
     # Active ability cooldown for Heart of Creation. Measured in ticks. 20 ticks equal to 1 second. [range: 0 ~ 32768, default: 3, synchronized: yes]
     I:EnigmaticItemCooldown=3
@@ -708,7 +708,7 @@
 
 "The Seven Curses" {
     # How much less effective armor will be for those who bear the ring. Measured as percetage. [range: 0 ~ 100, default: 30, synchronized: yes]
-    I:CursedRingArmorDebuff=33
+    I:CursedRingArmorDebuff=50
 
     # If true, Ring of the Seven Curses will be equipped into player's ring slot right away when it enters their inventory. This is different from ultra hardcore option as the way through which ring ends up in player's inventory does not matter. [default: false, synchronized: yes]
     B:CursedRingAutoEquip=false
@@ -726,10 +726,10 @@
     D:CursedRingEndermenRandomportRange=32.0
 
     # How much experience will drop from mobs to bearers of the ring, measured in percents. [range: 0 ~ 32768, default: 400, synchronized: yes]
-    I:CursedRingExperienceBonus=566
+    I:CursedRingExperienceBonus=500
 
     # How many bonus Fortune levels ring provides [range: 0 ~ 32768, default: 1, synchronized: yes]
-    I:CursedRingFortuneBonus=3
+    I:CursedRingFortuneBonus=1
 
     # How much knockback bearers of the ring take, measured in percents. [range: 0 ~ 32768, default: 200, synchronized: yes]
     I:CursedRingKnockbackDebuff=200
@@ -738,7 +738,7 @@
     I:CursedRingLootingBonus=2
 
     # How much damage monsters receive from bearers of the ring will be decreased, in percents. [range: 0 ~ 32768, default: 50, synchronized: yes]
-    I:CursedRingMonsterDamageDebuff=50
+    I:CursedRingMonsterDamageDebuff=30
 
     # List of entities that should never be affected by the Second Curse of Ring of the Seven Curses. Examples: minecraft:iron_golem, minecraft:zombified_piglin. Changing this option required game restart to take effect. [default: , synchronized: no]
     S:CursedRingNeutralAngerBlacklist <

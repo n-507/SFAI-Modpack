@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "ars_nouveau:archmage_spell_book"
+  },
+  "addition": {
+    "item": "kubejs:comp.creativifier"
+  },
+  "result": {
+    "item": "ars_nouveau:creative_spell_book"
+  }
+}

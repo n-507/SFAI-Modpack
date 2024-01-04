@@ -1,0 +1,95 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+      "item": "create:andesite_casing"
+    },
+    "loops": 1,
+    "results": [
+      {
+        "item": "kubejs:casing.te_device",
+        "count": 1
+      }
+    ],
+    "sequence": [
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "kubejs:casing.te_device.inc"
+          },
+          {
+            "tag": "forge:plates/tin"
+          }
+        ],
+        "results": [
+          {
+            "item": "kubejs:casing.te_device.inc"
+          }
+        ]
+      },
+      {
+        "type": "create:cutting",
+        "ingredients":[
+          {
+            "item": "kubejs:casing.te_device.inc"
+          }
+        ],
+        "results":[
+          {
+            "item": "kubejs:casing.te_device.inc"
+          }
+        ]
+      },
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "kubejs:casing.te_device.inc"
+          },
+          {
+            "item": "create:precision_mechanism"
+          }
+        ],
+        "results": [
+          {
+            "item": "kubejs:casing.te_device.inc"
+          }
+        ]
+      },
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "kubejs:casing.te_device.inc"
+          },
+          {
+            "item": "thermal:rf_coil"
+          }
+        ],
+        "results": [
+          {
+            "item": "kubejs:casing.te_device.inc"
+          }
+        ]
+      },
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "kubejs:casing.te_device.inc"
+          },
+          {
+            "tag": "forge:gears/copper"
+          }
+        ],
+        "results": [
+          {
+            "item": "kubejs:casing.te_device.inc"
+          }
+        ]
+      }
+    ],
+    "transitionalItem": {
+      "item": "kubejs:casing.te_device.inc"
+    }
+  }

@@ -1,0 +1,80 @@
+{
+  "item.experienceobelisk.attunement_staff": "Staff of Attunement",
+  "item.experienceobelisk.cognitium_bucket": "Cognitium Bucket",
+  "item.experienceobelisk.cognitive_alloy": "Cognitive Alloy",
+  "item.experienceobelisk.cognitive_amalgam": "Cognitive Amalgam",
+  "item.experienceobelisk.cognitive_crystal": "Cognitive Crystal",
+  "item.experienceobelisk.cognitive_flux": "Cognitive Flux",
+  "item.experienceobelisk.cognitive_sword": "Cognitive Sword",
+  "item.experienceobelisk.cognitive_axe": "Cognitive Axe",
+  "item.experienceobelisk.cognitive_pickaxe": "Cognitive Pickaxe",
+  "item.experienceobelisk.cognitive_shovel": "Cognitive Shovel",
+  "item.experienceobelisk.cognitive_hoe": "Cognitive Hoe",
+  "item.experienceobelisk.astute_assembly": "Astute Assembly",
+  "item.experienceobelisk.enlightened_amulet": "Enlightened Amulet",
+
+  "block.experienceobelisk.experience_obelisk": "Experience Obelisk",
+  "block.experienceobelisk.experience_fountain": "Experience Fountain",
+  "block.experienceobelisk.precision_dispeller": "Precision Dispeller",
+  "block.experienceobelisk.cognitive_alloy_block": "Block of Cognitive Alloy",
+  "block.experienceobelisk.cognitive_crystal_block": "Block of Cognitive Crystal",
+  "block.experienceobelisk.cognitium": "Cognitium",
+
+  "fluid.experienceobelisk.cognitium": "Cognitium",
+  "fluid_type.experienceobelisk.cognitium": "Cognitium",
+
+  "itemGroup.experienceobelisk": "Cognition",
+
+  "title.experienceobelisk.experience_obelisk": "Experience Obelisk",
+  "title.experienceobelisk.experience_obelisk.store": "Store",
+  "title.experienceobelisk.experience_obelisk.retrieve": "Retrieve",
+  "title.experienceobelisk.experience_obelisk.settings": "Settings",
+  "title.experienceobelisk.experience_obelisk.radius": "Radius",
+  "title.experienceobelisk.experience_obelisk.redstone": "Redstone",
+  "title.experienceobelisk.precision_dispeller": "Precision Dispeller",
+  "title.experienceobelisk.precision_dispeller.inventory": "Inventory",
+
+  "tooltip.experienceobelisk.experience_obelisk.add1": "Store §a1§f XP level",
+  "tooltip.experienceobelisk.experience_obelisk.add10": "Store §a10§f XP levels",
+  "tooltip.experienceobelisk.experience_obelisk.addAll": "Store §aall§f XP levels",
+  "tooltip.experienceobelisk.experience_obelisk.drain1": "Retrieve §c1§f XP level",
+  "tooltip.experienceobelisk.experience_obelisk.drain10": "Retrieve §c10§f XP levels",
+  "tooltip.experienceobelisk.experience_obelisk.drainAll": "Retrieve §call§f XP levels",
+  "tooltip.experienceobelisk.experience_obelisk.radius": "§6Reset§f radius to default",
+  "tooltip.experienceobelisk.experience_obelisk.settings": "Settings...",
+  "tooltip.experienceobelisk.experience_obelisk.back": "Back...",
+  "tooltip.experienceobelisk.experience_obelisk.item_fluid_amount": "§7Fluid Amount:§r %s",
+  "tooltip.experienceobelisk.experience_obelisk.item_levels": "%s §7Levels§r",
+
+  "tooltip.experienceobelisk.enlightened_amulet.active": "§7Currently §aactive",
+  "tooltip.experienceobelisk.enlightened_amulet.inactive": "§7Currently §cinactive",
+
+  "tooltip.experienceobelisk.precision_dispeller.curse": "§7Costs §c1395 §7XP / §c30 §7base levels",
+  "tooltip.experienceobelisk.precision_dispeller.enchantment": "§7Gives %s §7XP / %s §7base levels",
+  "tooltip.experienceobelisk.precision_dispeller.insufficient_xp": "§6Insufficient XP!",
+
+  "button.experienceobelisk.experience_obelisk.settings": "§l▶§r",
+  "button.experienceobelisk.experience_obelisk.back": "§l◀§r",
+  "button.experienceobelisk.experience_obelisk.ignored": "§cIgnored§r",
+  "button.experienceobelisk.experience_obelisk.enabled": "§aEnabled§r",
+
+  "message.experienceobelisk.binding_wand.bind_obelisk": "§a[✔]§r Obelisk position saved",
+  "message.experienceobelisk.binding_wand.unbind_obelisk": "§a[✔]§r Obelisk position forgotten",
+  "message.experienceobelisk.binding_wand.bind_target": "§a[✔]§r Target bound to obelisk at %s",
+  "message.experienceobelisk.binding_wand.unbind_target": "§a[✔]§r Target unbound",
+  "message.experienceobelisk.binding_wand.obelisk_too_far": "§c[✖]§r The obelisk is too far away",
+  "message.experienceobelisk.binding_wand.obelisk_doesnt_exist": "§c[✖]§f The obelisk at %s §fno longer exists",
+  "message.experienceobelisk.binding_wand.reveal_bound_pos": "§b[ⓘ]§r This block is bound to the obelisk at %s",
+  "message.experienceobelisk.binding_wand.not_yet_bound": "§b[ⓘ]§r This block is not yet bound",
+
+  "message.experienceobelisk.experience_fountain.slow": "Experience Fountain set to: §cSlow§r",
+  "message.experienceobelisk.experience_fountain.moderate": "Experience Fountain set to: §eModerate§r",
+  "message.experienceobelisk.experience_fountain.fast": "Experience Fountain set to: §aFast§r",
+  "message.experienceobelisk.experience_fountain.hyper": "Experience Fountain set to: §bHyper§r",
+
+  "sounds.experienceobelisk.enlightened_amulet_activate": "Amulet activates",
+  "sounds.experienceobelisk.enlightened_amulet_deactivate": "Amulet deactivates",
+
+  "enchantment.experienceobelisk.athena_blessing": "Blessing of Athena",
+  "enchantment.experienceobelisk.athena_blessing.desc": "Tool decomposes into experience when broken"
+}

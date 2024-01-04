@@ -1,0 +1,36 @@
+{
+  "type": "createoreexcavation:drilling",
+  "amountMax": 1.0,
+  "amountMin": 1.0,
+  "biomeWhitelist": "minecraft:is_nether",
+  "drill": {
+    "item": "createoreexcavation:netherite_drill"
+  },
+  "fluid": {
+    "amount": 50,
+    "fluid": "kubejs:drill_fluid_netherite",
+    "nbt": {}
+  },
+  "name": "{\"text\":\"下界戈伯矿\"}",
+  "output": [
+    {
+      "chance": 1,
+      "item": "minecraft:netherrack"
+    },
+    {
+      "chance": 0.2,
+      "item": "gobber2:gobber2_globette_nether"
+    },
+    {
+      "chance": 0.15,
+      "item": "gobber2:gobber2_ore_nether"
+    },
+    {
+      "chance": 0.1,
+      "item": "gobber2:gobber2_lucky_block_nether"
+    }
+  ],
+  "stress": 1024,
+  "ticks": 500,
+  "weight": 80
+}

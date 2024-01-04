@@ -1,0 +1,97 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "kubejs:comp.board.blaze"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "kubejs:comp.board.ender",
+      "count": 1
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:comp.board.ender.inc"
+        },
+        {
+          "item": "kubejs:comp.cpu.tensor"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:comp.board.ender.inc"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:comp.board.ender.inc"
+        },
+        {
+          "tag": "forge:ingots/shellite"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:comp.board.ender.inc"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:comp.board.ender.inc"
+        },
+        {
+          "tag": "forge:ingots/fireite"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:comp.board.ender.inc"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "kubejs:comp.board.ender.inc"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:comp.board.ender.inc"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "kubejs:comp.board.ender.inc"
+        },
+        {
+          "amount": 250,
+          "fluid": "kubejs:liquid_soldering_material",
+          "nbt": {}
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:comp.board.ender.inc"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "kubejs:comp.board.ender.inc"
+  }
+}

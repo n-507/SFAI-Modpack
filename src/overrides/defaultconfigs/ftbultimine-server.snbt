@@ -36,7 +36,7 @@
 	
 	# Require a damageable tool, or an item in the ftbultimine:tools tag, to ultimine.
 	# Default: false
-	require_tool: false
+	require_tool: true
 	
 	# Right-click with an axe with the Ultimine key held to strip multiple logs and scrape/unwax copper blocks
 	# Default: true

@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "count": 2,
+    "ingredient": {
+      "item": "kubejs:casing.pnc_adv"
+    },
+    "result": "pneumaticcraft:sentry_turret"
+  }

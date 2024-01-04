@@ -1,0 +1,97 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "kubejs:comp.board.redstone"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "kubejs:comp.board.lapis",
+      "count": 1
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:comp.board.lapis.inc"
+        },
+        {
+          "item": "kubejs:comp.cpu.vector"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:comp.board.lapis.inc"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:comp.board.lapis.inc"
+        },
+        {
+          "item": "kubejs:comp.pncr.lapis_cell"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:comp.board.lapis.inc"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:comp.board.lapis.inc"
+        },
+        {
+          "tag": "pneumaticcraft:plastic_sheets"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:comp.board.lapis.inc"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "kubejs:comp.board.lapis.inc"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:comp.board.lapis.inc"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "kubejs:comp.board.lapis.inc"
+        },
+        {
+          "amount": 250,
+          "fluid": "thermal:redstone",
+          "nbt": {}
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:comp.board.lapis.inc"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "kubejs:comp.board.lapis.inc"
+  }
+}

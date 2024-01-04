@@ -1,0 +1,34 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+      "item": "kubejs:comp.rubber.sheet"
+    },
+    "loops": 3,
+    "results": [
+      {
+        "item": "create:belt_connector",
+        "count": 1
+      }
+    ],
+    "sequence": [
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "kubejs:comp.create.belt.inc"
+          },
+          {
+            "item": "kubejs:comp.rubber.sheet"
+          }
+        ],
+        "results": [
+          {
+            "item": "kubejs:comp.create.belt.inc"
+          }
+        ]
+      }
+    ],
+    "transitionalItem": {
+      "item": "kubejs:comp.create.belt.inc"
+    }
+  }

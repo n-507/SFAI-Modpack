@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "d": {
+            "tag": "forge:gems/diamond"
+        },
+        "g": {
+            "item": "kubejs:comp.cpu.scalar"
+        },
+        "l": {
+            "tag": "forge:gems/lapis"
+        },
+        "r": {
+            "tag": "forge:dusts/redstone"
+        }
+    },
+    "pattern": [
+        "rlr",
+        "dgd",
+        "rlr"
+    ],
+    "result": {
+        "item": "mininggadgets:upgrade_empty"
+    }
+}

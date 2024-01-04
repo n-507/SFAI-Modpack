@@ -1,0 +1,82 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+      "item": "minecraft:book"
+    },
+    "loops": 1,
+    "results": [
+      {
+        "item": "kubejs:casing.tome",
+        "count": 1
+      }
+    ],
+    "sequence": [
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "kubejs:casing.tome.inc"
+          },
+          {
+            "item": "occultism:chalk_white"
+          }
+        ],
+        "results": [
+          {
+            "item": "kubejs:casing.tome.inc"
+          }
+        ]
+      },
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "kubejs:casing.tome.inc"
+          },
+          {
+            "item": "occultism:chalk_gold"
+          }
+        ],
+        "results": [
+          {
+            "item": "kubejs:casing.tome.inc"
+          }
+        ]
+      },
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "kubejs:casing.tome.inc"
+          },
+          {
+            "item": "occultism:chalk_purple"
+          }
+        ],
+        "results": [
+          {
+            "item": "kubejs:casing.tome.inc"
+          }
+        ]
+      },
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "kubejs:casing.tome.inc"
+          },
+          {
+            "item": "occultism:chalk_red"
+          }
+        ],
+        "results": [
+          {
+            "item": "kubejs:casing.tome.inc"
+          }
+        ]
+      }
+    ],
+    "transitionalItem": {
+      "item": "kubejs:casing.tome.inc"
+    }
+  }

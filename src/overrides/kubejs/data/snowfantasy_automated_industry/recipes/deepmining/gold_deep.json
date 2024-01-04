@@ -1,0 +1,36 @@
+{
+  "type": "createoreexcavation:drilling",
+  "amountMax": 2.0,
+  "amountMin": 1.0,
+  "biomeWhitelist": "minecraft:is_overworld",
+  "drill": {
+    "item": "createoreexcavation:diamond_drill"
+  },
+  "fluid": {
+    "amount": 75,
+    "fluid": "kubejs:drill_fluid",
+    "nbt": {}
+  },
+  "name": "{\"text\":\"深层贵金属矿\"}",
+  "output": [
+    {
+      "chance": 0.4,
+      "item": "minecraft:cobbled_deepslate"
+    },
+    {
+      "chance": 0.7,
+      "item": "create:ochrum"
+    },
+    {
+      "chance": 0.2,
+      "item": "minecraft:raw_gold"
+    },
+    {
+      "chance": 0.4,
+      "item": "thermal:raw_silver"
+    }
+  ],
+  "stress": 512,
+  "ticks": 500,
+  "weight": 100
+}

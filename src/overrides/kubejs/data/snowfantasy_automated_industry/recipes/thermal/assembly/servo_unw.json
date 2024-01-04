@@ -1,0 +1,11 @@
+{
+  "type": "pneumaticcraft:assembly_laser",
+  "input": {
+    "tag": "forge:ingots/drenched_iron"
+  },
+  "program": "drill",
+  "result": {
+    "count": 1,
+    "item": "kubejs:comp.te.servo.unw"
+  }
+}

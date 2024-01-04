@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "#":{
+        "item": "kubejs:comp.board.dragon"
+      },
+      "I":{
+        "item": "kubejs:comp.antimatter.ingot"
+      }
+    },
+    "pattern": [
+      "###",
+      "#I#",
+      "###"
+    ],
+    "result": {
+      "item": "kubejs:comp.creativifier"
+    }
+  }

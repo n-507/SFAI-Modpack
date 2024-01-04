@@ -1,0 +1,10 @@
+{
+  "badgeVisible": true,
+  "builtinServers": [
+    {
+      "name": "Snowfantasy Server",
+      "address": "snowfantasy.net:25565",
+      "forced": true
+    }
+  ]
+}

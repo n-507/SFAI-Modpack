@@ -10,10 +10,10 @@
       "tag": "forge:glass_panes/colorless"
     },
     "I": {
-      "item": "kubejs:emerald_tube"
+      "item": "kubejs:comp.board.redstone"
     },
     "S": {
-      "item": "minecraft:hopper"
+      "item": "minecraft:stone"
     },
     "L": {
       "item": "minecraft:lava_bucket"

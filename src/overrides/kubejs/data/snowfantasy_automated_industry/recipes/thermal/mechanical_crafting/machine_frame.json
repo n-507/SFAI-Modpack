@@ -1,0 +1,25 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "#": {
+      "tag": "pneumaticcraft:plastic_sheets"
+    },
+    "G": {
+      "tag": "quark:framed_glasses"
+    },
+    "X": {
+      "item": "thermal:redstone_servo"
+    }
+  },
+  "pattern": [
+    "#####",
+    "#GGG#",
+    "#GXG#",
+    "#GGG#",
+    "#####"
+  ],
+  "result": {
+    "item": "thermal:machine_frame"
+  }
+}

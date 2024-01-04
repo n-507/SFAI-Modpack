@@ -40,7 +40,7 @@
 	electric_compressor_efficiency = 40
 	#Base chance (1/x) per tick of a lightning strike on/around the Electrostatic Generator
 	#Range: > 0
-	electrostatic_lightning_chance = 25000
+	electrostatic_lightning_chance = 100000
 	#The max height of an elevator per stacked Elevator Base block.
 	#Range: 1 ~ 256
 	elevator_base_blocks_per_base = 6
@@ -137,7 +137,7 @@
 ["Micromissile Properties"]
 	#Base explosion damage (modified by missile setup)
 	#Range: 0.0 ~ 1.7976931348623157E308
-	base_explosion_damage = 1.0
+	base_explosion_damage = 3.0
 	#Do micromissile explosions cause terrain damage?
 	damage_terrain = false
 	#Cooldown for missile firing in ticks
@@ -145,18 +145,18 @@
 	launch_cooldown = 15
 	#Base fueled-flight duration in ticks. After this, missiles will drop from the sky.
 	#Range: > 0
-	lifetime = 200
+	lifetime = 300
 	#Hard missile lifetime in ticks. After this, missiles will immediately explode. Value must be greater than or equal to the 'lifetime' setting.
 	#Range: > 0
-	max_lifetime = 220
+	max_lifetime = 300
 	#Number of micromissiles per pod
 	#Range: > 0
-	missile_pod_size = 100
+	missile_pod_size = 256
 
 ["Minigun Properties"]
 	#Armor Piercing Ammo damage multiplier (relative to standard ammo)
 	#Range: 0.0 ~ 1.7976931348623157E308
-	ap_ammo_damage_multiplier = 1.25
+	ap_ammo_damage_multiplier = 1.5
 	#Armor Piercing Ammo percentage chance to ignore target's armor
 	#Range: 1 ~ 100
 	ap_ammo_ignore_armor_chance = 100
@@ -165,7 +165,7 @@
 	armor_piercing_ammo_cartridge_size = 250
 	#Base bullet damage of the Sentry Gun, Handheld Minigun, and Drone Minigun, before ammo bonuses are considered
 	#Range: 0.0 ~ 1.7976931348623157E308
-	base_damage = 4.0
+	base_damage = 8.0
 	#Base range of Minigun, before Range Upgrades are considered
 	#Range: 5 ~ 100
 	base_range = 50
@@ -221,7 +221,7 @@
 	weighted_ammo_cartridge_size = 250
 	#Weighted Ammo damage multiplier (relative to standard ammo)
 	#Range: 0.0 ~ 1.7976931348623157E308
-	weighted_ammo_damage_multiplier = 2.5
+	weighted_ammo_damage_multiplier = 5.0
 	#Weighted Ammo range multiplier (relative to standard ammo)
 	#Range: 0.0 ~ 1.7976931348623157E308
 	weighted_ammo_range_multiplier = 0.2

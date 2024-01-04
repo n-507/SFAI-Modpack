@@ -1,0 +1,48 @@
+{
+  "type": "createoreexcavation:drilling",
+  "amountMax": 3.0,
+  "amountMin": 1.0,
+  "biomeWhitelist": "minecraft:is_overworld",
+  "drill": {
+    "item": "createoreexcavation:drill"
+  },
+  "fluid": {
+    "amount": 1,
+    "fluid": "kubejs:drill_fluid",
+    "nbt": {}
+  },
+  "name": "{\"text\":\"彩色矿岩\"}",
+  "output": [
+    {
+      "chance": 0.4,
+      "item": "minecraft:cobblestone"
+    },
+    {
+      "chance": 0.8,
+      "item": "minecraft:tuff"
+    },
+    {
+      "chance": 0.8,
+      "item": "create:asurine"
+    },
+    {
+      "chance": 0.8,
+      "item": "create:crimsite"
+    },
+    {
+      "chance": 0.8,
+      "item": "create:limestone"
+    },
+    {
+      "chance": 0.8,
+      "item": "create:ochrum"
+    },
+    {
+      "chance": 0.8,
+      "item": "create:veridium"
+    }
+  ],
+  "stress": 256,
+  "ticks": 100,
+  "weight": 150
+}

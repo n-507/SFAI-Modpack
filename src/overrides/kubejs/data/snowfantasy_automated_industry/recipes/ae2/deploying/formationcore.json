@@ -1,0 +1,17 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "pneumaticcraft:logistics_core"
+    },
+    {
+      "item": "ae2:logic_processor"
+    }
+  ],
+  "results": [
+    {
+      "item": "ae2:formation_core",
+      "count": 1
+    }
+  ]
+}

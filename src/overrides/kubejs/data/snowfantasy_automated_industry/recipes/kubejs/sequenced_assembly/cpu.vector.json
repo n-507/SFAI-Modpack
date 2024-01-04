@@ -1,0 +1,84 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:plates/gold"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "kubejs:comp.cpu.vector",
+      "count": 1
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:comp.cpu.vector.inc"
+        },
+        {
+          "item": "pneumaticcraft:transistor"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:comp.cpu.vector.inc"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:comp.cpu.vector.inc"
+        },
+        {
+          "item": "pneumaticcraft:capacitor"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:comp.cpu.vector.inc"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:comp.cpu.vector.inc"
+        },
+        {
+          "item": "kubejs:comp.aicore.basic"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:comp.cpu.vector.inc"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "kubejs:comp.cpu.vector.inc"
+        },
+        {
+          "amount": 250,
+          "fluid": "thermal:redstone",
+          "nbt": {}
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:comp.cpu.vector.inc"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "kubejs:comp.cpu.vector.inc"
+  }
+}

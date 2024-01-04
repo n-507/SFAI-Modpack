@@ -1,0 +1,15 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+      {
+        "item": "thermal:rubberwood_log"
+      }
+    ],
+    "results": [
+      {
+        "amount": 500,
+        "fluid": "thermal:latex",
+        "nbt": {}
+      }
+    ]
+  }

@@ -1,11 +1,3 @@
 {
-	chapter_groups: [
-		{ id: "1BB7EC3D8CDAEAAB", title: "第一章" }
-		{ id: "7E04F31ABCA9374E", title: "第二章" }
-		{ id: "1589363942B0A068", title: "第三章" }
-		{ id: "04BC9051E9FAF27B", title: "第四章" }
-		{ id: "0CBBEFBC9CC2164B", title: "支线任务" }
-		{ id: "21E75B008F770F70", title: "挑战" }
-		{ id: "45C69FF4B14FEB82", title: "商店（未完工）" }
-	]
+	chapter_groups: [ ]
 }

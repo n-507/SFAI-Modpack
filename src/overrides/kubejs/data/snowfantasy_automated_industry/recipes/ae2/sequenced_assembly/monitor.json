@@ -1,0 +1,82 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "quark:framed_glass_panes"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "ae2:semi_dark_monitor",
+      "count": 3
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:casing.me_panel.inc"
+        },
+        {
+          "item": "ae2:quartz_fiber"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:casing.me_panel.inc"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:casing.me_panel.inc"
+        },
+        {
+          "item": "kubejs:comp.interface"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:casing.me_panel.inc"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:casing.me_panel.inc"
+        },
+        {
+          "item": "ae2:calculation_processor"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:casing.me_panel.inc"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:casing.me_panel.inc"
+        },
+        {
+          "item": "kubejs:comp.board.redstone"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:casing.me_panel.inc"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "kubejs:casing.me_panel.inc"
+  }
+}

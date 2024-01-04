@@ -1,0 +1,17 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "superheated",
+  "ingredients": [
+    {
+      "item": "kubejs:comp.ae.silicon"
+    },
+    {
+      "tag": "forge:dusts/certus_quartz"
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:comp.ae.silicon.1"
+    }
+  ]
+}

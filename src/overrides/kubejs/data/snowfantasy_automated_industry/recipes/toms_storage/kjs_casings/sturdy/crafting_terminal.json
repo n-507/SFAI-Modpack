@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "count": 1,
+    "ingredient": {
+      "item": "kubejs:casing.sturdy"
+    },
+    "result": "toms_storage:ts.crafting_terminal"
+  }

@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "count": 1,
+    "ingredient": {
+      "item": "kubejs:casing.pnc_adv"
+    },
+    "result": "pneumaticcraft:assembly_io_unit_export"
+  }

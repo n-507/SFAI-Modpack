@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "kubejs:casing.chalk"
+  },
+  "result": "occultism:chalk_red_impure"
+}

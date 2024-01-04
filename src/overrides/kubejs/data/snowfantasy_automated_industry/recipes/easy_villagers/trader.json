@@ -3,17 +3,14 @@
   "pattern": [
     "GGG",
     "GRG",
-    "ISI"
+    "III"
   ],
   "key": {
     "G": {
       "tag": "forge:glass_panes/colorless"
     },
     "I": {
-      "item": "kubejs:emerald_tube"
-    },
-    "S": {
-      "tag": "forge:ingots/iron"
+      "item": "kubejs:comp.board.redstone"
     },
     "R": {
       "tag": "forge:dusts/redstone"

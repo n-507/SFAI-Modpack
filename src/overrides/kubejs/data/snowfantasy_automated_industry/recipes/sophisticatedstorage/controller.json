@@ -1,31 +1,8 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "conditions": [
-    {
-      "type": "sophisticatedcore:item_enabled",
-      "itemRegistryName": "sophisticatedstorage:controller"
-    }
-  ],
-  "key": {
-    "B": {
-      "tag": "sophisticatedstorage:base_tier_wooden_storage"
+    "type": "minecraft:stonecutting",
+    "count": 4,
+    "ingredient": {
+      "item": "kubejs:casing.sturdy"
     },
-    "C": {
-      "item": "kubejs:firm_tube"
-    },
-    "P": {
-      "tag": "minecraft:planks"
-    },
-    "S": {
-      "tag": "forge:stone"
-    }
-  },
-  "pattern": [
-    "SCS",
-    "PBP",
-    "SCS"
-  ],
-  "result": {
-    "item": "sophisticatedstorage:controller"
+    "result": "sophisticatedstorage:storage_link"
   }
-}

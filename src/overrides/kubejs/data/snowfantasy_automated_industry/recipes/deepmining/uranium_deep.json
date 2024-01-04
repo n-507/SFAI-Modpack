@@ -1,0 +1,36 @@
+{
+  "type": "createoreexcavation:drilling",
+  "amountMax": 3.0,
+  "amountMin": 1.0,
+  "biomeWhitelist": "minecraft:is_overworld",
+  "drill": {
+    "item": "createoreexcavation:diamond_drill"
+  },
+  "fluid": {
+    "amount": 25,
+    "fluid": "kubejs:drill_fluid_metallic",
+    "nbt": {}
+  },
+  "name": "{\"text\":\"沥青铀矿\"}",
+  "output": [
+    {
+      "chance": 0.4,
+      "item": "minecraft:cobbled_deepslate"
+    },
+    {
+      "chance": 0.8,
+      "item": "create:scoria"
+    },
+    {
+      "chance": 0.2,
+      "item": "powah:uraninite_raw"
+    },
+    {
+      "chance": 0.15,
+      "item": "mekanism:raw_uranium"
+    }
+  ],
+  "stress": 512,
+  "ticks": 600,
+  "weight": 100
+}

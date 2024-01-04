@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "G": {
+      "tag": "forge:nuggets/gold"
+    },
+    "P": {
+      "item": "minecraft:paper"
+    },
+    "R": {
+      "item": "kubejs:comp.board.lapis"
+    }
+  },
+  "pattern": [
+    " R ",
+    "PPP",
+    "GGG"
+  ],
+  "result": {
+    "count": 6,
+    "item": "modularrouters:blank_module"
+  }
+}

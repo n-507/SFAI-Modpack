@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "count": 1,
+    "ingredient": {
+      "item": "pneumaticcraft:logistics_frame_default_storage"
+    },
+    "result": "pneumaticcraft:logistics_frame_requester"
+  }

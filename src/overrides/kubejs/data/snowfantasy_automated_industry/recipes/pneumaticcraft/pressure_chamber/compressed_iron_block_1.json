@@ -1,0 +1,14 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+      "tag": "forge:storage_blocks/iron"
+    }
+  ],
+  "pressure": 4.5,
+  "results": [
+    {
+      "item": "pneumaticcraft:compressed_iron_block"
+    }
+  ]
+}

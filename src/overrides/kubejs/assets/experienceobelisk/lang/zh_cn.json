@@ -1,0 +1,80 @@
+{
+  "item.experienceobelisk.attunement_staff": "共振之杖",
+  "item.experienceobelisk.cognitium_bucket": "知识精华桶",
+  "item.experienceobelisk.cognitive_alloy": "知魂合金",
+  "item.experienceobelisk.cognitive_amalgam": "知魂碎片",
+  "item.experienceobelisk.cognitive_crystal": "知魂水晶",
+  "item.experienceobelisk.cognitive_flux": "知魂粉",
+  "item.experienceobelisk.cognitive_sword": "洞见之剑",
+  "item.experienceobelisk.cognitive_axe": "洞见之斧",
+  "item.experienceobelisk.cognitive_pickaxe": "洞见之镐",
+  "item.experienceobelisk.cognitive_shovel": "洞见之锹",
+  "item.experienceobelisk.cognitive_hoe": "洞见之锄",
+  "item.experienceobelisk.astute_assembly": "符文宝石",
+  "item.experienceobelisk.enlightened_amulet": "启蒙护符",
+
+  "block.experienceobelisk.experience_obelisk": "经验方尖碑",
+  "block.experienceobelisk.experience_fountain": "经验泉",
+  "block.experienceobelisk.precision_dispeller": "精确砂轮",
+  "block.experienceobelisk.cognitive_alloy_block": "知魂合金块",
+  "block.experienceobelisk.cognitive_crystal_block": "知魂水晶块",
+  "block.experienceobelisk.cognitium": "认知精华",
+
+  "fluid.experienceobelisk.cognitium": "认知精华",
+  "fluid_type.experienceobelisk.cognitium": "认知精华",
+
+  "itemGroup.experience_obelisk": "知识（原经验方尖碑模组）",
+
+  "title.experienceobelisk.experience_obelisk": "经验方尖碑",
+  "title.experienceobelisk.experience_obelisk.store": "存储",
+  "title.experienceobelisk.experience_obelisk.retrieve": "取出",
+  "title.experienceobelisk.experience_obelisk.settings": "设置",
+  "title.experienceobelisk.experience_obelisk.radius": "半径",
+  "title.experienceobelisk.experience_obelisk.redstone": "红石",
+  "title.experienceobelisk.precision_dispeller": "精确砂轮",
+  "title.experienceobelisk.precision_dispeller.inventory": "物品栏",
+
+  "tooltip.experienceobelisk.experience_obelisk.add1": "存储 §a1§f 经验等级",
+  "tooltip.experienceobelisk.experience_obelisk.add10": "存储 §a10§f 经验等级",
+  "tooltip.experienceobelisk.experience_obelisk.addAll": "存储 §a全部§f 经验等级",
+  "tooltip.experienceobelisk.experience_obelisk.drain1": "取出 §c1§f 经验等级",
+  "tooltip.experienceobelisk.experience_obelisk.drain10": "取出 §c10§f 经验等级",
+  "tooltip.experienceobelisk.experience_obelisk.drainAll": "取出 §c全部§f 经验等级",
+  "tooltip.experienceobelisk.experience_obelisk.radius": "§6重设§f 半径为默认",
+  "tooltip.experienceobelisk.experience_obelisk.settings": "设置...",
+  "tooltip.experienceobelisk.experience_obelisk.back": "返回...",
+  "tooltip.experienceobelisk.experience_obelisk.item_fluid_amount": "§7流体储量:§r %s",
+  "tooltip.experienceobelisk.experience_obelisk.item_levels": "%s §7等级§r",
+
+  "tooltip.experienceobelisk.enlightened_amulet.active": "§7当前§a启用",
+  "tooltip.experienceobelisk.enlightened_amulet.inactive": "§7当前§c禁用",
+
+  "tooltip.experienceobelisk.precision_dispeller.curse": "§7花费 §c1395 §7XP / §c30 §7等级",
+  "tooltip.experienceobelisk.precision_dispeller.enchantment": "§7花费 %s §7XP / %s §7等级",
+  "tooltip.experienceobelisk.precision_dispeller.insufficient_xp": "§6经验不够!",
+
+  "button.experienceobelisk.experience_obelisk.settings": "§l▶§r",
+  "button.experienceobelisk.experience_obelisk.back": "§l◀§r",
+  "button.experienceobelisk.experience_obelisk.ignored": "§c忽略§r",
+  "button.experienceobelisk.experience_obelisk.enabled": "§a启用§r",
+
+  "message.experienceobelisk.binding_wand.bind_obelisk": "§a[✔]§r 方尖碑位置已保存",
+  "message.experienceobelisk.binding_wand.unbind_obelisk": "§a[✔]§r 方尖碑位置已清除",
+  "message.experienceobelisk.binding_wand.bind_target": "§a[✔]§r 绑定的方尖碑位置： %s",
+  "message.experienceobelisk.binding_wand.unbind_target": "§a[✔]§r 已解除绑定",
+  "message.experienceobelisk.binding_wand.obelisk_too_far": "§c[✖]§r 方尖碑太远了",
+  "message.experienceobelisk.binding_wand.obelisk_doesnt_exist": "§c[✖]§f 位于 %s §f的方尖碑不存在",
+  "message.experienceobelisk.binding_wand.reveal_bound_pos": "§b[ⓘ]§r 此方块已经绑定到位于 %s 的方尖碑",
+  "message.experienceobelisk.binding_wand.not_yet_bound": "§b[ⓘ]§r 此方块未绑定",
+
+  "message.experienceobelisk.experience_fountain.slow": "经验泉流量设置为: §c慢§r",
+  "message.experienceobelisk.experience_fountain.moderate": "经验泉流量设置为: §e中§r",
+  "message.experienceobelisk.experience_fountain.fast": "经验泉流量设置为: §a快§r",
+  "message.experienceobelisk.experience_fountain.hyper": "经验泉流量设置为: §b窜稀§r",
+
+  "sounds.experienceobelisk.enlightened_amulet_activate": "启蒙护符已启用",
+  "sounds.experienceobelisk.enlightened_amulet_deactivate": "启蒙护符已禁用",
+
+  "enchantment.experienceobelisk.athena_blessing": "解析",
+  "enchantment.experienceobelisk.athena_blessing.desc": "工具损坏时产生经验"
+}

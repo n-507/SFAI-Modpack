@@ -1,0 +1,11 @@
+{
+  "type": "elementalcraft:infusion",
+  "element_amount": 500,
+  "element_type": "earth",
+  "input": {
+    "tag": "pneumaticcraft:reinforced_stone"
+  },
+  "output": {
+    "item": "elementalcraft:whiterock"
+  }
+}

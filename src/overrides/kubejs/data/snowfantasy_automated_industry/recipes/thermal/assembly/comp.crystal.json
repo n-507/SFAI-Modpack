@@ -1,0 +1,11 @@
+{
+  "type": "pneumaticcraft:assembly_laser",
+  "input": {
+    "tag": "forge:storage_blocks/redstone"
+  },
+  "program": "laser",
+  "result": {
+    "count": 1,
+    "item": "kubejs:comp.te.crystal"
+  }
+}

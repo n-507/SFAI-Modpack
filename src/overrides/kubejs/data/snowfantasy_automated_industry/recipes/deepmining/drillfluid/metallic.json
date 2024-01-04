@@ -1,0 +1,23 @@
+{
+    "type": "create:mixing",
+    "heatRequirement": "heated",
+    "ingredients": [
+        {
+            "amount": 950,
+            "fluid": "minecraft:water"
+        },
+        {
+            "amount": 50,
+            "fluidTag": "forge:plantoil"
+        },
+        {
+            "tag": "forge:nuggets/iron"
+        }
+    ],
+    "results": [
+        {
+            "amount": 1000,
+            "fluid": "kubejs:drill_fluid_metallic"
+        }
+    ]
+}

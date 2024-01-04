@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "count": 2,
+    "ingredient": {
+      "item": "kubejs:casing.me_basic"
+    },
+    "result": "ae2:energy_cell"
+  }

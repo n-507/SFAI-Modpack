@@ -1,0 +1,82 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "kubejs:casing.me_basic"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "kubejs:casing.me_adv",
+      "count": 1
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:casing.me_adv.inc"
+        },
+        {
+          "item": "ae2:smooth_sky_stone_block"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:casing.me_adv.inc"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:casing.me_adv.inc"
+        },
+        {
+          "item": "ae2:smooth_sky_stone_block"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:casing.me_adv.inc"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:casing.me_adv.inc"
+        },
+        {
+          "item": "kubejs:comp.board.lapis"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:casing.me_adv.inc"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:casing.me_adv.inc"
+        },
+        {
+          "item": "kubejs:comp.cpu.matrix"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:casing.me_adv.inc"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "kubejs:casing.me_adv.inc"
+  }
+}

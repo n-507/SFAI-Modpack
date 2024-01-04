@@ -1,0 +1,40 @@
+{
+  "type": "createoreexcavation:drilling",
+  "amountMax": 2.0,
+  "amountMin": 1.0,
+  "biomeWhitelist": "minecraft:is_overworld",
+  "drill": {
+    "item": "createoreexcavation:drill"
+  },
+  "fluid": {
+    "amount": 50,
+    "fluid": "kubejs:drill_fluid",
+    "nbt": {}
+  },
+  "name": "{\"text\":\"浅层铁磁矿\"}",
+  "output": [
+    {
+      "chance": 0.6,
+      "item": "minecraft:cobblestone"
+    },
+    {
+      "chance": 0.7,
+      "item": "create:crimsite"
+    },
+    {
+      "chance": 0.3,
+      "item": "minecraft:raw_iron"
+    },
+    {
+      "chance": 0.2,
+      "item": "create:raw_zinc"
+    },
+    {
+      "chance": 0.25,
+      "item": "thermal:raw_nickel"
+    }
+  ],
+  "stress": 384,
+  "ticks": 200,
+  "weight": 100
+}

@@ -1,0 +1,14 @@
+{
+    "_comment": "General",
+    "itemGroup.capabilityproxy": "代理方块",
+
+    "_comment": "方块",
+    "block.capabilityproxy.capability_proxy": "代理方块",
+    "block.capabilityproxy.capability_proxy.info": "从此方块访问目标方块功能。目标方块必须直接相邻(紧贴)",
+    "block.capabilityproxy.entity_capability_proxy": "实体代理方块",
+    "block.capabilityproxy.entity_capability_proxy.info": "从此方块访问目标实体功能。目标实体必须在代理所指向的相邻方块上",
+    "block.capabilityproxy.item_capability_proxy": "物品代理方块",
+    "block.capabilityproxy.item_capability_proxy.info": "通过此块显示存储项的功能。目标侧仅可用于导入/导出包含的项目",
+    "block.capabilityproxy.ranged_capability_proxy": "远程代理方块",
+    "block.capabilityproxy.ranged_capability_proxy.info": "从此方块访问目标方块功能。目标方块是指针指向的16个方块距离内最近的方块."
+}

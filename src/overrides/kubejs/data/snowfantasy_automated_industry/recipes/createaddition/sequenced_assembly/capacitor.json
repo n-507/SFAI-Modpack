@@ -1,68 +1,68 @@
 {
-    "type": "create:sequenced_assembly",
-    "ingredient": {
-        "item": "kubejs:tube_base"
-    },
-    "transitionalItem": {
-        "item": "kubejs:capaciator_incomplete"
-    },
-    "sequence": [
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "kubejs:comp.etube.base"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "createaddition:capacitor",
+      "count": 1
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
         {
-            "type": "create:deploying",
-            "ingredients": [
-                {
-                    "item": "kubejs:capaciator_incomplete"
-                },
-                {
-                    "tag": "forge:wires/copper"
-                }
-            ],
-            "results": [
-                {
-                    "item": "kubejs:capaciator_incomplete"
-                }
-            ]
+          "item": "kubejs:comp.etube.inc"
         },
         {
-            "type": "create:deploying",
-            "ingredients": [
-                {
-                    "item": "kubejs:capaciator_incomplete"
-                },
-                {
-                    "tag": "forge:plates/zinc"
-                }
-            ],
-            "results": [
-                {
-                    "item": "kubejs:capaciator_incomplete"
-                }
-            ]
+          "tag": "forge:plates/copper"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:comp.etube.inc"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:comp.etube.inc"
         },
         {
-            "type": "create:filling",
-            "ingredients": [
-                {
-                    "item": "kubejs:capaciator_incomplete"
-                },
-                {
-                  "fluid": "immersiveengineering:redstone_acid",
-                  "nbt": {},
-                  "amount": 100
-                }
-            ],
-            "results": [
-                {
-                    "item": "kubejs:capaciator_incomplete"
-                }
-            ]
+          "tag": "forge:plates/zinc"
         }
-    ],
-    "results": [
+      ],
+      "results": [
         {
-            "count": 2,
-            "item": "createaddition:capacitor"
+          "item": "kubejs:comp.etube.inc"
         }
-    ],
-    "loops": 2
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "kubejs:comp.etube.inc"
+        },
+        {
+          "amount": 250,
+          "fluid": "thermal:redstone",
+          "nbt": {}
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:comp.etube.inc"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "kubejs:comp.etube.inc"
+  }
 }

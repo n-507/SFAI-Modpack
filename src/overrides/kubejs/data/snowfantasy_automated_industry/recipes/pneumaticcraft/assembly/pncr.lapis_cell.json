@@ -1,0 +1,11 @@
+{
+  "type": "pneumaticcraft:assembly_laser",
+  "input": {
+    "item": "kubejs:comp.pncr.lapis_cell.unw"
+  },
+  "program": "laser",
+  "result": {
+    "count": 1,
+    "item": "kubejs:comp.pncr.lapis_cell"
+  }
+}

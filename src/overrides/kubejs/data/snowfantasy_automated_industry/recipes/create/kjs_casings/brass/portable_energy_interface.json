@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "count": 2,
+    "ingredient": {
+      "item": "kubejs:casing.brass"
+    },
+    "result": "createaddition:portable_energy_interface"
+  }

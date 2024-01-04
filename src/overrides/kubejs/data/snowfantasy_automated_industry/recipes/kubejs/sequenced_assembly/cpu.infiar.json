@@ -1,0 +1,84 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:plates/gold"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "kubejs:comp.cpu.infiar",
+      "count": 1
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:comp.cpu.infiar.inc"
+        },
+        {
+          "item": "powah:nitro_crystal_block"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:comp.cpu.infiar.inc"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:comp.cpu.infiar.inc"
+        },
+        {
+          "item": "kubejs:comp.aicore.advanced"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:comp.cpu.infiar.inc"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:comp.cpu.infiar.inc"
+        },
+        {
+          "item": "occultism:dimensional_matrix"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:comp.cpu.infiar.inc"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "kubejs:comp.cpu.infiar.inc"
+        },
+        {
+          "amount": 250,
+          "fluid": "kubejs:liquid_soldering_material",
+          "nbt": {}
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:comp.cpu.infiar.inc"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "kubejs:comp.cpu.infiar.inc"
+  }
+}

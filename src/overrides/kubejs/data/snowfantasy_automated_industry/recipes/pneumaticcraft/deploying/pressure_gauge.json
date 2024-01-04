@@ -1,0 +1,17 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "create:precision_mechanism"
+    },
+    {
+      "item": "pneumaticcraft:pressure_tube"
+    }
+  ],
+  "results": [
+    {
+      "item": "pneumaticcraft:pressure_gauge",
+      "count": 1
+    }
+  ]
+}

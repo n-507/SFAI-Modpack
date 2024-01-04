@@ -1,11 +1,11 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:barrier"
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "kubejs:no"
+      }
+    ],
+    "result": {
+      "item": "kubejs:no"
     }
-  ],
-  "result": {
-    "item": "minecraft:barrier"
   }
-}

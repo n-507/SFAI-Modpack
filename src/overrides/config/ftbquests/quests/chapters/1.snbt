@@ -1,0 +1,283 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1"
+	group: ""
+	icon: "create:cogwheel"
+	id: "51350B6573AF08E8"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "48938A740C9DB64A"
+			tasks: [{
+				id: "4FEE09C112A3BFCF"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"77B28A63874F5E2F"
+				"5C6FD5DFE68F33F8"
+			]
+			description: [
+				"主要模组均使用单个“机械组件”物品。此机械组件可在切石机中制作为对应科技等级的任意机器。"
+				""
+				"如需自动化制作特定设备，可使用机械动力的动力锯进行合成（并使用其过滤器设置所需的物品）"
+				""
+				"安山合金等级的机械组件是唯一能够手动合成的此类物品。后续所有等级均需要通过序列装配制作。"
+			]
+			id: "564E8D1E75DE8B88"
+			tasks: [{
+				id: "44FCFBE30742DB6D"
+				item: "kubejs:casing.andesite"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			id: "5C6FD5DFE68F33F8"
+			tasks: [{
+				id: "25FE26B7D395F29B"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["48938A740C9DB64A"]
+			id: "77B28A63874F5E2F"
+			tasks: [{
+				id: "3D29D9B65AB5332F"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:plates/iron"
+					}
+				}
+				title: "Any #forge:plates/iron"
+				type: "item"
+			}]
+			title: "铁板"
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"438BF61FFA454E23"
+				"446BA23B1FCE3744"
+			]
+			description: ["用以制作更高级的机械动力设备。您将需要使用序列装配制作它。推荐为其设置自动化生产线，从而方便随时取用。"]
+			id: "43BF1B59A2FBD4B6"
+			tasks: [{
+				id: "2B66865AAD71FD89"
+				item: "kubejs:casing.brass"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"5043882959FA62D8"
+				"564E8D1E75DE8B88"
+			]
+			id: "55EBE8EBA327AD8B"
+			tasks: [{
+				id: "060DE2E69F00E179"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["55EBE8EBA327AD8B"]
+			id: "438BF61FFA454E23"
+			tasks: [{
+				id: "23EC8835BEA2F865"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["09A7C1B38C562C8E"]
+			description: ["您将需要使用超级加热的搅拌盆融化红石，从而制作玫瑰石英（电子管的原材料之一）。"]
+			id: "5043882959FA62D8"
+			tasks: [{
+				id: "4EA31C3967073905"
+				item: "create:electron_tube"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["48938A740C9DB64A"]
+			id: "09A7C1B38C562C8E"
+			tasks: [{
+				id: "4500DD19912E64BC"
+				item: "create:blaze_cake"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5071A2D3B4A4D9A4"]
+			id: "446BA23B1FCE3744"
+			tasks: [{
+				id: "6E6FB9F660428437"
+				item: "kubejs:comp.rubber.sheet"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			description: ["您可以使用动力辊压机加工丛林木从而批量制作橡胶。"]
+			id: "5071A2D3B4A4D9A4"
+			tasks: [{
+				id: "221DA3286D2ADF12"
+				item: "thermal:rubber"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"446BA23B1FCE3744"
+				"55EBE8EBA327AD8B"
+			]
+			description: ["用于制作流体相关设备。"]
+			id: "0BC28F0166B41972"
+			tasks: [{
+				id: "024D38FB5167D6DB"
+				item: "kubejs:casing.copper"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["438BF61FFA454E23"]
+			id: "06E43E8927175650"
+			tasks: [{
+				id: "06847375E68DD68C"
+				item: "kubejs:casing.smart"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["43BF1B59A2FBD4B6"]
+			description: [
+				"可进行超过3x3的合成。部分配方必须使用动力合成器进行合成。"
+				""
+				"提示：所有合成器全部填满时，合成将会自动开始。对于空槽，可使用合成器盖板避免物品进入。"
+				"提示：右键合成器背面连接处可为合成器编组。相连的合成器共享同一物品栏，并可从一处进行填"
+				"充。装有盖板的合成器可以连接其他合成器的物品栏，但不会被输入物品。（请查看 合成器 物品的思索信息以了解更多。）"
+			]
+			id: "1D10713D66C69807"
+			tasks: [{
+				id: "67D5CA57FFA7C0E0"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["438BF61FFA454E23"]
+			description: ["用于制作前期的存储设备。"]
+			id: "7FA24AEF437F641B"
+			tasks: [{
+				id: "0F86F34F2FF3C032"
+				item: "kubejs:casing.sturdy"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7FA24AEF437F641B"]
+			description: [
+				"可访问与之相连的库存，或使用存储整合器以连接多个库存。"
+				""
+				"注意：对于此存储网络而言，存储整合器的每一面都被记为独立的库存，即使它们实际上属于同一个物理库存。如果您发现网络中的物品数量翻倍，或有物品显示重复，请首先检查任何此类连接问题。"
+			]
+			id: "13DEA69B2D969956"
+			tasks: [{
+				id: "7C7BC2EC8779A691"
+				item: "toms_storage:ts.crafting_terminal"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7FA24AEF437F641B"]
+			description: [
+				"此方块可作为所有相连的精妙存储模组的容器的代理（与抽屉控制器类似。）"
+				""
+				"不仅可以连接限类木桶（也就是抽屉），还可以连接箱子。与存储终端配合使用效果更好。"
+			]
+			id: "679999D1C27F0662"
+			tasks: [{
+				id: "6D2F13B0992FC7E1"
+				item: "sophisticatedstorage:controller"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["13DEA69B2D969956"]
+			description: [
+				"可在其绑定的物品终端/合成终端64格内远程访问。"
+				""
+				"在终端的8格内建造信标可将范围扩展到整个维度。"
+				""
+				"建造满级信标可将范围扩展到所有维度。"
+			]
+			id: "2C39BE252AB0C896"
+			tasks: [{
+				id: "5DA6111DA75C0518"
+				item: "toms_storage:ts.adv_wireless_terminal"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			description: [
+				"放下后右键点击前往挖矿世界。主世界资源有限，因此推荐您在挖矿世界采集物资。"
+				""
+				"挖矿世界的区块将在3天无人靠近后被服务器重置。"
+				""
+				"您也可以在此处实验任何可能造成严重破坏的操作，而无需担心造成损害。"
+				""
+				"提示：挖矿世界是实心的。如果您向上挖，最终会遇到基岩顶部而非地表。"
+			]
+			id: "152378A0F54AAD82"
+			tasks: [{
+				id: "10F1E6FC8D4E32B8"
+				item: "mining_dimension:teleporter"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+	]
+	title: "1"
+}

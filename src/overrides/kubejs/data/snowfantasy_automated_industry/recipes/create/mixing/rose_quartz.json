@@ -3,37 +3,17 @@
   "heatRequirement": "heated",
   "ingredients": [
     {
-      "item": "thermal:rubber"
+      "amount": 250,
+      "fluid": "thermal:redstone"
     },
     {
-      "item": "thermal:rubber"
-    },
-    {
-      "item": "thermal:rubber"
-    },
-    {
-      "item": "thermal:rubber"
-    },
-    {
-      "item": "thermal:rubber"
-    },
-    {
-      "item": "thermal:rubber"
-    },
-    {
-      "item": "thermal:rubber"
-    },
-    {
-      "item": "thermal:rubber"
-    },
-    {
-      "tag": "forge:dusts/sulfur"
+      "tag": "forge:gems/quartz"
     }
   ],
   "results": [
     {
-      "count": 8,
-      "item": "thermal:cured_rubber"
+      "count": 1,
+      "item": "create:rose_quartz"
     }
   ]
 }

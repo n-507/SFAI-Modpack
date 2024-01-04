@@ -1,0 +1,22 @@
+{
+  "type": "powah:energizing",
+  "ingredients": [
+	{
+	  "item": "kubejs:comp.board.lapis"
+	},
+	{
+	  "item": "powah:crystal_blazing"
+	},
+	{
+	  "item": "kubejs:comp.cpu.matrix"
+	},
+	{
+	  "item": "kubejs:comp.aicore.standard"
+	}
+  ],
+  "energy": 200000,
+  "result": {
+	"item": "kubejs:comp.board.blaze",
+	"count": 1
+  }
+}

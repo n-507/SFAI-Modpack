@@ -1,0 +1,63 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:storage_blocks/compressed_iron"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "pneumaticcraft:pressure_chamber_wall",
+      "count": 16
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "kubejs:comp.pncr.chamber_wall.inc"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:comp.pncr.chamber_wall.inc"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:comp.pncr.chamber_wall.inc"
+        },
+        {
+          "item": "create:precision_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:comp.pncr.chamber_wall.inc"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:comp.pncr.chamber_wall.inc"
+        },
+        {
+          "item": "pneumaticcraft:pressure_tube"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:comp.pncr.chamber_wall.inc"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "kubejs:comp.pncr.chamber_wall.inc"
+  }
+}

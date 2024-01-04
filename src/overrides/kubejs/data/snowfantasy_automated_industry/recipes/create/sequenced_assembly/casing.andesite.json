@@ -1,0 +1,79 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:andesite_casing"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "item": "kubejs:casing.andesite",
+      "count": 2
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:cutting",
+      "ingredients":[
+        {
+          "item": "kubejs:casing.andesite.inc"
+        }
+      ],
+      "results":[
+        {
+          "item": "kubejs:casing.andesite.inc"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:casing.andesite.inc"
+        },
+        {
+          "item": "create:cogwheel"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:casing.andesite.inc"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:casing.andesite.inc"
+        },
+        {
+          "item": "create:large_cogwheel"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:casing.andesite.inc"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:casing.andesite.inc"
+        },
+        {
+          "tag": "forge:plates/iron"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:casing.andesite.inc"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "kubejs:casing.andesite.inc"
+  }
+}

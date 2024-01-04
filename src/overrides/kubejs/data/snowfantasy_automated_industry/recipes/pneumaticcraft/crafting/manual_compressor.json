@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+      {
+          "item": "pneumaticcraft:stone_base"
+      },
+      {
+          "item": "create:hand_crank"
+      },
+      {
+          "tag": "forge:gears/compressed_iron"
+      }
+  ],
+  "result": {
+      "item": "pneumaticcraft:manual_compressor"
+  }
+}

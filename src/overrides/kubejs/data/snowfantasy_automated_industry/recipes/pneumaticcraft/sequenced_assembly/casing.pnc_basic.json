@@ -1,0 +1,79 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "pneumaticcraft:stone_base"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "kubejs:casing.pnc_basic",
+      "count": 1
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "kubejs:casing.pnc_basic.inc"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:casing.pnc_basic.inc"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:casing.pnc_basic.inc"
+        },
+        {
+          "item": "pneumaticcraft:turbine_rotor"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:casing.pnc_basic.inc"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:casing.pnc_basic.inc"
+        },
+        {
+          "item": "pneumaticcraft:pressure_gauge"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:casing.pnc_basic.inc"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:casing.pnc_basic.inc"
+        },
+        {
+          "item": "kubejs:comp.board.redstone"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:casing.pnc_basic.inc"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "kubejs:casing.pnc_basic.inc"
+  }
+}

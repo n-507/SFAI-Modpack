@@ -1,7 +1,7 @@
 {
 	"type":"createaddition:rolling",
 	"input": {
-      	"item": "pneumaticcraft:plastic"
+      	"tag": "pneumaticcraft:plastic_sheets"
 	},
 	"result": {
 		"item": "createaddition:straw",

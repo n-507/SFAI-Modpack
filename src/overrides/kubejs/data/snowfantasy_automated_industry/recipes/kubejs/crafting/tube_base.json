@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "-": {
+        "tag": "forge:plates/iron"
+      },
+      "|": {
+        "tag": "forge:rods/iron"
+      },
+      "S": {
+        "tag": "forge:wires/all_metal"
+      }
+    },
+    "pattern": [
+      "|-|",
+      "SSS"
+    ],
+    "result": {
+      "item": "kubejs:comp.etube.base"
+    }
+  }

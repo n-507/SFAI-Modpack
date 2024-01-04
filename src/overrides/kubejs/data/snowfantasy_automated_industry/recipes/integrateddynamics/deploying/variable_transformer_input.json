@@ -1,16 +1,16 @@
 {
-    "type": "create:deploying",
-    "ingredients": [
-      {
-        "item": "integrateddynamics:variable"
-      },
-      {
-        "item": "integrateddynamics:crystalized_menril_chunk"
-      }
-    ],
-    "results": [
-      {
-        "item": "integrateddynamics:variable_transformer_input"
-      }
-    ]
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "integrateddynamics:variable"
+    },
+    {
+      "item": "pneumaticcraft:logistics_core"
+    }
+  ],
+  "results": [
+    {
+      "item": "integrateddynamics:variable_transformer_input"
+    }
+  ]
 }

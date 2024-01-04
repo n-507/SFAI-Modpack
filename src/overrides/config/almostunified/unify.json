@@ -1,14 +1,13 @@
 {
   "modPriorities": [
     "minecraft",
-    "ic2",
     "kubejs",
     "crafttweaker",
     "create",
-    "create_sa",
-    "ae2",
-    "immersiveengineering",
+    "createaddition",
+    "hexcasting",
     "thermal",
+    "immersiveengineering",
     "mekanism"
   ],
   "stoneStrata": [
@@ -37,6 +36,7 @@
     "aeternium",
     "aluminum",
     "amber",
+    "amethyst",
     "apatite",
     "bitumen",
     "brass",
@@ -53,12 +53,8 @@
     "electrum",
     "elementium",
     "emerald",
-    "ender_pearl",
     "enderium",
     "fluorite",
-    "gobber",
-    "gobber_nether",
-    "gobber_end",
     "gold",
     "graphite",
     "invar",
@@ -75,7 +71,6 @@
     "peridot",
     "platinum",
     "potassium_nitrate",
-    "quartz",
     "ruby",
     "sapphire",
     "signalum",
@@ -88,19 +83,17 @@
     "zinc"
   ],
   "priorityOverrides": {},
+  "customTags": {},
   "tagOwnerships": {},
+  "itemTagInheritanceMode": "ALLOW",
+  "itemTagInheritance": {},
+  "blockTagInheritanceMode": "ALLOW",
+  "blockTagInheritance": {},
   "ignoredTags": [],
-  "ignoredItems": [
-    "sculked:echo_copper",
-    "sculked:echo_copper_rod",
-    "sculked:echo_copper_block",
-    "sculked:cut_echo_copper_block",
-    "sculked:cut_echo_copper_block_slab",
-    "sculked:cut_echo_copper_block_stairs"
-  ],
+  "ignoredItems": [],
   "ignoredRecipeTypes": [
     "cucumber:shaped_tag"
   ],
   "ignoredRecipes": [],
-  "itemsHidingJeiRei": false
+  "itemsHidingJeiRei": true
 }

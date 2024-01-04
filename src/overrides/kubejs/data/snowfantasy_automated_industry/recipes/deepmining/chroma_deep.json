@@ -1,0 +1,44 @@
+{
+  "type": "createoreexcavation:drilling",
+  "amountMax": 3.0,
+  "amountMin": 1.0,
+  "biomeWhitelist": "minecraft:is_overworld",
+  "drill": {
+    "item": "createoreexcavation:drill"
+  },
+  "fluid": {
+    "amount": 75,
+    "fluid": "kubejs:drill_fluid",
+    "nbt": {}
+  },
+  "name": "{\"text\":\"深层有色金属矿\"}",
+  "output": [
+    {
+      "chance": 0.4,
+      "item": "minecraft:cobbled_deepslate"
+    },
+    {
+      "chance": 0.7,
+      "item": "create:veridium"
+    },
+    {
+      "chance": 0.5,
+      "item": "minecraft:raw_copper"
+    },
+    {
+      "chance": 0.4,
+      "item": "thermal:raw_lead"
+    },
+    {
+      "chance": 0.3,
+      "item": "mekanism:raw_osmium"
+    },
+    {
+      "chance": 0.4,
+      "item": "thermal:raw_nickel"
+    }
+  ],
+  "stress": 512,
+  "ticks": 400,
+  "weight": 100
+}

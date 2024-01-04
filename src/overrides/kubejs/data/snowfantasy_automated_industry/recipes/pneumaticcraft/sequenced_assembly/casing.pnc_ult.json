@@ -1,0 +1,63 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "kubejs:casing.pnc_adv"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "kubejs:casing.pnc_ult.unw",
+      "count": 1
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:casing.pnc_ult.inc"
+        },
+        {
+          "item": "kubejs:comp.board.lapis"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:casing.pnc_ult.inc"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:casing.pnc_ult.inc"
+        },
+        {
+          "item": "pneumaticcraft:advanced_pressure_tube"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:casing.pnc_ult.inc"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "kubejs:casing.pnc_ult.inc"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:casing.pnc_ult.inc"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "kubejs:casing.pnc_ult.inc"
+  }
+}

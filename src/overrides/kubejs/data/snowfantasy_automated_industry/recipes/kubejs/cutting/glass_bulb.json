@@ -1,0 +1,15 @@
+{
+    "type": "create:cutting",
+    "ingredients": [
+      {
+        "tag": "forge:glass_panes/colorless"
+      }
+    ],
+    "processingTime": 100,
+    "results": [
+      {
+        "count": 1,
+        "item": "kubejs:comp.glass_bulb"
+      }
+    ]
+  }
