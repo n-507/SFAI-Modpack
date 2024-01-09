@@ -1,0 +1,20 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "item": "minecraft:sugar"
+      },
+      {
+          "amount": 1000,
+          "fluid": "minecraft:water",
+          "nbt": {}
+      }
+    ],
+    "results": [
+        {
+            "amount": 1000,
+            "fluid": "the_bumblezone:sugar_water_still",
+            "nbt": {}
+        }
+    ]
+  }

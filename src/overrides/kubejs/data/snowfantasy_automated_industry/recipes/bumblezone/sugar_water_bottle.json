@@ -1,0 +1,18 @@
+{
+    "type": "create:filling",
+    "ingredients": [
+        {
+            "item": "minecraft:glass_bottle"
+        },
+        {
+            "amount": 250,
+            "fluid": "the_bumblezone:sugar_water_still",
+            "nbt": {}
+        }
+    ],
+    "results": [
+        {
+            "item": "the_bumblezone:sugar_water_bottle"
+        }
+    ]
+}

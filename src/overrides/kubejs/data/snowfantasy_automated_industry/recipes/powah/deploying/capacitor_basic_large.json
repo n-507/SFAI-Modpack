@@ -1,0 +1,17 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "powah:capacitor_basic"
+    },
+    {
+      "item": "powah:capacitor_basic"
+    }
+  ],
+  "results": [
+    {
+      "count": 1,
+      "item": "powah:capacitor_basic_large"
+    }
+  ]
+}

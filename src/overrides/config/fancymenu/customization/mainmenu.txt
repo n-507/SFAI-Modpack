@@ -477,7 +477,7 @@ customization {
   enable_scrolling = true
   shadow = true
   scale = 1.0
-  source = 本地版本：1.0.0
+  source = 本地版本：1.0.1
   text_border = 0
   case_mode = normal
   source_mode = direct

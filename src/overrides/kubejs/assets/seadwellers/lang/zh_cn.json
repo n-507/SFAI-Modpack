@@ -32,8 +32,8 @@
     "advancements.adv_barter_aquamarine.title": "深海交易",
     "advancements.adv_break_sea_lantern.descr": "通过打破美丽的海晶灯来激怒人鱼变形者",
     "item.seadwellers.snatcherfish_yellow": "黄色捕食鱼",
-    "advancements.adv_barter_aquamarine.descr": "与水妖进行一次蓝宝石交易",
-    "entity.seadwellers.mermorph_coral_yellow": "黄色珊瑚人形",
+    "advancements.adv_barter_aquamarine.descr": "与鱼人进行一次蓝宝石交易",
+    "entity.seadwellers.mermorph_coral_yellow": "黄色珊瑚鱼人",
     "item.seadwellers.mermorph_architect_spawn_egg": "人鱼建筑师生成蛋",
     "item.seadwellers.depth_nugget": "深度金块",
     "advancements.adv_break_sea_lantern.title": "你会为此付出代价！",
@@ -68,7 +68,7 @@
     "entity.seadwellers.mermorph": "人鱼变形工",
     "item.seadwellers.mermorph_polar_spawn_egg": "北极鱼人变形生成蛋",
     "block.seadwellers.sea_house_spawner_2": "海底居民之家生成器 2",
-    "item.seadwellers.mermorph_coral_orange_spawn_egg": "橙色珊瑚人形生成蛋",
+    "item.seadwellers.mermorph_coral_orange_spawn_egg": "橙色珊瑚鱼人生成蛋",
     "block.seadwellers.aquamarine_block": "碧绿宝石方块",
     "item.seadwellers.depth_shovel": "深度铲子",
     "item.seadwellers.river_loot_crate": "河流宝匣",
@@ -89,7 +89,7 @@
     "item.seadwellers.gold_relics": "金色圣物",
     "entity.seadwellers.mermorph_farmer": "人鱼农民",
     "item.seadwellers.snatcherfish_lime": "青柠色夺鱼",
-    "entity.seadwellers.mermorph_cavern": "深海人形",
+    "entity.seadwellers.mermorph_cavern": "深海鱼人",
     "advancements.adv_use_seashell.title": "你应该努力工作",
     "item.seadwellers.depth_boots": "深海靴",
     "item.seadwellers.depth_pickaxe": "深度镐",
@@ -103,6 +103,6 @@
     "block.seadwellers.aquamarine_barrier": "碧绿色屏障",
     "item.seadwellers.snatcherfish": "蓝色夺鱼",
     "item.seadwellers.depth_ingot": "深海锭",
-    "item.seadwellers.mermorph_cavern_spawn_egg": "深海人形生成蛋",
-    "entity.seadwellers.mermorph_coral_orange": "橙色珊瑚人形生物"
+    "item.seadwellers.mermorph_cavern_spawn_egg": "深海鱼人生成蛋",
+    "entity.seadwellers.mermorph_coral_orange": "橙色珊瑚鱼人生物"
 }

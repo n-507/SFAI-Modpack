@@ -7,7 +7,7 @@
 		#The base URL the API is exposed on, used for constructing URLs.
 		apiBaseUrl = "http://localhost:3000/"
 		#If the API should be enabled.
-		startApi = true
+		startApi = false
 
 [core]
 

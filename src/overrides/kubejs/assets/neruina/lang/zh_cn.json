@@ -1,0 +1,9 @@
+{
+  "neruina.ticking.entity": "实体 [%s]（位于[x=%s, y=%s, z=%s]）在更新时抛出了异常。这个实体已被删除。",
+  "neruina.ticking.block_entity": "块实体[%s]（位于[x=%s, y=%s, z=%s]）在tick时抛出了异常。请通知管理员进行检查。",
+  "neruina.ticking.block_state": "方块[%s]（位于[x=%s, y=%s, z=%s]）在随机刻更新时抛出了异常。请通知管理员进行检查",
+  "neruina.ticking.player": "由于玩家%s在tick时发生了错误，已断开与其的连接。",
+  "neruina.ticking.item_stack": "更新带有NBT的物品[%s]（位于物品栏槽位[%s]）时抛出了异常。请将其扔掉或通知管理员更换。",
+  "neruina.kick.message": "由于您的玩家数据在tick时发生了错误，您已失去同步。请尝试重新连接。如果频繁遭遇问题，请联系管理员。",
+  "neruina.kick.reason": "\n\n为什么掉线了？\n\n当实体发生tick异常时，它们必须被移除以防服务器崩溃。由于对玩家执行/kill并非理想的方式，服务器断开了与您的连接以防出现更严重的问题。"
+}
